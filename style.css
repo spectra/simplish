@@ -353,11 +353,9 @@ table,tbody,tfoot,thead.tr,th,td{
 #content .navigation .prevlink{
 	float: left;
 }
-
 #content .navigation .nextlink{
 	float:right;
 }
-
 #sidebar h2{
 	font: bold 14px "lucida grande", calibri, "liberation sans", verdana, arial, helvetica, sans-serif;
 	margin: 0 0 0.5em;
