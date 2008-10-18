@@ -76,18 +76,18 @@ body{
 }
 #header h1{
 	float: left;
-	font: bold 410% georgia, serif;
+	font: bold 410% georgia, constantia, times, serif;
 	letter-spacing: -1px;
 	margin: 0;
 }
 #header h2{
 	float: right;
-	font: normal 12px verdana, arial, sans-serif;
+	font: normal 12px verdana, calibri, "liberation sans", arial, sans-serif;
 	margin: 2.35em 0.2em 0 0;
 }
 
 #content h1, #content h2, #content h3, #content h4, #content h5{
-	font-family: georgia, times, serif;
+	font-family: georgia, constantia, times, serif;
 	font-weight: normal;
 	letter-spacing: -1px;
 }
