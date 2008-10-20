@@ -24,7 +24,7 @@ AUTHOR URI:
 
 body{
 	background: #fff url(img/background.gif) repeat-x left top;
-	font: normal 12px "lucida grande", calibri, "liberation sans", verdana, arial, helvetica, sans-serif;
+	font: normal .75em "lucida grande", calibri, "liberation sans", verdana, arial, helvetica, sans-serif;
 	margin: 0;
 	padding: 0.6em 1em 1em;
 	text-align: center;
@@ -51,7 +51,7 @@ body{
 #sidebar{
 	border-left: 1px dotted #ddd;
 	float: right;
-	font-size: 11px; 
+	font-size: .9em; 
 	padding-left: 15px;
 	text-align: left;
 	width: 200px;
@@ -82,7 +82,7 @@ body{
 }
 #header h2{
 	float: right;
-	font: normal 12px verdana, calibri, "liberation sans", arial, sans-serif;
+	font: normal .75em verdana, calibri, "liberation sans", arial, sans-serif;
 	margin: 2.35em 0.2em 0 0;
 }
 
@@ -92,44 +92,43 @@ body{
 	letter-spacing: -1px;
 }
 #content h2{
-	font-size: 24px;
+	font-size: 2em;
 	margin: 0 0 0.3em;
 }
 #content h3{
-	font-size: 22px;
+	font-size: 1.6em;
 	margin: 1.2em 0 0.3em;
 }
 #content h4{
 	border-bottom: 1px dotted #bbb;
-	font-size: 20px;
+	font-size: 1.6em;
 	margin: 1.2em 0 0.3em;
 }
 #content h5{
 	background: #ffd;
 	border-bottom: 1px dotted #aaa;
-	font-size: 20px;
+	font-size: 1.4em;
 	margin: 1.2em 0 0.3em;
 }
 #content h1.archive-title{
 	color: #a9a9a9;
-	font-size: 28px;
+	font-size: 2.3em;
 	margin: 0 0 0.3em;
 	text-transform: uppercase;
 }
 #content h1.archive-title span.archive-subtitle{
-	font-size: 26px;
 	font-weight: bold;
 	text-transform: none;
 }
 #content .archive-meta{
 	color: #a9a9a9;
-	font-size: 16px;
+	font-size: 1.6em;
 	margin: 0 6em;
 	text-align: justify;
 }
 #content .archive-meta .vcard .fn{
 	font-family: georgia, times, serif;
-	font-size: 26px;
+	font-size: 1.6em;
 	letter-spacing: -1px;
 }
 #content .archive-meta .vcard img.avatar{
@@ -171,13 +170,13 @@ body{
 	padding: 0 1em;
 }
 #content code{
-	font: normal 12px "bitstream vera sans mono", monaco, "lucida console", "courier new", courier, serif;
+	font: normal 1em "bitstream vera sans mono", monaco, "lucida console", "courier new", courier, serif;
 }
 #content pre{
 	background: #FFFFFF;
 	border: 1px solid #EEEEEE;
 	color: #000000;
-	font: normal 12px "bitstream vera sans mono", monaco, "lucida console", "courier new", courier, serif;
+	font: normal 1em "bitstream vera sans mono", monaco, "lucida console", "courier new", courier, serif;
 	margin: 0.9em 0;
 	overflow: auto;
 	padding: 8px;
@@ -217,7 +216,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	margin: 0 0 3em 0;
 }
 #content .hentry .entry-title{
-	font-size: 30px;
+	font-size: 2.5em;
 	letter-spacing: -1.5px; 
 	line-height: 99%;
 	margin: 0;
@@ -237,7 +236,7 @@ table,tbody,tfoot,thead.tr,th,td{
 #content .hentry .posted{
 	color: #a9a9a9;
 	float: left;
-	font: normal 14px/14px helvetica, arial, verdana, sans-serif;
+	font: normal 1.15em helvetica, arial, verdana, sans-serif;
 	letter-spacing: -1px;
 	margin: 1px 0 0.6em 2px;
 }
@@ -256,7 +255,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	background: #eee;
 	border: 1px solid #ddd;
 	clear: both;
-	font-size: 10px;
+	font-size: .85em;
 	list-style-type: none;
 	margin: 0;
 	padding: 5px;
@@ -297,7 +296,7 @@ table,tbody,tfoot,thead.tr,th,td{
 }
 #content li.comment .comment-author,
 #content li.trackback .comment-author{
-	font-size: 16px;
+	font-size: 1.3em;
 	letter-spacing: -1px;
 }
 #content li.comment .comment-head abbr,
@@ -345,7 +344,7 @@ table,tbody,tfoot,thead.tr,th,td{
 }
 #content .navigation{
 	display: block;
-	font-size: 10px;
+	font-size: .9em;
 	margin-bottom: 60px;
 	margin-top: 24px;
 	text-align: center;
@@ -357,7 +356,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	float:right;
 }
 #sidebar h2{
-	font: bold 14px "lucida grande", calibri, "liberation sans", verdana, arial, helvetica, sans-serif;
+	font: bold 1.3em "lucida grande", calibri, "liberation sans", verdana, arial, helvetica, sans-serif;
 	margin: 0 0 0.5em;
 }
 #sidebar h2 a:link, #sidebar h2 a:visited{
@@ -393,7 +392,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	font-style: normal;
 }
 #sidebar .search p input{
-	font-size: 11px;
+	font-size: .9em;
 	width: 92%;
 }
 #sidebar #search, #sidebar #tag_cloud{
@@ -432,7 +431,7 @@ table,tbody,tfoot,thead.tr,th,td{
 
 /* Applied-last Element Treatments */
 input, textarea{
-	font: normal 12px "bitstream vera sans", verdana, sans-serif;
+	font: normal 1em "bitstream vera sans", verdana, sans-serif;
 }
 abbr{
 	border: none;
@@ -552,7 +551,7 @@ div.entry-content div.gallery *{
 	margin: 0 0 0 1em;
 }
 #sitemap-list #all-posts span.entry-title{
-	font-size: 12px;
+	font-size: 1em;
 	letter-spacing: normal;
 	line-height: normal;
 }
@@ -574,7 +573,7 @@ div.entry-content div.gallery *{
 	margin: 0;
 }
 #content.search-results .hentry h2.entry-title{
-	font-size: 20px;
+	font-size: 1.7em;
 	letter-spacing: -1px;
 }
 #content.search-results .hentry .entry-title a:link,
