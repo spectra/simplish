@@ -82,7 +82,7 @@ body{
 }
 #header h2{
 	float: right;
-	font: normal .75em verdana, calibri, "liberation sans", arial, sans-serif;
+	font: normal 1em verdana, calibri, "liberation sans", arial, sans-serif;
 	margin: 2.35em 0.2em 0 0;
 }
 
