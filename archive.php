@@ -4,7 +4,7 @@
 
 <?php the_post() ?>
 <?php if(is_day()): ?>
-				<h1 class="archive-title"><?php _e('Day:', 'simplish') ?> <span class="archive-subtitle"><?php the_time(__('l, F d\, Y', 'simplish')) ?></span></h1>
+				<h1 class="archive-title"><?php _e('Day:', 'simplish') ?> <span class="archive-subtitle"><?php the_time(__('l, F j\, Y', 'simplish')) ?></span></h1>
 <?php elseif(is_month()): ?>
 				<h1 class="archive-title"><?php _e('Month:', 'simplish') ?> <span class="archive-subtitle"><?php the_time(__('F Y', 'simplish')) ?></span></h1>
 <?php elseif(is_year()): ?>
