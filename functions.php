@@ -7,6 +7,15 @@ $GLOBALS['content_width'] = 662;
 if(function_exists('register_sidebars'))
 	register_sidebar();
 
+/* 2.7 Threaded Comments - Load o[ld]comments.php otherwise. */
+add_filter('comments_template', 'ocomments');
+function ocomments($file)
+{
+	if(!function_exists('wp_list_comments'))
+		$file = TEMPLATEPATH . '/ocomments.php';
+	return $file;
+}
+
 /*
  * hCard producers based on blog.txt,
  * http://www.plaintxt.org/themes/blogtxt/
@@ -76,6 +85,11 @@ function sp_author_hcard($size)
 /*
  * Echo comment author avatar span with
  * img and URL, ready for hCard wrapping.
+ *
+ * This is not called in WP >= 2.7,
+ * where wp_list_comments() bundles up the
+ * comment loop. Called from ocomments.php
+ * for compatibility with WP <= 2.6.5.
  */
 function sp_commenter_hlink($size)
 {
