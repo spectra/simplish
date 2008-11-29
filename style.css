@@ -312,6 +312,9 @@ table,tbody,tfoot,thead.tr,th,td{
 	font-size: 1.3em;
 	letter-spacing: -1px;
 }
+#content #comments li.comment span.says{
+	display: none;
+}
 #content li.comment .comment-head abbr,
 #content li.trackback .comment-head abbr{
 	color: #999;
