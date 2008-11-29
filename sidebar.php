@@ -24,9 +24,9 @@
 				<li id="syndicate"><h2 class="sidebar-title"><?php _e( 'Syndicate', 'simplish' ) ?></h2>
 					<ul>
 						<li>
-						<a href="feed:<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> Articles RSS" rel="alternate" type="application/rss+xml"><?php _e( 'Articles Feed', 'simplish' ) ?></a>
+						<a href="<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> Articles RSS" rel="alternate" type="application/rss+xml"><?php _e( 'Articles Feed', 'simplish' ) ?></a>
 						</li>
-						<li><a href="feed:<?php bloginfo('comments_rss2_url'); ?>" title="<?php bloginfo('name'); ?> Comments RSS" rel="alternate" type="application/rss+xml"><?php _e( 'Comments Feed', 'simplish' ) ?></a></li>
+						<li><a href="<?php bloginfo('comments_rss2_url'); ?>" title="<?php bloginfo('name'); ?> Comments RSS" rel="alternate" type="application/rss+xml"><?php _e( 'Comments Feed', 'simplish' ) ?></a></li>
 					</ul>
 				</li>
 
