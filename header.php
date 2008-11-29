@@ -11,8 +11,11 @@
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <?php
-/* Comment threads script loads on post single when option is true. */
-if(is_single() && get_option('thread_comments')):
+/* 
+ * Comment threads script loads on post, page,
+ * or attachment when option is true.
+ */
+if(is_singular() && get_option('thread_comments')):
 	wp_enqueue_script('comment-reply');
 endif
 ?>
