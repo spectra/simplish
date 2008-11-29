@@ -320,9 +320,6 @@ table,tbody,tfoot,thead.tr,th,td{
 #content li.trackback .comment-head a.comment-permalink{
 	text-decoration: none;
 }
-#content li.comment .comment-author{
-//	height:36px;
-}
 #content li.comment .comment-author img.avatar{
 	background: #fff;
 	clear:both;
