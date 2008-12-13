@@ -140,7 +140,7 @@ body{
 	margin: 0 0 0 8px;
 }
 #content p{
-	margin: 0 0 1.2em;
+	margin: 1.2em 0;
 }
 #content ul, #content ol{
 	margin: 1em;
@@ -279,10 +279,11 @@ table,tbody,tfoot,thead.tr,th,td{
 }
 #content li.comment, #content li.trackback{
 	border-left: 1px dashed #bbb;
-	border-right: 1px dashed #bbb;
 	list-style-type: none;
-	margin: 0 0 1.5em;
-	padding: 1em;
+	margin-bottom: 1.5em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-top: 0.5em;
 }
 #content li.comment.depth-1{
 	border: 1px solid #ddd;
@@ -291,7 +292,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	list-style-type: none;
 	background: #ffc;
 	border: 3px solid #fab444;
-	margin: 0 0 1.5em;
+	margin: 0 10 1.5em;
 	padding: 1em;
 }
 /* Even-Odd Thread Shading - disabled.
@@ -327,12 +328,10 @@ table,tbody,tfoot,thead.tr,th,td{
 	background: #fff;
 	clear:both;
 	float: right;
-	margin: 0 0 0.5em 0.5em;
+	margin: 0.5em;
 }
 #content li.comment p{
-	margin: 1.2em 0;
-	padding-left:24px;
-	padding-right:48px;
+	margin-right: 2em;
 }
 #content form.comments{
 	background: #f2f2f2;
@@ -352,6 +351,10 @@ table,tbody,tfoot,thead.tr,th,td{
 	height: 150px;
 	padding: 3px;
 	width: 90%;
+}
+#content .comments li ul li {
+	margin-right: -12px;
+	margin-left: 10px;
 }
 #content .readmore{
 	font-style: italic;
