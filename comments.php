@@ -30,7 +30,7 @@
 	<?php endif; ?>
 
 	<?php if(have_comments()): ?>
-			<ol id="comments" class="comments">
+			<ol id="commentslist" class="comments">
 				<?php wp_list_comments(); ?>
 			</ol>
 			<div id="commentsnav" class="navigation">
