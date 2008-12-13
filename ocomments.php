@@ -14,7 +14,7 @@
 	}
 ?>
 
-	<h5 id="comments-heading">Comments</a></h5>
+	<h5 id="comments-heading">Comments</h5>
 	<?php if('open' == $post->comment_status) : /* Comments open */ ?>
 		<?php if(get_option('comment_registration') && !$user_ID): ?>
 			<p><a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>">Log in</a> to respond
