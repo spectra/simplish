@@ -2,8 +2,8 @@
 THEME NAME: Simplish
 THEME URI: http://labs.utopian.net/blogs/simplish/
 DESCRIPTION: Simplish is a WordPress variant of the Scribbish theme for blogs.
-TAGS: two columns, fixed width, right sidebar, galleries, gravatars, captions, widgets, microformats, hatom, hcard, valid CSS, valid XHTML
-VERSION: 2.1.3
+TAGS: two columns, fixed width, right sidebar, galleries, gravatars, captions, widgets, threaded comments, microformats, hatom, hcard, valid CSS, valid XHTML
+VERSION: 2.1.4RC
 AUTHOR: <a href="http://labs.utopian.net">Utopian.net Labs</a>, <a href="http://pittcrew.net/geekblog/">K. Pitt</a>, <a href="http://quotedprintable.com">J. Hardy</a>
 AUTHOR URI:
 */
@@ -278,16 +278,30 @@ table,tbody,tfoot,thead.tr,th,td{
 	padding: 0;
 }
 #content li.comment, #content li.trackback{
-	border: 2px solid #ddd;
+	border-left: 1px dashed #bbb;
+	border-right: 1px dashed #bbb;
+	list-style-type: none;
 	margin: 0 0 1.5em;
 	padding: 1em;
 }
+#content li.comment.depth-1{
+	border: 1px solid #ddd;
+}
 #content li.comment.preview{
+	list-style-type: none;
 	background: #ffc;
 	border: 3px solid #fab444;
 	margin: 0 0 1.5em;
 	padding: 1em;
 }
+/* Even-Odd Thread Shading - disabled.
+#content li.comment.thread-even{
+	background: #fff;
+}
+#content li.comment.thread-odd{
+	background: #eee;
+}
+ */
 #content li.comment .comment-head,
 #content li.trackback .comment-head{
 	font-weight: bold;
@@ -298,6 +312,9 @@ table,tbody,tfoot,thead.tr,th,td{
 	font-size: 1.3em;
 	letter-spacing: -1px;
 }
+#content #commentslist li.comment span.says{
+	display: none;
+}
 #content li.comment .comment-head abbr,
 #content li.trackback .comment-head abbr{
 	color: #999;
@@ -306,9 +323,6 @@ table,tbody,tfoot,thead.tr,th,td{
 #content li.trackback .comment-head a.comment-permalink{
 	text-decoration: none;
 }
-#content li.comment .comment-author{
-	height:36px;
-}
 #content li.comment .comment-author img.avatar{
 	background: #fff;
 	clear:both;
@@ -316,6 +330,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	margin: 0 0 0.5em 0.5em;
 }
 #content li.comment p{
+	margin: 1.2em 0;
 	padding-left:24px;
 	padding-right:48px;
 }
