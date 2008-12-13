@@ -36,7 +36,7 @@
 
 	<?php if($comments): ?>
 		<div id="comments_div">
-			<ol id="comments" class="comments">
+			<ol id="commentslist" class="comments">
 
 			<?php foreach($comments as $comment): ?>
 				<li class="comment" id="comment-<?php comment_ID() ?>">
