@@ -272,12 +272,12 @@ table,tbody,tfoot,thead.tr,th,td{
 #content .hentry .meta a:hover, #content .hentry .meta a:active{
 	color: #fff;
 }
-#content ol.comments, #content ol.trackbacks{
+#content ol.comments{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-#content li.comment, #content li.trackback{
+#content li.comment, #content li.trackback, #content li.pingback{
 	border-left: 1px dashed #bbb;
 	list-style-type: none;
 	margin-bottom: 1.5em;
@@ -285,14 +285,14 @@ table,tbody,tfoot,thead.tr,th,td{
 	padding-left: 1em;
 	padding-top: 0.5em;
 }
-#content li.comment.depth-1{
+#content #commentslist li.depth-1{
 	border: 1px solid #ddd;
 }
 #content li.comment.preview{
-	list-style-type: none;
 	background: #ffc;
 	border: 3px solid #fab444;
-	margin: 0 10 1.5em;
+	list-style-type: none;
+	margin: 0 10px 1.5em;
 	padding: 1em;
 }
 /* Even-Odd Thread Shading - disabled.
@@ -313,7 +313,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	font-size: 1.3em;
 	letter-spacing: -1px;
 }
-#content #commentslist li.comment span.says{
+#content #commentslist li span.says{
 	display: none;
 }
 #content li.comment .comment-head abbr,
