@@ -39,7 +39,7 @@
 			<ol id="commentslist" class="comments">
 
 			<?php foreach($comments as $comment): ?>
-				<li class="comment" id="comment-<?php comment_ID() ?>">
+				<li class="comment depth-1" id="comment-<?php comment_ID() ?>">
 					<div class="comment-head">
 						<span class="comment-author vcard"><?php sp_commenter_hlink('48') ?></span>
 						<a class="comment-permalink" href="#comment-<?php comment_ID() ?>"><abbr class="comment-published" title="<?php comment_time('Y-m-d\TH:i:sP') ?>"><?php comment_date() ?> <?php comment_time() ?></abbr></a>
