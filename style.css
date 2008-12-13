@@ -287,12 +287,12 @@ table,tbody,tfoot,thead.tr,th,td{
 }
 #content #commentslist li.depth-1{
 	border: 1px solid #ddd;
+	margin: 1.5em 0;
 }
 #content li.comment.preview{
 	background: #ffc;
 	border: 3px solid #fab444;
 	list-style-type: none;
-	margin: 0 10px 1.5em;
 	padding: 1em;
 }
 /* Even-Odd Thread Shading - disabled.
