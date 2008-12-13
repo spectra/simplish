@@ -10,6 +10,16 @@
 	<link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
+<?php
+/* 
+ * Comment threads script loads on post, page,
+ * or attachment when option is true.
+ */
+if(is_singular() && get_option('thread_comments')):
+	wp_enqueue_script('comment-reply');
+endif
+?>
+
 <?php wp_head(); // DO NOT REMOVE - for plugin api ?>
 
 </head>

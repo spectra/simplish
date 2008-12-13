@@ -5,6 +5,6 @@
 <?php if(get_the_tags() != ''): ?>
 					<li class="tags"><?php the_tags(); ?></li>
 <?php endif; ?>
-					<li><a href="<?php comments_link(); ?>"><?php comments_number('0 Comments', '1 Comment', '% Comments'); ?></a> - <?php comments_rss_link('Feed'); ?></li>
+					<li><a href="<?php comments_link(); ?>-heading"><?php comments_number('0 Comments', '1 Comment', '% Comments'); ?></a> - <?php comments_rss_link('Feed'); ?></li>
 				</ul>
 <!-- <?php trackback_rdf(); ?> -->
