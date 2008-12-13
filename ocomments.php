@@ -41,7 +41,7 @@
 			<?php foreach($comments as $comment): ?>
 				<li class="comment depth-1" id="comment-<?php comment_ID() ?>">
 					<div class="comment-head">
-						<span class="comment-author vcard"><?php sp_commenter_hlink('48') ?></span>
+						<span class="comment-author vcard"><?php sp_commenter_hlink('32') ?></span>
 						<a class="comment-permalink" href="#comment-<?php comment_ID() ?>"><abbr class="comment-published" title="<?php comment_time('Y-m-d\TH:i:sP') ?>"><?php comment_date() ?> <?php comment_time() ?></abbr></a>
 						<?php if($comment->comment_approved == '0'): ?>
 							<small><em>Your comment is awaiting moderation.</em></small>
