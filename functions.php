@@ -7,15 +7,6 @@ $GLOBALS['content_width'] = 662;
 if(function_exists('register_sidebars'))
 	register_sidebar();
 
-/* 2.7 Threaded Comments - Load o[ld]comments.php otherwise. */
-add_filter('comments_template', 'ocomments');
-function ocomments($file)
-{
-	if(!function_exists('wp_list_comments'))
-		$file = TEMPLATEPATH . '/ocomments.php';
-	return $file;
-}
-
 /*
  * hCard producers based on blog.txt,
  * http://www.plaintxt.org/themes/blogtxt/
@@ -80,27 +71,6 @@ function sp_author_hcard($size)
 		'</a>' .
 		$note .
 		'</span>';
-}
-
-/*
- * Echo comment author avatar span with
- * img and URL, ready for hCard wrapping.
- *
- * This is not called in WP >= 2.7,
- * where wp_list_comments() bundles up the
- * comment loop. Called from ocomments.php
- * for compatibility with WP <= 2.6.5.
- */
-function sp_commenter_hlink($size)
-{
-	$commenter = get_comment_author_link();
-	if(ereg('<a[^>]* class=[^>]+>', $commenter))
-		$commenter = ereg_replace( '(<a[^>]* class=[\'"]?)', '\\1url ' , $commenter );
-	else
-		$commenter = ereg_replace( '(<a )/', '\\1class="url "' , $commenter );
-	$email = get_comment_author_email();
-	$avatar = str_replace( "class='avatar", "class='photo avatar", get_avatar($email, $size) );
-	echo $avatar . ' <span class="fn">' . $commenter . '</span>';
 }
 
 /*
