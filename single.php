@@ -4,7 +4,7 @@
 
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
 
-			<div id="article-<?php the_ID(); ?>" class="hentry">
+			<div id="article-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php include(TEMPLATEPATH . '/hentryhead.php'); ?>
 				<br class="clear" />	
 				<div class="entry-content">

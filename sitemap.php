@@ -26,7 +26,7 @@ Template Name: Sitemap
 							<ul>
 <?php $post_archives = new wp_query('showposts=1000'); 
 while ( $post_archives->have_posts() ) : $post_archives->the_post(); ?>
-								<li class="hentry">
+								<li <?php post_class(); ?>>
 									<span class="entry-title"><a href="<?php the_permalink() ?>" title="<?php printf(__( 'Permalink to %s', 'simplish' ), wp_specialchars( get_the_title(), 1 ) ) ?>" rel="bookmark"><?php the_title(); ?></a></span>
 								</li>
 <?php endwhile; ?>
