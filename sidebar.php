@@ -2,7 +2,7 @@
 			<ul>
 			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
 				<li id="search" class="search">
-				<?php include(TEMPLATEPATH . '/searchform.php'); ?>
+				<?php get_search_form(); ?>
 				</li>
 
 				<?php wp_list_pages('title_li=<h2 class="sidebar-title">' . __( 'Pages', 'simplish' ) . '</h2>' ); ?>

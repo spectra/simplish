@@ -29,7 +29,7 @@
 		<?php else : ?>
 
 			<h1 class="archive-title">No results for <span class="archive-subtitle"><?php the_search_query() ?></span></h1>
-			<?php include(TEMPLATEPATH . '/searchform.php'); ?>
+			<?php get_search_form(); ?>
 
 		<?php endif; ?>
 		
