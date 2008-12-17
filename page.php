@@ -4,7 +4,7 @@
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<div id="article-<?php the_ID(); ?>" class="hentry">
+			<div id="article-<?php the_ID(); ?>" class="hentry"><!-- Do not use post_class() as it outputs undesired "page" class. -->
 				<h2 class="page-title entry-title"><?php the_title(); ?></h2>
 				<div class="entry-content">
 					<?php the_content(); ?>
