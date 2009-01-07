@@ -4,8 +4,19 @@
 				<li id="search" class="search">
 				<?php get_search_form(); ?>
 				</li>
-
-				<?php wp_list_pages('title_li=<h2 class="sidebar-title">' . __( 'Pages', 'simplish' ) . '</h2>' ); ?>
+				
+				<li><h2 class="sidebar-title"><?php _e( 'Pages', 'simplish' ) ?></h2>
+				<?php
+				$menudef = array(
+					'sort_column' => 'post_title',
+					'menu_class'  => 'pagenav',
+					'echo'        => true,
+					'link_before' => '',
+					'link_after'  => ''
+					);
+				wp_page_menu($menudef);
+				?>
+				</li>
 
 				<li id="categories"><h2 class="sidebar-title"><?php _e( 'Categories', 'simplish' ) ?></h2>
 					<ul>
