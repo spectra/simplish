@@ -9,10 +9,10 @@
 				<?php
 				$menudef = array(
 					'sort_column' => 'post_title',
-					'menu_class'  => 'pagenav',
-					'echo'        => true,
+					'menu_class' => 'pagenav',
+					'echo' => true,
 					'link_before' => '',
-					'link_after'  => ''
+					'link_after' => ''
 					);
 				wp_page_menu($menudef);
 				?>
