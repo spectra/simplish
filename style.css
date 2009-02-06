@@ -259,6 +259,7 @@ table,tbody,tfoot,thead.tr,th,td{
 }
 #content .hentry ul.meta li{
 	line-height: 13px;
+	margin: 0;
 	padding: 0;
 }
 #content .hentry .meta a:link, #content .hentry .meta a:visited{
