@@ -143,6 +143,7 @@ body{
 	margin: 1.2em 0;
 }
 #content ul, #content ol{
+	margin-left: 1em;
 	padding:0;
 }
 #content ul{
