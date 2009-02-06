@@ -256,6 +256,7 @@ table,tbody,tfoot,thead.tr,th,td{
 	clear: both;
 	font-size: .85em;
 	list-style-type: none;
+	margin-left: 0;
 	padding: 5px;
 }
 #content .hentry ul.meta li{
@@ -572,6 +573,9 @@ div.entry-content div.gallery *{
 #sitemap-list #all-posts .hentry .entry-title a:active{
 	background: #000 none repeat scroll 0 0;
 	color: #fff;
+}
+#sitemap-list ul ul, #sitemap-list ol ol{
+    margin-left:0;
 }
 
 /* Search template specifics. */
