@@ -7,14 +7,15 @@
 				
 				<li><h2 class="sidebar-title"><?php _e( 'Pages', 'simplish' ) ?></h2>
 				<?php
-				$menudef = array(
-					'sort_column' => 'post_title',
-					'menu_class' => 'pagenav',
-					'echo' => true,
-					'link_before' => '',
-					'link_after' => ''
-					);
-				wp_page_menu($menudef);
+				$args = array(
+						'echo' => true,
+						'link_before' => '',
+						'link_after' => '',
+						'menu_class' => 'pagenav',
+						'show_home' => '0',
+						'sort_column' => 'post_title',
+						);
+				wp_page_menu($args);
 				?>
 				</li>
 
