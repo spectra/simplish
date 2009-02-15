@@ -13,7 +13,7 @@
 						'link_after' => '',
 						'menu_class' => 'pagenav',
 						'show_home' => '0',
-						'sort_column' => 'post_title',
+						'sort_column' => 'menu_order',
 						);
 				wp_page_menu($args);
 				?>
