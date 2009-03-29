@@ -1,4 +1,4 @@
-# SIMPLISH LOCALIZATION TEMPLATE
+# SIMPLISH
 # Copyright (C) 2009 UTOPIAN.NET
 # This file is distributed under the same license as the SIMPLISH package.
 # JOSH WOOD <JOSH@UTOPIAN.NET>, 2009.
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-29 02:32-0700\n"
+"POT-Creation-Date: 2009-03-29 03:18-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Edit&hellip;"
 msgstr ""
 
-#: comments.php:12
+#: comments.php:12 hentrymeta.php:8
 msgid "0 Comments"
 msgstr ""
 
@@ -93,7 +93,7 @@ msgstr ""
 msgid "1 comment"
 msgstr ""
 
-#: comments.php:12
+#: comments.php:12 hentrymeta.php:8
 msgid "% Comments"
 msgstr ""
 
@@ -160,6 +160,18 @@ msgstr ""
 
 #: comments.php:89
 msgid "You can use these tags:"
+msgstr ""
+
+#: hentryhead.php:9
+msgid "Posted by"
+msgstr ""
+
+#: hentrymeta.php:8
+msgid "1 Comment"
+msgstr ""
+
+#: hentrymeta.php:8
+msgid "Feed"
 msgstr ""
 
 #: page.php:11
