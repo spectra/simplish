@@ -1,4 +1,4 @@
-# SIMPLISH
+# SIMPLISH TRANSLATION TEMPLATE
 # Copyright (C) 2009 UTOPIAN.NET
 # This file is distributed under the same license as the SIMPLISH package.
 # JOSH WOOD <JOSH@UTOPIAN.NET>, 2009.
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-29 03:18-0700\n"
+"POT-Creation-Date: 2009-03-29 13:07-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,16 +85,24 @@ msgstr ""
 msgid "Edit&hellip;"
 msgstr ""
 
+#: comments.php:3
+msgid "Not labeled for individual sale."
+msgstr ""
+
 #: comments.php:12 hentrymeta.php:8
 msgid "0 Comments"
 msgstr ""
 
-#: comments.php:12
-msgid "1 comment"
+#: comments.php:12 hentrymeta.php:8
+msgid "1 Comment"
 msgstr ""
 
 #: comments.php:12 hentrymeta.php:8
 msgid "% Comments"
+msgstr ""
+
+#: comments.php:12 hentryhead.php:10
+msgid "on"
 msgstr ""
 
 #: comments.php:15
@@ -164,10 +172,6 @@ msgstr ""
 
 #: hentryhead.php:9
 msgid "Posted by"
-msgstr ""
-
-#: hentrymeta.php:8
-msgid "1 Comment"
 msgstr ""
 
 #: hentrymeta.php:8
