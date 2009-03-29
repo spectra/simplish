@@ -96,7 +96,7 @@ msgstr "Modifier&hellip;"
 
 #: comments.php:3
 msgid "Not labeled for individual sale."
-msgstr ""
+msgstr "Non marqué en vente individuelle."
 
 #: comments.php:12
 #: hentrymeta.php:8
@@ -151,12 +151,12 @@ msgstr ""
 #: comments.php:49
 #, php-format
 msgid "Respond to %s"
-msgstr ""
+msgstr "Répondre á %s"
 
 #: comments.php:58
 #: comments.php:92
 msgid "Comments"
-msgstr ""
+msgstr "Commentaires"
 
 #: comments.php:63
 msgid "Log out of this account"
@@ -168,12 +168,12 @@ msgstr ""
 
 #: comments.php:69
 msgid "Name:"
-msgstr ""
+msgstr "Nom :"
 
 #: comments.php:69
 #: comments.php:75
 msgid "<small>(required)</small>"
-msgstr ""
+msgstr "<small>(requis)</small>"
 
 #: comments.php:75
 msgid "Email:"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: hentryhead.php:9
 msgid "Posted by"
-msgstr ""
+msgstr "Écrit par"
 
 #: hentrymeta.php:8
 msgid "Feed"
