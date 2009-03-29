@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-29 03:18-0700\n"
+"POT-Creation-Date: 2009-03-29 13:07-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -65,7 +65,7 @@ msgstr "Archives"
 #: archive.php:21
 #, php-format
 msgid "%1$s Archives"
-msgstr ""
+msgstr "%1$s Archives"
 
 #: archive.php:32
 #: index.php:12
@@ -92,20 +92,30 @@ msgstr ""
 #: page.php:17
 #: single.php:14
 msgid "Edit&hellip;"
+msgstr "Modifier&hellip;"
+
+#: comments.php:3
+msgid "Not labeled for individual sale."
 msgstr ""
 
 #: comments.php:12
 #: hentrymeta.php:8
 msgid "0 Comments"
-msgstr ""
+msgstr "0 Commentaire"
 
 #: comments.php:12
-msgid "1 comment"
-msgstr ""
+#: hentrymeta.php:8
+msgid "1 Comment"
+msgstr "1 Commentaire"
 
 #: comments.php:12
 #: hentrymeta.php:8
 msgid "% Comments"
+msgstr "% Commentaires"
+
+#: comments.php:12
+#: hentryhead.php:10
+msgid "on"
 msgstr ""
 
 #: comments.php:15
@@ -119,16 +129,16 @@ msgstr ""
 #: comments.php:17
 #: comments.php:23
 msgid "Trackback"
-msgstr ""
+msgstr "Rétrolien"
 
 #: comments.php:21
 #: comments.php:49
 msgid "Respond"
-msgstr ""
+msgstr "Répondre"
 
 #: comments.php:29
 msgid "Closed"
-msgstr ""
+msgstr "Fermés"
 
 #: comments.php:37
 msgid "&laquo; Older Comments"
@@ -182,10 +192,6 @@ msgid "Posted by"
 msgstr ""
 
 #: hentrymeta.php:8
-msgid "1 Comment"
-msgstr ""
-
-#: hentrymeta.php:8
 msgid "Feed"
 msgstr ""
 
@@ -233,4 +239,7 @@ msgstr ""
 #: sitemap.php:63
 msgid "Pages: "
 msgstr "Pages :"
+
+#~ msgid "1 comment"
+#~ msgstr "1 Commentaire"
 
