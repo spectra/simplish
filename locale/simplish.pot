@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-29 02:32-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:4
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: archive.php:7
+msgid "Day:"
+msgstr ""
+
+#: archive.php:7
+msgid "l, F j\\, Y"
+msgstr ""
+
+#: archive.php:9
+msgid "Month:"
+msgstr ""
+
+#: archive.php:9
+msgid "F Y"
+msgstr ""
+
+#: archive.php:11
+msgid "Year:"
+msgstr ""
+
+#: archive.php:11
+msgid "Y"
+msgstr ""
+
+#: archive.php:13
+msgid "Author:"
+msgstr ""
+
+#: archive.php:17 hentrymeta.php:3
+msgid "Category:"
+msgstr ""
+
+#: archive.php:19
+msgid "Tag:"
+msgstr ""
+
+#: archive.php:21 sidebar.php:28
+msgid "Archives"
+msgstr ""
+
+#: archive.php:21
+#, php-format
+msgid "%1$s Archives"
+msgstr ""
+
+#: archive.php:32 index.php:12
+msgid "More&hellip;"
+msgstr ""
+
+#: archives.php:14 sitemap.php:52
+msgid "Archives by Category"
+msgstr ""
+
+#: archives.php:20 sitemap.php:46
+msgid "Archives by Month"
+msgstr ""
+
+#: archives.php:26 sitemap.php:58
+msgid "Archives by Tag"
+msgstr ""
+
+#: archives.php:31 links.php:17 page.php:17 single.php:14
+msgid "Edit&hellip;"
+msgstr ""
+
+#: comments.php:12
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:12
+msgid "1 comment"
+msgstr ""
+
+#: comments.php:12
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:15
+msgid "Log in"
+msgstr ""
+
+#: comments.php:15
+msgid "to respond"
+msgstr ""
+
+#: comments.php:17 comments.php:23
+msgid "Trackback"
+msgstr ""
+
+#: comments.php:21 comments.php:49
+msgid "Respond"
+msgstr ""
+
+#: comments.php:29
+msgid "Closed"
+msgstr ""
+
+#: comments.php:37
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php:38
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php:49
+#, php-format
+msgid "Respond to %s"
+msgstr ""
+
+#: comments.php:58 comments.php:92
+msgid "Comments"
+msgstr ""
+
+#: comments.php:63
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:63
+msgid "Log out"
+msgstr ""
+
+#: comments.php:69
+msgid "Name:"
+msgstr ""
+
+#: comments.php:69 comments.php:75
+msgid "<small>(required)</small>"
+msgstr ""
+
+#: comments.php:75
+msgid "Email:"
+msgstr ""
+
+#: comments.php:82
+msgid "URL:"
+msgstr ""
+
+#: comments.php:89
+msgid "You can use these tags:"
+msgstr ""
+
+#: page.php:11
+msgid "Pages:"
+msgstr ""
+
+#: sidebar.php:8
+msgid "Pages"
+msgstr ""
+
+#: sidebar.php:22
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:36
+msgid "Syndicate"
+msgstr ""
+
+#: sidebar.php:39
+msgid "Articles Feed"
+msgstr ""
+
+#: sidebar.php:41
+msgid "Comments Feed"
+msgstr ""
+
+#: sidebar.php:45
+msgid "Meta"
+msgstr ""
+
+#: sitemap.php:19
+msgid "All Pages"
+msgstr ""
+
+#: sitemap.php:35
+msgid "All Posts"
+msgstr ""
+
+#: sitemap.php:40
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: sitemap.php:63
+msgid "Pages: "
+msgstr ""
