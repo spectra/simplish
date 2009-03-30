@@ -1,7 +1,12 @@
 <?php
 
-/* i18n. */
-load_theme_textdomain('simplish');
+/*
+ * Gettext i18n.
+ * load_theme_textdomain( $domain, $path )
+ * $path relative from / of URL space.
+ */
+$dir = basename(dirname(__FILE__));
+load_theme_textdomain('simplish', 'wp-content/themes/' . $dir . '/languages');
 
 /* Width set equal to width in style.css:/^#content */
 $GLOBALS['content_width'] = 662;
