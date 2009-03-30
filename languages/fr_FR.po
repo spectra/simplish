@@ -13,8 +13,6 @@ msgstr ""
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: /Users/josh/devel/wp/theme/simplish\n"
 
 #: 404.php:4
 msgid "Error 404 - Not Found"
@@ -22,7 +20,7 @@ msgstr "Erreur 404 - Non Trouvée"
 
 #: archive.php:7
 msgid "Day:"
-msgstr "Jour:"
+msgstr "Du Jour:"
 
 #: archive.php:7
 msgid "l, F j\\, Y"
@@ -176,11 +174,11 @@ msgstr "<small>(requis)</small>"
 
 #: comments.php:75
 msgid "Email:"
-msgstr ""
+msgstr "E-mail :"
 
 #: comments.php:82
 msgid "URL:"
-msgstr ""
+msgstr "URL :"
 
 #: comments.php:89
 msgid "You can use these tags:"
@@ -228,7 +226,7 @@ msgstr "Flux Commentaires"
 
 #: sidebar.php:45
 msgid "Meta"
-msgstr ""
+msgstr "Autre"
 
 #: sitemap.php:19
 msgid "All Pages"
