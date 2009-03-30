@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-29 13:07-0700\n"
+"POT-Creation-Date: 2009-03-29 22:35-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -26,7 +26,7 @@ msgstr "Jour:"
 
 #: archive.php:7
 msgid "l, F j\\, Y"
-msgstr ""
+msgstr "l, j F\\, Y"
 
 #: archive.php:9
 msgid "Month:"
@@ -34,7 +34,7 @@ msgstr "Mois :"
 
 #: archive.php:9
 msgid "F Y"
-msgstr ""
+msgstr "F Y"
 
 #: archive.php:11
 msgid "Year:"
@@ -42,7 +42,7 @@ msgstr "Année :"
 
 #: archive.php:11
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: archive.php:13
 msgid "Author:"
@@ -55,7 +55,7 @@ msgstr "Catégorie :"
 
 #: archive.php:19
 msgid "Tag:"
-msgstr ""
+msgstr "Mot-clef :"
 
 #: archive.php:21
 #: sidebar.php:28
@@ -70,7 +70,7 @@ msgstr "%1$s Archives"
 #: archive.php:32
 #: index.php:12
 msgid "More&hellip;"
-msgstr ""
+msgstr "Plus&hellip;"
 
 #: archives.php:14
 #: sitemap.php:52
@@ -85,7 +85,7 @@ msgstr "Archives par Mois"
 #: archives.php:26
 #: sitemap.php:58
 msgid "Archives by Tag"
-msgstr ""
+msgstr "Archives par Mots-clefs"
 
 #: archives.php:31
 #: links.php:17
@@ -114,17 +114,16 @@ msgid "% Comments"
 msgstr "% Commentaires"
 
 #: comments.php:12
-#: hentryhead.php:10
 msgid "on"
-msgstr ""
+msgstr "sur"
 
 #: comments.php:15
 msgid "Log in"
-msgstr ""
+msgstr "Connexion"
 
 #: comments.php:15
 msgid "to respond"
-msgstr ""
+msgstr "répondre"
 
 #: comments.php:17
 #: comments.php:23
@@ -142,11 +141,11 @@ msgstr "Fermés"
 
 #: comments.php:37
 msgid "&laquo; Older Comments"
-msgstr ""
+msgstr "&laquo; des Commentaires plus Anciens"
 
 #: comments.php:38
 msgid "Newer Comments &raquo;"
-msgstr ""
+msgstr "de plus Nouveaux Commentaires &raquo;"
 
 #: comments.php:49
 #, php-format
@@ -160,11 +159,11 @@ msgstr "Commentaires"
 
 #: comments.php:63
 msgid "Log out of this account"
-msgstr ""
+msgstr "Déconnexion"
 
 #: comments.php:63
 msgid "Log out"
-msgstr ""
+msgstr "Déconnexion"
 
 #: comments.php:69
 msgid "Name:"
@@ -185,7 +184,11 @@ msgstr ""
 
 #: comments.php:89
 msgid "You can use these tags:"
-msgstr ""
+msgstr "Tags autorisées :"
+
+#: functions.php:45
+msgid "More posts by"
+msgstr "Plus d'articles par"
 
 #: hentryhead.php:9
 msgid "Posted by"
@@ -193,7 +196,7 @@ msgstr "Écrit par"
 
 #: hentrymeta.php:8
 msgid "Feed"
-msgstr ""
+msgstr "Flux"
 
 #: page.php:11
 msgid "Pages:"
@@ -209,15 +212,15 @@ msgstr "Catégories"
 
 #: sidebar.php:36
 msgid "Syndicate"
-msgstr ""
+msgstr "Souscrivez"
 
 #: sidebar.php:39
 msgid "Articles Feed"
-msgstr ""
+msgstr "Flux Articles"
 
 #: sidebar.php:41
 msgid "Comments Feed"
-msgstr ""
+msgstr "Flux Commentaires"
 
 #: sidebar.php:45
 msgid "Meta"
@@ -229,12 +232,12 @@ msgstr "Toutes les Pages"
 
 #: sitemap.php:35
 msgid "All Posts"
-msgstr ""
+msgstr "Tous les Articles"
 
 #: sitemap.php:40
 #, php-format
 msgid "Permalink to %s"
-msgstr ""
+msgstr "Lien permanent á %s"
 
 #: sitemap.php:63
 msgid "Pages: "

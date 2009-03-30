@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-29 13:07-0700\n"
+"POT-Creation-Date: 2009-03-29 22:35-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
-#: comments.php:12 hentryhead.php:10
+#: comments.php:12
 msgid "on"
 msgstr ""
 
@@ -168,6 +168,10 @@ msgstr ""
 
 #: comments.php:89
 msgid "You can use these tags:"
+msgstr ""
+
+#: functions.php:45
+msgid "More posts by"
 msgstr ""
 
 #: hentryhead.php:9
