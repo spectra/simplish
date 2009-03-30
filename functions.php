@@ -1,5 +1,8 @@
 <?php
 
+/* i18n. */
+load_theme_textdomain('simplish');
+
 /* Width set equal to width in style.css:/^#content */
 $GLOBALS['content_width'] = 662;
 
@@ -39,7 +42,7 @@ function sp_byline_hcard()
 
 	echo '<span class="entry-author author vcard"><a class="url fn" href="' .
 		get_author_link(false, $authordata->ID, $authordata->user_nicename) .
-		'" title="More posts by ' .
+		'" title="' . __('More posts by', 'simplish') . ' ' .
 		$authordata->display_name .
 		'">' .
 		get_the_author() .
@@ -150,8 +153,5 @@ function sp_vallery($attr)
 }
 
 add_filter('post_gallery', 'sp_vallery', $attr);
-
-/* i18n. Gettext support is incomplete. */
-load_theme_textdomain('simplish');
 
 ?>
