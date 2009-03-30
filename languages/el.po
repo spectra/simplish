@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simplish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-30 01:46-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Demetris Kikizas <op111.net@gmail.com>\n"
+"Language-Team: op111.net <op111.net@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: 404.php:4
+msgid "Error 404 - Not Found"
+msgstr "Σφάλμα 404:  Η σελίδα δεν βρέθηκε."
+
+#: archive.php:7
+msgid "Day:"
+msgstr "Ημέρα:"
+
+#: archive.php:7
+msgid "l, F j\\, Y"
+msgstr "l j F Y"
+
+#: archive.php:9
+msgid "Month:"
+msgstr "Μήνας:"
+
+#: archive.php:9
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:11
+msgid "Year:"
+msgstr "Έτος:"
+
+#: archive.php:11
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:13
+msgid "Author:"
+msgstr "Συντάκτης:"
+
+#: archive.php:17
+#: hentrymeta.php:3
+msgid "Category:"
+msgstr "Κατηγορία:"
+
+#: archive.php:19
+msgid "Tag:"
+msgstr "Ετικέτα:"
+
+#: archive.php:21
+#: sidebar.php:28
+msgid "Archives"
+msgstr "Αρχείο"
+
+#: archive.php:21
+#, php-format
+msgid "%1$s Archives"
+msgstr "Αρχείο %1$s"
+
+#: archive.php:32
+#: index.php:12
+msgid "More&hellip;"
+msgstr "Συνέχεια&hellip;"
+
+#: archives.php:14
+#: sitemap.php:52
+msgid "Archives by Category"
+msgstr "Αρχείο κατά κατηγορία"
+
+#: archives.php:20
+#: sitemap.php:46
+msgid "Archives by Month"
+msgstr "Αρχείο κατά μήνα"
+
+#: archives.php:26
+#: sitemap.php:58
+msgid "Archives by Tag"
+msgstr "Αρχείο κατά ετικέτα"
+
+#: archives.php:31
+#: links.php:17
+#: page.php:17
+#: single.php:14
+msgid "Edit&hellip;"
+msgstr "Επεξεργασία&hellip;"
+
+#: comments.php:3
+msgid "Not labeled for individual sale."
+msgstr "Δεν πωλείται!"
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "0 Comments"
+msgstr "0 σχόλια"
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "1 Comment"
+msgstr "1 σχόλιο"
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "% Comments"
+msgstr "% σχόλια"
+
+#: comments.php:12
+msgid "on"
+msgstr "στο"
+
+#: comments.php:15
+msgid "Log in"
+msgstr "Σύνδεση"
+
+#: comments.php:15
+msgid "to respond"
+msgstr "για να απαντήσετε"
+
+#: comments.php:17
+#: comments.php:23
+msgid "Trackback"
+msgstr "Παράθεση"
+
+#: comments.php:21
+#: comments.php:49
+msgid "Respond"
+msgstr "Απάντηση"
+
+#: comments.php:29
+msgid "Closed"
+msgstr "Κλειστό"
+
+#: comments.php:37
+msgid "&laquo; Older Comments"
+msgstr "« Παλαιότερα σχόλια"
+
+#: comments.php:38
+msgid "Newer Comments &raquo;"
+msgstr "Νεότερα σχόλια »"
+
+#: comments.php:49
+#, php-format
+msgid "Respond to %s"
+msgstr "Απάντηση στο %s"
+
+#: comments.php:58
+#: comments.php:92
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: comments.php:63
+msgid "Log out of this account"
+msgstr "Αποσυνδεθείτε από τον λογαριασμό"
+
+#: comments.php:63
+msgid "Log out"
+msgstr "Αποσύνδεση"
+
+#: comments.php:69
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: comments.php:69
+#: comments.php:75
+msgid "<small>(required)</small>"
+msgstr "<small>(υποχρεωτικό)</small>"
+
+#: comments.php:75
+msgid "Email:"
+msgstr "E-mail:"
+
+#: comments.php:82
+msgid "URL:"
+msgstr "URL:"
+
+#: comments.php:89
+msgid "You can use these tags:"
+msgstr "Επιτρέπονται οι εξής ετικέτες:"
+
+#: functions.php:45
+msgid "More posts by"
+msgstr "Περισσότερα άρθρα της/του"
+
+#: functions.php:72
+msgid "home page"
+msgstr "Αρχική σελίδα"
+
+#: hentryhead.php:9
+msgid "Posted by"
+msgstr "Καταχώρηση της/του:"
+
+#: hentrymeta.php:8
+msgid "Feed"
+msgstr "Κανάλι"
+
+#: page.php:11
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: sidebar.php:8
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: sidebar.php:22
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: sidebar.php:36
+msgid "Syndicate"
+msgstr "Κανάλια"
+
+#: sidebar.php:39
+msgid "Articles Feed"
+msgstr "Κανάλι άρθρων"
+
+#: sidebar.php:41
+msgid "Comments Feed"
+msgstr "Κανάλι σχολίων"
+
+#: sidebar.php:45
+msgid "Meta"
+msgstr "Μεταστοιχεία"
+
+#: sitemap.php:19
+msgid "All Pages"
+msgstr "Όλες οι σελίδες"
+
+#: sitemap.php:35
+msgid "All Posts"
+msgstr "Όλα τα άρθρα"
+
+#: sitemap.php:40
+#, php-format
+msgid "Permalink to %s"
+msgstr "Μόνιμος σύνδεσμος του %s"
+
+#: sitemap.php:63
+msgid "Pages: "
+msgstr "Σελίδες: "
+
