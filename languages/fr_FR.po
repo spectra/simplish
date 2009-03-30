@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish 2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-29 22:35-0700\n"
+"POT-Creation-Date: 2009-03-30 01:46-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -189,6 +189,10 @@ msgstr "Tags autorisées :"
 #: functions.php:45
 msgid "More posts by"
 msgstr "Plus d'articles par"
+
+#: functions.php:72
+msgid "home page"
+msgstr "page d'accueil"
 
 #: hentryhead.php:9
 msgid "Posted by"
