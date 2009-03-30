@@ -69,7 +69,7 @@ function sp_author_hcard($size)
 	echo '<span class="author vcard">' .
 		$avatar .
 		'<a class="url fn" rel="me" title="' .
-		get_the_author() . ' home page" href="' . get_the_author_url() . '">'
+		get_the_author() . ' ' . __('home page', 'simplish') . '" href="' . get_the_author_url() . '">'
 		. get_the_author() .
 		'</a>' .
 		$note .
