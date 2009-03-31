@@ -59,20 +59,20 @@
 	<?php if($user_ID): ?>
 
 		<p>
-		[ Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>
-		| <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Log out of this account'); ?>"><?php _e('Log out'); ?></a> ]
+[ <?php _e('Logged in as', 'simplish'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>
+		| <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Log out of this account', 'simplish'); ?>"><?php _e('Log out', 'simplish'); ?></a> ]
 		</p>
 
 	<?php else : ?>
 
 		<p>
-		<label><?php _e('Name:', 'simplish'); ?> <?php if($req) _e("<small>(required)</small>"); ?><br />
+		<label><?php _e('Name:', 'simplish'); ?> <?php if($req) echo '<small>' . __('(required)', 'simplish') . '</small>'; ?><br />
 			<input name="author" id="author" value="<?php echo $comment_author; ?>" size="30" type="text" tabindex="1" />
 		</label>
 		</p>
 
 		<p>
-		<label><?php _e('Email:', 'simplish'); ?> <?php if($req) _e("<small>(required)</small>"); ?><br />
+		<label><?php _e('Email:', 'simplish'); ?> <?php if($req) echo '<small>' . __('(required)', 'simplish') . '</small>'; ?><br />
 			<input name="email" id="email" value="<?php echo $comment_author_email; ?>" size="30" type="text" tabindex="2" />
 			<small>(will not be published)</small>
 		</label>
