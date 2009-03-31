@@ -6,12 +6,12 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Simplish-2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-30 01:46-0700\n"
+"POT-Creation-Date: 2009-03-30 17:51-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Utopian.net Labs <josh@labs.utopian.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -142,6 +142,10 @@ msgstr ""
 msgid "Comments"
 msgstr ""
 
+#: comments.php:62
+msgid "Logged in as"
+msgstr ""
+
 #: comments.php:63
 msgid "Log out of this account"
 msgstr ""
@@ -155,7 +159,7 @@ msgid "Name:"
 msgstr ""
 
 #: comments.php:69 comments.php:75
-msgid "<small>(required)</small>"
+msgid "(required)"
 msgstr ""
 
 #: comments.php:75
@@ -170,11 +174,11 @@ msgstr ""
 msgid "You can use these tags:"
 msgstr ""
 
-#: functions.php:45
+#: functions.php:50
 msgid "More posts by"
 msgstr ""
 
-#: functions.php:72
+#: functions.php:77
 msgid "home page"
 msgstr ""
 
