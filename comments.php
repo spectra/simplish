@@ -59,7 +59,7 @@
 	<?php if($user_ID): ?>
 
 		<p>
-[ <?php _e('Logged in as', 'simplish'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>
+		[ <?php _e('Logged in as', 'simplish'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>
 		| <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Log out of this account', 'simplish'); ?>"><?php _e('Log out', 'simplish'); ?></a> ]
 		</p>
 
