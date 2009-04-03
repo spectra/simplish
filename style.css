@@ -503,7 +503,7 @@ span.caps{
 	padding: 1em 4px 0 5px;
 }
 
-/* sp_vallery() Galleries. */
+/* Galleries. */
 div.entry-content div.gallery{
 	clear: both;
 	float: left;
@@ -513,7 +513,7 @@ div.entry-content div.gallery{
 }
 div.entry-content div.gallery dl{
 	float: left;
-	margin: 0 auto;
+	margin: 0.5em auto;
 	text-align: center;
 }
 div.entry-content div.gallery dl.gallery-columns-2{
@@ -533,11 +533,7 @@ div.entry-content div.gallery dd{
 	margin: 0 auto 1em auto;
 	text-align: center;
 }
-div.entry-content div.gallery *{
-	margin: 0;
-	padding: 0;
-}
-
+ 
 /* Sitemap template uses .hentry .entry-title as list item. */
 #sitemap-list .hentry{
 	margin: 0 0 0 1em;
