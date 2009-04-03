@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish-2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-30 17:51-0700\n"
+"POT-Creation-Date: 2009-04-02 21:11-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -13,6 +13,7 @@ msgstr ""
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
 
 #: 404.php:4
 msgid "Error 404 - Not Found"
@@ -199,6 +200,10 @@ msgstr "page d'accueil"
 #: hentryhead.php:9
 msgid "Posted by"
 msgstr "Écrit par"
+
+#: hentrymeta.php:6
+msgid "Tags: "
+msgstr "Mots-clefs : "
 
 #: hentrymeta.php:8
 msgid "Feed"
