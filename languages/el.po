@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-30 17:51-0700\n"
+"POT-Creation-Date: 2009-04-02 23:23-0700\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Demetris Kikizas <op111.net@gmail.com>\n"
+"Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,10 +49,6 @@ msgstr "Συντάκτης:"
 #: hentrymeta.php:3
 msgid "Category:"
 msgstr "Κατηγορία:"
-
-#: hentrymeta.php:6
-msgid "Tags: "
-msgstr "Ετικέτες: "
 
 #: archive.php:19
 msgid "Tag:"
@@ -191,6 +187,14 @@ msgstr "URL:"
 msgid "You can use these tags:"
 msgstr "Επιτρέπονται οι εξής ετικέτες:"
 
+#: footer.php:8
+msgid "WordPress Engine"
+msgstr ""
+
+#: footer.php:10
+msgid "Simplish Style"
+msgstr ""
+
 #: functions.php:50
 msgid "More posts by"
 msgstr "Περισσότερα άρθρα της/του"
@@ -202,6 +206,10 @@ msgstr "Αρχική σελίδα"
 #: hentryhead.php:9
 msgid "Posted by"
 msgstr "Καταχώρηση της/του:"
+
+#: hentrymeta.php:6
+msgid "Tags: "
+msgstr "Ετικέτες: "
 
 #: hentrymeta.php:8
 msgid "Feed"
@@ -224,8 +232,18 @@ msgid "Syndicate"
 msgstr "Κανάλια"
 
 #: sidebar.php:39
+#, fuzzy
+msgid "Articles RSS"
+msgstr "Κανάλι άρθρων"
+
+#: sidebar.php:39
 msgid "Articles Feed"
 msgstr "Κανάλι άρθρων"
+
+#: sidebar.php:41
+#, fuzzy
+msgid "Comments RSS"
+msgstr "Σχόλια"
 
 #: sidebar.php:41
 msgid "Comments Feed"
@@ -251,7 +269,4 @@ msgstr "Μόνιμος σύνδεσμος του %s"
 #: sitemap.php:63
 msgid "Pages: "
 msgstr "Σελίδες: "
-
-#~ msgid "<small>(required)</small>"
-#~ msgstr "<small>(υποχρεωτικό)</small>"
 
