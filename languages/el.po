@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-30 17:51-0700\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Josh Wood <josh@utopian.net>\n"
+"Last-Translator: Demetris Kikizas <op111.net@gmail.com>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,6 +49,10 @@ msgstr "Συντάκτης:"
 #: hentrymeta.php:3
 msgid "Category:"
 msgstr "Κατηγορία:"
+
+#: hentrymeta.php:6
+msgid "Tags: "
+msgstr "Ετικέτες: "
 
 #: archive.php:19
 msgid "Tag:"
@@ -156,7 +160,7 @@ msgstr "Σχόλια"
 
 #: comments.php:62
 msgid "Logged in as"
-msgstr ""
+msgstr "Έχετε συνδεθεί ως"
 
 #: comments.php:63
 msgid "Log out of this account"
@@ -173,7 +177,7 @@ msgstr "Όνομα:"
 #: comments.php:69
 #: comments.php:75
 msgid "(required)"
-msgstr ""
+msgstr "(υποχρεωτικό)"
 
 #: comments.php:75
 msgid "Email:"
