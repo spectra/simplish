@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish-2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-02 21:11-0700\n"
+"POT-Creation-Date: 2009-04-02 23:23-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -21,7 +21,7 @@ msgstr "Erreur 404 - Non Trouvée"
 
 #: archive.php:7
 msgid "Day:"
-msgstr "Du Jour:"
+msgstr "au Jour:"
 
 #: archive.php:7
 msgid "l, F j\\, Y"
@@ -189,6 +189,14 @@ msgstr "URL :"
 msgid "You can use these tags:"
 msgstr "Tags autorisées :"
 
+#: footer.php:8
+msgid "WordPress Engine"
+msgstr "Engine de WordPress"
+
+#: footer.php:10
+msgid "Simplish Style"
+msgstr "Modèle de Simplish"
+
 #: functions.php:50
 msgid "More posts by"
 msgstr "Plus d'articles par"
@@ -226,8 +234,16 @@ msgid "Syndicate"
 msgstr "Souscrivez"
 
 #: sidebar.php:39
+msgid "Articles RSS"
+msgstr "Flux Articles"
+
+#: sidebar.php:39
 msgid "Articles Feed"
 msgstr "Flux Articles"
+
+#: sidebar.php:41
+msgid "Comments RSS"
+msgstr "Flux Commentaires"
 
 #: sidebar.php:41
 msgid "Comments Feed"
@@ -253,9 +269,4 @@ msgstr "Lien permanent á %s"
 #: sitemap.php:63
 msgid "Pages: "
 msgstr "Pages :"
-
-#~ msgid "<small>(required)</small>"
-#~ msgstr "<small>(requis)</small>"
-#~ msgid "1 comment"
-#~ msgstr "1 Commentaire"
 
