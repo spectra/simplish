@@ -16,10 +16,7 @@
 
 <?php endwhile; ?>
 
-			<div id="archivenav" class="navigation">
-				<div class="prevlink"><?php next_posts_link('&laquo; Previous') ?></div>
-				<div class="nextlink"><?php previous_posts_link('Next &raquo;') ?></div>
-			</div>
+<?php include(TEMPLATEPATH . '/prevnextnav.php'); ?>
 
 <?php else : ?>
 
