@@ -16,7 +16,7 @@ Template Name: Sitemap
 
 					<ul id="sitemap-list">
 						<li id="all-pages">
-							<h3><?php _e( 'All Pages', 'simplish' ) ?></h3>
+							<h3><?php _e('All Pages', 'simplish') ?></h3>
 							<ul>
 <?php
 	$args = array(
@@ -32,7 +32,7 @@ Template Name: Sitemap
 							</ul>
 						</li>
 						<li id="all-posts">
-							<h3><?php _e( 'All Posts', 'simplish' ) ?></h3>
+							<h3><?php _e('All Posts', 'simplish') ?></h3>
 							<ul>
 <?php $post_archives = new wp_query('showposts=1000'); 
 while ( $post_archives->have_posts() ) : $post_archives->the_post(); ?>
@@ -43,13 +43,13 @@ while ( $post_archives->have_posts() ) : $post_archives->the_post(); ?>
 							</ul>
 						</li>
 						<li id="monthly-archives">
-							<h3><?php _e( 'Archives by Month', 'simplish' ) ?></h3>
+							<h3><?php _e('Archives by Month', 'simplish') ?></h3>
 							<ul>
 <?php wp_get_archives('type=monthly&show_post_count=1') ?>
 							</ul>
 						</li>
 						<li id="category-archives">
-							<h3><?php _e( 'Archives by Category', 'simplish' ) ?></h3>
+							<h3><?php _e('Archives by Category', 'simplish') ?></h3>
 							<ul>
 <?php wp_list_categories('optioncount=1&title_li=&show_count=1') ?>
 							</ul>
