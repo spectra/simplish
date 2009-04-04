@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish-2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-02 23:23-0700\n"
+"POT-Creation-Date: 2009-04-03 19:25-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -21,7 +21,7 @@ msgstr "Erreur 404 - Non Trouvée"
 
 #: archive.php:7
 msgid "Day:"
-msgstr "au Jour:"
+msgstr "au Jour :"
 
 #: archive.php:7
 msgid "l, F j\\, Y"
@@ -70,6 +70,20 @@ msgstr "%1$s Archives"
 #: index.php:12
 msgid "More&hellip;"
 msgstr "Plus&hellip;"
+
+#: archive.php:40
+#: search.php:25
+msgid "&laquo; Previous"
+msgstr "&laquo; Avant"
+
+#: archive.php:41
+#: search.php:26
+msgid "Next &raquo;"
+msgstr "Ensuite &raquo;"
+
+#: archive.php:46
+msgid "Not Found"
+msgstr "Non Trouvée"
 
 #: archives.php:14
 #: sitemap.php:52
@@ -206,6 +220,7 @@ msgid "home page"
 msgstr "page d'accueil"
 
 #: hentryhead.php:9
+#: image.php:11
 msgid "Posted by"
 msgstr "Écrit par"
 
@@ -217,9 +232,18 @@ msgstr "Mots-clefs : "
 msgid "Feed"
 msgstr "Flux"
 
+#: image.php:35
+#, fuzzy
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Non Trouvée"
+
 #: page.php:11
 msgid "Pages:"
 msgstr "Pages:"
+
+#: search.php:7
+msgid "Results for"
+msgstr "Résultats pour"
 
 #: sidebar.php:8
 msgid "Pages"
