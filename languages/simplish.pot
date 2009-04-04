@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-03 19:25-0700\n"
+"POT-Creation-Date: 2009-04-03 20:45-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,15 +69,7 @@ msgstr ""
 msgid "More&hellip;"
 msgstr ""
 
-#: archive.php:40 search.php:25
-msgid "&laquo; Previous"
-msgstr ""
-
-#: archive.php:41 search.php:26
-msgid "Next &raquo;"
-msgstr ""
-
-#: archive.php:46
+#: archive.php:43
 msgid "Not Found"
 msgstr ""
 
@@ -220,6 +212,14 @@ msgstr ""
 
 #: page.php:11
 msgid "Pages:"
+msgstr ""
+
+#: prevnextnav.php:2
+msgid "&laquo; Previous"
+msgstr ""
+
+#: prevnextnav.php:3
+msgid "Next &raquo;"
 msgstr ""
 
 #: search.php:7
