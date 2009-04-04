@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-02 23:23-0700\n"
+"POT-Creation-Date: 2009-04-03 19:25-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,6 +67,18 @@ msgstr ""
 
 #: archive.php:32 index.php:12
 msgid "More&hellip;"
+msgstr ""
+
+#: archive.php:40 search.php:25
+msgid "&laquo; Previous"
+msgstr ""
+
+#: archive.php:41 search.php:26
+msgid "Next &raquo;"
+msgstr ""
+
+#: archive.php:46
+msgid "Not Found"
 msgstr ""
 
 #: archives.php:14 sitemap.php:52
@@ -190,7 +202,7 @@ msgstr ""
 msgid "home page"
 msgstr ""
 
-#: hentryhead.php:9
+#: hentryhead.php:9 image.php:11
 msgid "Posted by"
 msgstr ""
 
@@ -202,8 +214,16 @@ msgstr ""
 msgid "Feed"
 msgstr ""
 
+#: image.php:35
+msgid "Sorry, no attachments matched your criteria."
+msgstr ""
+
 #: page.php:11
 msgid "Pages:"
+msgstr ""
+
+#: search.php:7
+msgid "Results for"
 msgstr ""
 
 #: sidebar.php:8
