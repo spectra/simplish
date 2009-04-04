@@ -37,13 +37,13 @@
 	<?php endwhile; ?>
 
 		<div id="archivenav" class="navigation">
-			<div class="prevlink"><?php next_posts_link('&laquo; Previous') ?></div>
-			<div class="nextlink"><?php previous_posts_link('Next &raquo;') ?></div>
+			<div class="prevlink"><?php next_posts_link(__('&laquo; Previous', 'simplish')) ?></div>
+			<div class="nextlink"><?php previous_posts_link(__('Next &raquo;', 'simplish')) ?></div>
 		</div>
 	
 <?php else: ?>
 
-		<h2 class="center">Not Found</h2>
+		<h2 class="center"><?php _e('Not Found', 'simplish'); ?></h2>
 		<?php get_search_form(); ?>
 
 <?php endif; ?>

@@ -8,8 +8,8 @@
 			<h2 class="entry-title"><a href="<?php echo get_permalink($post->post_parent); ?>" rev="attachment"><?php echo get_the_title($post->post_parent); ?></a> &raquo; <?php the_title(); ?></h2>
 			
 			<div class="posted">
-				Posted by <?php sp_byline_hcard() ?>
-					<abbr class="published posted_date" title="<?php the_time('Y-m-d\TH:i:sP') ?>">on <?php echo get_the_time(get_option('date_format')) ?></abbr>
+				<?php _e('Posted by', 'simplish'); ?> <?php sp_byline_hcard() ?>
+					<abbr class="published posted_date" title="<?php the_time('Y-m-d\TH:i:sP') ?>"> - <?php echo get_the_time(get_option('date_format')) ?></abbr>
 			</div>
 			<br class="clear" />	
 			
@@ -32,7 +32,7 @@
 
 	<?php endwhile; else: ?>
 
-		<p>Sorry, no attachments matched your criteria.</p>
+		<p><?php _e('Sorry, no attachments matched your criteria.', 'simplish'); ?></p>
 
 <?php endif; ?>
 

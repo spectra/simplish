@@ -4,7 +4,7 @@
 
 		<?php if (have_posts()) : ?>
 
-			<h1 class="archive-title">Results for <span class="archive-subtitle"><?php the_search_query() ?></span></h1>
+<h1 class="archive-title"><?php _e('Results for', 'simplish'); ?> <span class="archive-subtitle"><?php the_search_query() ?></span></h1>
 		
 			<?php while (have_posts()) : the_post();
 			/*
@@ -22,8 +22,8 @@
 			<?php endwhile; ?>
 
 			<div id="archivenav" class="navigation">
-				<div class="prevlink"><?php next_posts_link('&laquo; Previous') ?></div>
-				<div class="nextlink"><?php previous_posts_link('Next &raquo;') ?></div>
+				<div class="prevlink"><?php next_posts_link(__('&laquo; Previous', 'simplish')) ?></div>
+				<div class="nextlink"><?php previous_posts_link(__('Next &raquo;', 'simplish')) ?></div>
 			</div>
 	
 		<?php else : ?>
