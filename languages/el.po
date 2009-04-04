@@ -236,7 +236,7 @@ msgstr ""
 #: prevnextnav.php:3
 #, fuzzy
 msgid "Next &raquo;"
-msgstr "Νεότερα σχόλια »"
+msgstr "Νεότερα σχόλια &raquo;"
 
 #: search.php:7
 msgid "Results for"
