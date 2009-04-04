@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish-2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-03 19:25-0700\n"
+"POT-Creation-Date: 2009-04-03 20:45-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -71,17 +71,7 @@ msgstr "%1$s Archives"
 msgid "More&hellip;"
 msgstr "Plus&hellip;"
 
-#: archive.php:40
-#: search.php:25
-msgid "&laquo; Previous"
-msgstr "&laquo; Avant"
-
-#: archive.php:41
-#: search.php:26
-msgid "Next &raquo;"
-msgstr "Ensuite &raquo;"
-
-#: archive.php:46
+#: archive.php:43
 msgid "Not Found"
 msgstr "Non Trouvée"
 
@@ -240,6 +230,14 @@ msgstr "Non Trouvée"
 #: page.php:11
 msgid "Pages:"
 msgstr "Pages:"
+
+#: prevnextnav.php:2
+msgid "&laquo; Previous"
+msgstr "&laquo; Avant"
+
+#: prevnextnav.php:3
+msgid "Next &raquo;"
+msgstr "Ensuite &raquo;"
 
 #: search.php:7
 msgid "Results for"
