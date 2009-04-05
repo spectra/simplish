@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-03 20:45-0700\n"
+"POT-Creation-Date: 2009-04-04 21:22-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
@@ -70,6 +70,7 @@ msgid "More&hellip;"
 msgstr "Συνέχεια&hellip;"
 
 #: archive.php:43
+#: index.php:23
 #, fuzzy
 msgid "Not Found"
 msgstr "Σφάλμα 404:  Η σελίδα δεν βρέθηκε."
@@ -226,6 +227,7 @@ msgid "Sorry, no attachments matched your criteria."
 msgstr ""
 
 #: page.php:11
+#: single.php:12
 msgid "Pages:"
 msgstr "Σελίδες:"
 
@@ -240,6 +242,10 @@ msgstr "Νεότερα σχόλια &raquo;"
 
 #: search.php:7
 msgid "Results for"
+msgstr ""
+
+#: search.php:28
+msgid "No results for"
 msgstr ""
 
 #: sidebar.php:8
