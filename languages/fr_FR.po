@@ -25,7 +25,7 @@ msgstr "au Jour :"
 
 #: archive.php:7
 msgid "l, F j\\, Y"
-msgstr "l, j F\\, Y"
+msgstr "l, j F\\ Y"
 
 #: archive.php:9
 msgid "Month:"
