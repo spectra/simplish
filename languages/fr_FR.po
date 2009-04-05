@@ -224,7 +224,6 @@ msgid "Feed"
 msgstr "Flux"
 
 #: image.php:35
-#, fuzzy
 msgid "Sorry, no attachments matched your criteria."
 msgstr "Non Trouvée"
 
