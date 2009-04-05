@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish-2.1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-03 20:45-0700\n"
+"POT-Creation-Date: 2009-04-04 21:22-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
@@ -72,6 +72,7 @@ msgid "More&hellip;"
 msgstr "Plus&hellip;"
 
 #: archive.php:43
+#: index.php:23
 msgid "Not Found"
 msgstr "Non Trouvée"
 
@@ -228,6 +229,7 @@ msgid "Sorry, no attachments matched your criteria."
 msgstr "Non Trouvée"
 
 #: page.php:11
+#: single.php:12
 msgid "Pages:"
 msgstr "Pages:"
 
@@ -242,6 +244,10 @@ msgstr "Ensuite &raquo;"
 #: search.php:7
 msgid "Results for"
 msgstr "Résultats pour"
+
+#: search.php:28
+msgid "No results for"
+msgstr "Aucune résultat pour"
 
 #: sidebar.php:8
 msgid "Pages"
