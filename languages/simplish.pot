@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-03 20:45-0700\n"
+"POT-Creation-Date: 2009-04-04 21:22-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,7 +69,7 @@ msgstr ""
 msgid "More&hellip;"
 msgstr ""
 
-#: archive.php:43
+#: archive.php:43 index.php:23
 msgid "Not Found"
 msgstr ""
 
@@ -210,7 +210,7 @@ msgstr ""
 msgid "Sorry, no attachments matched your criteria."
 msgstr ""
 
-#: page.php:11
+#: page.php:11 single.php:12
 msgid "Pages:"
 msgstr ""
 
@@ -224,6 +224,10 @@ msgstr ""
 
 #: search.php:7
 msgid "Results for"
+msgstr ""
+
+#: search.php:28
+msgid "No results for"
 msgstr ""
 
 #: sidebar.php:8
