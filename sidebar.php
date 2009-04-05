@@ -5,7 +5,7 @@
 				<?php get_search_form(); ?>
 				</li>
 				
-				<li><h2 class="sidebar-title"><?php _e( 'Pages', 'simplish' ) ?></h2>
+				<li><h2 class="sidebar-title"><?php _e('Pages', 'simplish') ?></h2>
 				<?php
 				$args = array(
 						'echo' => true,
@@ -19,13 +19,13 @@
 				?>
 				</li>
 
-				<li id="categories"><h2 class="sidebar-title"><?php _e( 'Categories', 'simplish' ) ?></h2>
+				<li id="categories"><h2 class="sidebar-title"><?php _e('Categories', 'simplish') ?></h2>
 					<ul>
 					<?php wp_list_cats('sort_column=name&optioncount=0&hierarchical=1'); ?>
 					</ul>
 				</li>
 
-				<li id="archives"><h2 class="sidebar-title"><?php _e( 'Archives', 'simplish' ) ?></h2>
+				<li id="archives"><h2 class="sidebar-title"><?php _e('Archives', 'simplish') ?></h2>
 					<ul>
 					<?php wp_get_archives('type=monthly&show_post_count=0'); ?>
 					</ul>
@@ -33,7 +33,7 @@
 
 				<?php get_links_list(); ?>
 
-				<li id="syndicate"><h2 class="sidebar-title"><?php _e( 'Syndicate', 'simplish' ) ?></h2>
+				<li id="syndicate"><h2 class="sidebar-title"><?php _e('Syndicate', 'simplish') ?></h2>
 					<ul>
 						<li>
 						<a href="<?php bloginfo('rss2_url'); ?>" title="<?php bloginfo('name'); ?> <?php _e('Articles RSS', 'simplish'); ?>" rel="alternate" type="application/rss+xml"><?php _e( 'Articles Feed', 'simplish' ) ?></a>
@@ -42,7 +42,7 @@
 					</ul>
 				</li>
 
-				<li id="meta"><h2 class="sidebar-title"><?php _e( 'Meta', 'simplish' ) ?></h2>
+				<li id="meta"><h2 class="sidebar-title"><?php _e('Meta', 'simplish') ?></h2>
 					<ul>
 						<?php wp_register(); ?>
 						<li><?php wp_loginout(); ?></li>

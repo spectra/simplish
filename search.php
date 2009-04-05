@@ -25,7 +25,7 @@
 	
 		<?php else : ?>
 
-			<h1 class="archive-title">No results for <span class="archive-subtitle"><?php the_search_query() ?></span></h1>
+<h1 class="archive-title"><?php _e('No results for', 'simplish'); ?> <span class="archive-subtitle"><?php the_search_query() ?></span></h1>
 			<?php get_search_form(); ?>
 
 		<?php endif; ?>
