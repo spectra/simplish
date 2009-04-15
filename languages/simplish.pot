@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-04 21:22-0700\n"
+"POT-Creation-Date: 2009-04-14 21:34-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,6 +170,10 @@ msgstr ""
 msgid "Email:"
 msgstr ""
 
+#: comments.php:77
+msgid "(will not be published)"
+msgstr ""
+
 #: comments.php:82
 msgid "URL:"
 msgstr ""
@@ -178,12 +182,20 @@ msgstr ""
 msgid "You can use these tags:"
 msgstr ""
 
+#: comments.php:95
+msgid "Submit"
+msgstr ""
+
 #: footer.php:8
 msgid "WordPress Engine"
 msgstr ""
 
 #: footer.php:10
 msgid "Simplish Style"
+msgstr ""
+
+#: footer.php:11
+msgid "from"
 msgstr ""
 
 #: functions.php:50
