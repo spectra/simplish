@@ -74,7 +74,7 @@
 		<p>
 		<label><?php _e('Email:', 'simplish'); ?> <?php if($req) echo '<small>' . __('(required)', 'simplish') . '</small>'; ?><br />
 			<input name="email" id="email" value="<?php echo $comment_author_email; ?>" size="30" type="text" tabindex="2" />
-			<small>(will not be published)</small>
+			<small><?php _e('(will not be published)', 'simplish'); ?></small>
 		</label>
 		</p>
 
@@ -92,7 +92,7 @@
 		<?php _e('Comments', 'simplish'); ?><br />
 		<textarea name="comment" id="comment" cols="100%" rows="20" tabindex="4"></textarea></p>
 	<p>
-		<input name="submit" type="submit" id="submit" tabindex="5" value="Submit" />
+		<input name="submit" type="submit" id="submit" tabindex="5" value="<?php _e('Submit', 'simplish'); ?>" />
 		<?php comment_id_fields(); ?>
 	</p>
 	<?php do_action('comment_form', $post->ID); ?>
