@@ -272,7 +272,7 @@ msgstr "Κανάλι RSS σχολίων"
 
 #: sidebar.php:41
 msgid "Comments Feed"
-msgstr "Κανάλι σχολίων"
+msgstr "Κανάλι σχολίων του:"
 
 #: sidebar.php:45
 msgid "Meta"
