@@ -3,7 +3,7 @@
 
 <head profile="http://gmpg.org/xfn/11">
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-	<title><?php if(is_404()): ?>Error 404 - Not Found - <?php elseif(is_search()): ?><?php the_search_query() ?> - <?php else: ?><?php wp_title('-',true,'right'); ?><?php endif ?><?php bloginfo('name') ?><?php if(is_search()): ?> Search<?php endif ?></title>
+	<title><?php if(is_404()): ?><?php _e('Error 404 - Not Found', 'simplish'); ?> - <?php elseif(is_search()): ?><?php the_search_query() ?> - <?php else: ?><?php wp_title('-',true,'right'); ?><?php endif ?><?php bloginfo('name') ?><?php if(is_search()): ?> <?php _e('Search', 'simplish'); ?><?php endif ?></title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" title="Simplish" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> comments RSS Feed" href="<?php bloginfo('comments_rss2_url'); ?>" />
