@@ -9,7 +9,7 @@
 			
 			<div class="posted">
 				<?php _e('Posted by', 'simplish'); ?> <?php sp_byline_hcard() ?>
-					<abbr class="published posted_date" title="<?php the_time('Y-m-d\TH:i:sP') ?>"> - <?php echo get_the_time(get_option('date_format')) ?></abbr>
+					<abbr class="published posted_date" title="<?php the_time('Y-m-d\TH:i:sP') ?>"> &ndash; <?php echo get_the_time(get_option('date_format')) ?></abbr>
 			</div>
 			<br class="clear" />	
 			
