@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-04 21:22-0700\n"
+"POT-Creation-Date: 2009-04-14 21:34-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Demetris Kikizas <op111.net@gmail.com>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
@@ -184,6 +184,10 @@ msgstr "(υποχρεωτικό)"
 msgid "Email:"
 msgstr "E-mail:"
 
+#: comments.php:77
+msgid "(will not be published)"
+msgstr "(δεν δημοσιεύεται)"
+
 #: comments.php:82
 msgid "URL:"
 msgstr "URL:"
@@ -192,6 +196,10 @@ msgstr "URL:"
 msgid "You can use these tags:"
 msgstr "Επιτρέπονται οι εξής ετικέτες:"
 
+#: comments.php:95
+msgid "Submit"
+msgstr "Υποβολή"
+
 #: footer.php:8
 msgid "WordPress Engine"
 msgstr "Μηχανή WordPress"
@@ -199,6 +207,10 @@ msgstr "Μηχανή WordPress"
 #: footer.php:10
 msgid "Simplish Style"
 msgstr "Θέμα Simplish"
+
+#: footer.php:11
+msgid "from"
+msgstr "από"
 
 #: functions.php:50
 msgid "More posts by"
@@ -211,7 +223,7 @@ msgstr "Αρχική σελίδα"
 #: hentryhead.php:9
 #: image.php:11
 msgid "Posted by"
-msgstr "Καταχώρηση της/του:"
+msgstr "Συντάκτης:"
 
 #: hentrymeta.php:6
 msgid "Tags: "
@@ -219,7 +231,7 @@ msgstr "Ετικέτες: "
 
 #: hentrymeta.php:8
 msgid "Feed"
-msgstr "Κανάλι"
+msgstr "Κανάλι σχολίων"
 
 #: image.php:35
 msgid "Sorry, no attachments matched your criteria."
@@ -232,11 +244,11 @@ msgstr "Σελίδες:"
 
 #: prevnextnav.php:2
 msgid "&laquo; Previous"
-msgstr "&laquo; Προηγούμενο"
+msgstr "« Προηγούμενα"
 
 #: prevnextnav.php:3
 msgid "Next &raquo;"
-msgstr "Επόμενο &raquo;"
+msgstr "Επόμενα »"
 
 #: search.php:7
 msgid "Results for"
