@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-14 21:34-0700\n"
+"POT-Creation-Date: 2009-04-17 20:38-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: 404.php:4
-msgid "Error 404 - Not Found"
+msgid "Error 404 &ndash; Not Found"
 msgstr ""
 
 #: archive.php:7
@@ -204,6 +204,14 @@ msgstr ""
 
 #: functions.php:77
 msgid "home page"
+msgstr ""
+
+#: header.php:6
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: header.php:6
+msgid "Search"
 msgstr ""
 
 #: hentryhead.php:9 image.php:11
