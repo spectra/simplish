@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-14 21:34-0700\n"
+"POT-Creation-Date: 2009-04-17 20:38-0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Demetris Kikizas <op111.net@gmail.com>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:4
-msgid "Error 404 - Not Found"
-msgstr "Σφάλμα 404:  Η σελίδα δεν βρέθηκε."
+msgid "Error 404 &ndash; Not Found"
+msgstr "Σφάλμα 404: H σελίδα δεν βρέθηκε!"
 
 #: archive.php:7
 msgid "Day:"
@@ -220,6 +220,14 @@ msgstr "Περισσότερα άρθρα της/του"
 msgid "home page"
 msgstr "Αρχική σελίδα"
 
+#: header.php:6
+msgid "Error 404 - Not Found"
+msgstr "Σφάλμα 404:  Η σελίδα δεν βρέθηκε."
+
+#: header.php:6
+msgid "Search"
+msgstr "Αναζήτηση"
+
 #: hentryhead.php:9
 #: image.php:11
 msgid "Posted by"
@@ -268,11 +276,11 @@ msgstr "Κατηγορίες"
 
 #: sidebar.php:36
 msgid "Syndicate"
-msgstr "Κανάλια"
+msgstr "RSS"
 
 #: sidebar.php:39
 msgid "Articles RSS"
-msgstr "Κανάλι RSS άρθρων"
+msgstr "– Όλα τα άρθρα μέσω RSS"
 
 #: sidebar.php:39
 msgid "Articles Feed"
@@ -280,11 +288,11 @@ msgstr "Κανάλι άρθρων"
 
 #: sidebar.php:41
 msgid "Comments RSS"
-msgstr "Κανάλι RSS σχολίων"
+msgstr "– Όλα τα σχόλια μέσω RSS"
 
 #: sidebar.php:41
 msgid "Comments Feed"
-msgstr "Κανάλι σχολίων του:"
+msgstr "Κανάλι σχολίων"
 
 #: sidebar.php:45
 msgid "Meta"
