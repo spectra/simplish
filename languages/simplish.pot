@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-17 20:38-0700\n"
+"POT-Creation-Date: 2009-04-29 03:06-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,22 +71,6 @@ msgstr ""
 
 #: archive.php:43 index.php:23
 msgid "Not Found"
-msgstr ""
-
-#: archives.php:14 sitemap.php:52
-msgid "Archives by Category"
-msgstr ""
-
-#: archives.php:20 sitemap.php:46
-msgid "Archives by Month"
-msgstr ""
-
-#: archives.php:26 sitemap.php:58
-msgid "Archives by Tag"
-msgstr ""
-
-#: archives.php:31 links.php:17 page.php:17 single.php:14
-msgid "Edit&hellip;"
 msgstr ""
 
 #: comments.php:3
@@ -230,8 +214,13 @@ msgstr ""
 msgid "Sorry, no attachments matched your criteria."
 msgstr ""
 
-#: page.php:11 single.php:12
+#: page.php:11 single.php:12 tplpgcomm.php:17
 msgid "Pages:"
+msgstr ""
+
+#: page.php:17 single.php:14 tplarchives.php:31 tpllinks.php:17
+#: tplpgcomm.php:23
+msgid "Edit&hellip;"
 msgstr ""
 
 #: prevnextnav.php:2
@@ -282,19 +271,31 @@ msgstr ""
 msgid "Meta"
 msgstr ""
 
-#: sitemap.php:19
+#: tplarchives.php:14 tplsitemap.php:52
+msgid "Archives by Category"
+msgstr ""
+
+#: tplarchives.php:20 tplsitemap.php:46
+msgid "Archives by Month"
+msgstr ""
+
+#: tplarchives.php:26 tplsitemap.php:58
+msgid "Archives by Tag"
+msgstr ""
+
+#: tplsitemap.php:19
 msgid "All Pages"
 msgstr ""
 
-#: sitemap.php:35
+#: tplsitemap.php:35
 msgid "All Posts"
 msgstr ""
 
-#: sitemap.php:40
+#: tplsitemap.php:40
 #, php-format
 msgid "Permalink to %s"
 msgstr ""
 
-#: sitemap.php:63
+#: tplsitemap.php:63
 msgid "Pages: "
 msgstr ""
