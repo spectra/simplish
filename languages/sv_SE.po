@@ -7,12 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-17 20:38-0700\n"
-"PO-Revision-Date: 2009-04-19 15:22+0100\n"
-"Last-Translator: Clement Durand <clement@durand.se>\n"
+"POT-Creation-Date: 2009-04-29 03:06-0700\n"
+"PO-Revision-Date: 2009-04-29 03:20-0800\n"
+"Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: http://clement.durand.se <clement@durand.se>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
@@ -77,28 +77,6 @@ msgstr "Mer&hellip;"
 #: index.php:23
 msgid "Not Found"
 msgstr "Hittades ej"
-
-#: archives.php:14
-#: sitemap.php:52
-msgid "Archives by Category"
-msgstr "Arkiv efter kategori"
-
-#: archives.php:20
-#: sitemap.php:46
-msgid "Archives by Month"
-msgstr "Arkiv efter månad"
-
-#: archives.php:26
-#: sitemap.php:58
-msgid "Archives by Tag"
-msgstr "Arkiv efter etitkett"
-
-#: archives.php:31
-#: links.php:17
-#: page.php:17
-#: single.php:14
-msgid "Edit&hellip;"
-msgstr "Redigera&hellip;"
 
 #: comments.php:3
 msgid "Not labeled for individual sale."
@@ -251,8 +229,17 @@ msgstr "Tyvärr, inga bilagor stämde med dina kriterier..."
 
 #: page.php:11
 #: single.php:12
+#: tplpgcomm.php:17
 msgid "Pages:"
 msgstr "Sidor:"
+
+#: page.php:17
+#: single.php:14
+#: tplarchives.php:31
+#: tpllinks.php:17
+#: tplpgcomm.php:23
+msgid "Edit&hellip;"
+msgstr "Redigera&hellip;"
 
 #: prevnextnav.php:2
 msgid "&laquo; Previous"
@@ -302,20 +289,35 @@ msgstr "Kommentarsprenumeration"
 msgid "Meta"
 msgstr "Meta"
 
-#: sitemap.php:19
+#: tplarchives.php:14
+#: tplsitemap.php:52
+msgid "Archives by Category"
+msgstr "Arkiv efter kategori"
+
+#: tplarchives.php:20
+#: tplsitemap.php:46
+msgid "Archives by Month"
+msgstr "Arkiv efter månad"
+
+#: tplarchives.php:26
+#: tplsitemap.php:58
+msgid "Archives by Tag"
+msgstr "Arkiv efter etitkett"
+
+#: tplsitemap.php:19
 msgid "All Pages"
 msgstr "Alla sidor"
 
-#: sitemap.php:35
+#: tplsitemap.php:35
 msgid "All Posts"
 msgstr "Alla inlägg"
 
-#: sitemap.php:40
+#: tplsitemap.php:40
 #, php-format
 msgid "Permalink to %s"
 msgstr "Länka permanent till %s"
 
-#: sitemap.php:63
+#: tplsitemap.php:63
 msgid "Pages: "
 msgstr "Sidor:"
 
