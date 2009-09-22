@@ -7,7 +7,7 @@
 	<ul>
 		<li><a href="http://wordpress.org" title="<?php _e('WordPress Engine', 'simplish'); ?>">WordPress</a> | 
 			<span class="vcard">
-				<a class="url fn" rel="follow designer" title="<?php _e('Simplish Style', 'simplish'); ?>" href="http://labs.utopian.net/blogs/simplish/">Simplish</a> 
+				<a class="url fn" rel="follow designer" title="<?php _e('Simplish Style', 'simplish'); ?>" href="http://simplish.pomfolio.com">Simplish</a> 
 <span class="hidden"><?php _e('from', 'simplish'); ?> <span class="org">Utopian.net Labs</span></span>
 			</span>
 		</li>
