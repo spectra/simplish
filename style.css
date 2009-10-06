@@ -348,7 +348,6 @@ caption { background: #ffc; }
 }
 #sidebar h2{
 	font: bold 1.3em "lucida grande", calibri, "liberation sans", verdana, arial, helvetica, sans-serif;
-	margin: 0 0 0.5em;
 }
 #sidebar h2 a:link, #sidebar h2 a:visited{
 	color: #000;
