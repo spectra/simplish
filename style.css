@@ -385,7 +385,7 @@ caption { background: #ffc; }
 	font-size: .9em;
 	width: 92%;
 }
-#sidebar #search, #sidebar #tag_cloud{
+#sidebar #tag_cloud{
 	margin-bottom: 2em;
 }
 #sidebar label.screen-reader-text{
