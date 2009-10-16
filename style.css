@@ -294,8 +294,8 @@ caption { background: #ffc; }
 #content #commentslist li span.says{
 	display: none;
 }
-#content li.comment .comment-head abbr,
-#content li.trackback .comment-head abbr{
+#content .comment .comment-head abbr,
+#content .trackback .comment-head abbr{
 	color: #999;
 }
 #content li.comment .comment-head a.comment-permalink,
