@@ -580,10 +580,6 @@ div.entry-content div.gallery dd{
 		float: none;
 		width: 90%;
 	}
-	#content pre{
-		background: #eee;
-		color: #000;
-	}
 	#content form.comments{
 		display: none;
 	}
