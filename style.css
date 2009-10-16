@@ -282,8 +282,8 @@ caption { background: #ffc; }
 	background: #eee;
 }
  */
-#content li.comment .comment-head,
-#content li.trackback .comment-head{
+#content .comment .comment-head,
+#content .trackback .comment-head{
 	font-weight: bold;
 	margin-bottom: 1em;
 }
