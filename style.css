@@ -274,14 +274,6 @@ caption { background: #ffc; }
 	list-style-type: none;
 	padding: 1em;
 }
-/* Even-Odd Thread Shading - disabled.
-#content li.comment.thread-even{
-	background: #fff;
-}
-#content li.comment.thread-odd{
-	background: #eee;
-}
- */
 #content .comment .comment-head,
 #content .trackback .comment-head{
 	font-weight: bold;
