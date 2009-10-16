@@ -544,12 +544,12 @@ div.entry-content div.gallery dd{
 	letter-spacing: normal;
 	line-height: normal;
 }
-#sitemap-list #all-posts .hentry .entry-title a:link,
-#sitemap-list #all-posts .hentry .entry-title a:visited{
+#sitemap-list #all-posts .entry-title a:link,
+#sitemap-list #all-posts .entry-title a:visited{
 	text-decoration: underline;
 }
-#sitemap-list #all-posts .hentry .entry-title a:hover,
-#sitemap-list #all-posts .hentry .entry-title a:active{
+#sitemap-list #all-posts .entry-title a:hover,
+#sitemap-list #all-posts .entry-title a:active{
 	background: #000 none repeat scroll 0 0;
 	color: #fff;
 }
