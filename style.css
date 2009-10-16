@@ -503,37 +503,6 @@ span.caps{
 	font-size: 0.8em;
 	padding: 1em 4px 0 5px;
 }
-
-/* Galleries. */
-div.entry-content div.gallery{
-	clear: both;
-	float: left;
-	margin: 1em auto;
-	text-align: center;
-	width: 100%;
-}
-div.entry-content div.gallery dl{
-	float: left;
-	margin: 0.5em auto;
-	text-align: center;
-}
-div.entry-content div.gallery dl.gallery-columns-2{
-	width: 49%;
-}
-div.entry-content div.gallery dl.gallery-columns-3{
-	width: 33%;
-}
-div.entry-content div.gallery dl.gallery-columns-4{
-	width: 24%;
-}
-div.entry-content div.gallery dl.gallery-columns-5{
-	width: 19%;
-}
-div.entry-content div.gallery dd{
-	font-style: italic;
-	margin: 0 auto 1em auto;
-	text-align: center;
-}
  
 /* Sitemap template uses .hentry .entry-title as list item. */
 #sitemap-list .hentry{
@@ -556,6 +525,7 @@ div.entry-content div.gallery dd{
 #sitemap-list ul ul, #sitemap-list ol ol{
 	margin-left: 0;
 }
+
 /*
  * Search template uses the overly-qualified #id.class
  * in order to be more specific than the general
