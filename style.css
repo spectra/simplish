@@ -221,10 +221,13 @@ caption { background: #ffc; }
 #content .hentry .posted .fn{
 	font-weight: bold;
 }
-#content .hentry .posted a, #content .hentry .posted a:hover{
+#content .hentry .posted a{
 	color: #a9a9a9;
 	background: transparent;
 	text-decoration: none;
+}
+#content .hentry .posted a:hover{
+	text-decoration: underline;
 }
 #content br.downpad{
 	margin: 0 0 33px;
