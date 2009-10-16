@@ -229,7 +229,7 @@ caption { background: #ffc; }
 #content br.downpad{
 	margin: 0 0 33px;
 }
-#content .hentry ul.meta{
+#content .hentry .meta{
 	background: #eee;
 	border: 1px solid #ddd;
 	clear: both;
@@ -238,7 +238,7 @@ caption { background: #ffc; }
 	margin-left: 0;
 	padding: 5px;
 }
-#content .hentry ul.meta li{
+#content .hentry .meta li{
 	line-height: 13px;
 	margin: 0;
 	padding: 0;
