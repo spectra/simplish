@@ -298,17 +298,17 @@ caption { background: #ffc; }
 #content .trackback .comment-head abbr{
 	color: #999;
 }
-#content li.comment .comment-head a.comment-permalink,
-#content li.trackback .comment-head a.comment-permalink{
+#content .comment .comment-head a.comment-permalink,
+#content .trackback .comment-head a.comment-permalink{
 	text-decoration: none;
 }
-#content li.comment .comment-author img.avatar{
+#content .comment .comment-author .avatar{
 	background: #fff;
 	clear:both;
 	float: right;
 	margin: 0.5em;
 }
-#content li.comment p{
+#content .comment p{
 	margin-right: 2em;
 }
 #content form.comments{
@@ -316,16 +316,16 @@ caption { background: #ffc; }
 	border-top: 1px solid #ddd;
 	padding: 1em 0.5em;
 }
-#content form.comments fieldset{
+#content .comments fieldset{
 	border: none;
 }
-#content form.comments legend{
+#content .comments legend{
 	display: none;
 }
-#content form.comments label{
+#content .comments label{
 	font-weight: bold;
 }
-#content form.comments textarea{
+#content .comments textarea{
 	height: 150px;
 	padding: 3px;
 	width: 90%;
