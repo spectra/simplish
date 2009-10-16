@@ -556,21 +556,21 @@ div.entry-content div.gallery dd{
 #sitemap-list ul ul, #sitemap-list ol ol{
 	margin-left: 0;
 }
-
-/* Search template specifics. */
-#content.search-results .hentry{
-	margin: 0;
-}
-#content.search-results .hentry h2.entry-title{
+/*
+ * Search template uses the overly-qualified #id.class
+ * in order to be more specific than the general
+ * #content.hentry styles. (Page Speed dislikes.)
+ */
+#content.search-results h2.entry-title{
 	font-size: 1.7em;
 	letter-spacing: -1px;
 }
-#content.search-results .hentry .entry-title a:link,
-#content.search-results .hentry .entry-title a:visited{
+#content.search-results .entry-title a:link,
+#content.search-results .entry-title a:visited{
 	text-decoration: underline;
 }
-#content.search-results .hentry .entry-title a:hover,
-#content.search-results .hentry .entry-title a:active{
+#content.search-results .entry-title a:hover,
+#content.search-results .entry-title a:active{
 	background: #000 none repeat scroll 0 0;
 	color: #fff;
 }
