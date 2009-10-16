@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 03:06-0700\n"
-"PO-Revision-Date: 2009-10-14 17:22-0800\n"
+"PO-Revision-Date: 2009-10-15 21:06-0800\n"
 "Last-Translator: ttynixer <ttynixer@gmail.com>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
 "MIME-Version: 1.0\n"
@@ -192,7 +192,7 @@ msgstr "de"
 
 #: functions.php:50
 msgid "More posts by"
-msgstr "Mais artigos por "
+msgstr "Mais artigos por"
 
 #: functions.php:77
 msgid "home page"
