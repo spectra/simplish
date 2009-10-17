@@ -526,7 +526,7 @@ span.caps{
  * in order to be more specific than the general
  * #content.hentry styles. (Page Speed dislikes.)
  */
-#content.search-results h2.entry-title{
+#content.search-results .entry-title{
 	font-size: 1.7em;
 	letter-spacing: -1px;
 }
