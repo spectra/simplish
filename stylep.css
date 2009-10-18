@@ -29,3 +29,8 @@ a img{border:none;}
 #sidebar{
 	display:none;
 }
+/* Hide URL expansion on gallery thumbs to prevent jumble. */
+.gallery-icon a:link[href^="http://"]:after,
+.gallery-icon a[href^="http://"]:visited:after{
+	display:none;
+}
