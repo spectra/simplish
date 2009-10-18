@@ -13,9 +13,6 @@ tfoot{font-style:italic;}
 caption{background:#fff; margin-bottom:2em; text-align:left;}
 tr{page-break-inside:avoid;}
 a:link, a:visited{background:transparent; color:#ccc; text-decoration:underline;}
-a:link[href^="http://"]:after, a[href^="http://"]:visited:after{content:" (" attr(href) ") "; font-size:85%;}
-a[href^="http://"]{color:#000;}
-img{float:left; margin:1em 1.5em 1.5em 0;}
 a img{border:none;}
 
 /* Simplish */
@@ -27,10 +24,5 @@ a img{border:none;}
 	display: none;
 }
 #sidebar{
-	display:none;
-}
-/* Hide URL expansion on gallery thumbs to prevent jumble. */
-.gallery-icon a:link[href^="http://"]:after,
-.gallery-icon a[href^="http://"]:visited:after{
 	display:none;
 }
