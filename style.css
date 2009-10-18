@@ -545,8 +545,11 @@ span.caps{
 		float: none;
 		width: 90%;
 	}
-	#content form.comments{
+	form.comments{
 		display: none;
+	}
+	.meta{
+		border: none;
 	}
 	#sidebar{
 		display:none;
