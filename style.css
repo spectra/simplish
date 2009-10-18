@@ -376,7 +376,7 @@ form.comments{
 #sidebar em{
 	font-style: normal;
 }
-#sidebar .search p input{
+.search input{
 	font-size: .9em;
 	width: 92%;
 }
