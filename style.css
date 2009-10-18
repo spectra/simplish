@@ -522,16 +522,3 @@ span.caps{
 	font-size: 1.7em;
 	letter-spacing: -1px;
 }
-
-@media print{
-	#content{
-		float: none;
-		width: 90%;
-	}
-	#content form.comments{
-		display: none;
-	}
-	#sidebar{
-		display:none;
-	}
-}
