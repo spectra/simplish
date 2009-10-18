@@ -295,7 +295,7 @@ span.says{
 a.comment-permalink{
 	text-decoration: none;
 }
-comment-author .avatar{
+.comment-author .avatar{
 	background: #fff;
 	clear:both;
 	float: right;
