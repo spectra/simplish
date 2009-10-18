@@ -546,10 +546,10 @@ span.caps{
 		float: none;
 		width: 90%;
 	}
-	form.comments{
+	form.comments, .reply{
 		display: none;
 	}
-	.meta{
+	.meta, li.depth-1{
 		border: none;
 	}
 	#sidebar{
