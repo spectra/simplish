@@ -538,9 +538,6 @@ span.caps{
 	tfoot{font-style:italic;}
 	caption{background:#fff; margin-bottom:2em; text-align:left;}
 	tr{page-break-inside:avoid;}
-	a:link, a:visited{background:transparent; color:#ccc; text-decoration:underline;}
-	a[href^="http://"]{color:#000;}
-	a img{border:none;}
 	/* Simplish */
 	#content{
 		float: none;
