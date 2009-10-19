@@ -543,7 +543,7 @@ span.caps{
 		float: none;
 		width: 90%;
 	}
-	form.comments, .reply{
+	.admin-edit, form.comments, .reply{
 		display: none;
 	}
 	.meta, li.depth-1{
