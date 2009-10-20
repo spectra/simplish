@@ -217,7 +217,7 @@ h2.page-title{
 	float: left;
 	font: normal 1.15em helvetica, arial, verdana, sans-serif;
 	letter-spacing: -1px;
-	margin: 1px 0 0.6em 2px;
+	margin: 1px 0 0 2px;
 }
 .posted .fn{
 	font-weight: bold;
