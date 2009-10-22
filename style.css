@@ -25,6 +25,7 @@ AUTHOR URI:
 body{
 	background: #fff url(img/background.png) repeat-x left top;
 	font: normal .75em "lucida grande", "liberation sans", verdana, arial, helvetica, sans-serif;
+	line-height: 1.5em;
 	margin: 0;
 	padding: 0.6em 1em 1em;
 	text-align: center;
@@ -52,6 +53,7 @@ body{
 	border-left: 1px dotted #ddd;
 	float: right;
 	font-size: .9em;
+	line-height: normal;
 	padding-left: 15px;
 	text-align: left;
 	width: 200px;
