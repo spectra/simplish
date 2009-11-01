@@ -17,7 +17,7 @@
  */
 if(is_singular() && get_option('thread_comments')):
 	wp_enqueue_script('comment-reply');
-endif
+endif;
 ?>
 
 <?php wp_head(); // DO NOT REMOVE - for plugin api ?>
