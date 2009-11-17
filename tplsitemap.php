@@ -60,7 +60,7 @@ while ( $post_archives->have_posts() ) : $post_archives->the_post(); ?>
 						</li>
 					</ul>
 
-<?php link_pages('<div class="page-link">'.__('Pages: ', 'simplish'), '</div>', 'number'); ?>
+<?php wp_link_pages('<div class="page-link">'.__('Pages: ', 'simplish'), '</div>', 'number'); ?>
 
 					</div>
 				</div>

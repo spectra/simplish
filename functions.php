@@ -46,7 +46,7 @@ function sp_byline_hcard()
 	global $wpdb, $authordata;
 
 	echo '<span class="entry-author author vcard"><a class="url fn" href="' .
-		get_author_link(false, $authordata->ID, $authordata->user_nicename) .
+		get_author_posts_url($authordata->ID, $authordata->user_nicename) .
 		'" title="' . __('More posts by', 'simplish') . ' ' .
 		$authordata->display_name .
 		'">' .
