@@ -9,7 +9,7 @@
 				<br class="clear" />	
 				<div class="entry-content">
 					<?php the_content(); ?>
-					<?php link_pages('<p><strong>' . __('Pages:', 'simplish') . '</strong> ', '</p>', 'number'); ?>
+					<?php wp_link_pages('<p><strong>' . __('Pages:', 'simplish') . '</strong> ', '</p>', 'number'); ?>
 				</div><!--#entry-content-->
 <?php edit_post_link(__('Edit&hellip;', 'simplish'),'<p class="admin-edit">&#91; ',' &#93;</p>') ?>
 
