@@ -21,7 +21,7 @@
 
 				<li id="categories"><h2 class="sidebar-title"><?php _e('Categories', 'simplish') ?></h2>
 					<ul>
-					<?php wp_list_cats('sort_column=name&optioncount=0&hierarchical=1'); ?>
+					<?php wp_list_categories('sort_column=name&optioncount=0&hierarchical=1&title_li='); ?>
 					</ul>
 				</li>
 
@@ -31,7 +31,7 @@
 					</ul>
 				</li>
 
-				<?php get_links_list(); ?>
+				<?php get_bookmarks(); ?>
 
 				<li id="syndicate"><h2 class="sidebar-title"><?php _e('Syndicate', 'simplish') ?></h2>
 					<ul>
