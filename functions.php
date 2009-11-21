@@ -64,7 +64,7 @@ function sp_author_hcard($size)
 {
 	global $wpdb, $authordata;
 
-	$email = get_the_author_email();
+	$email = get_the_author_meta('email');
 	$avatar = str_replace( "class='avatar", "class='photo avatar", get_avatar($email, $size) );
 	$note = '';
 	if(isset($authordata->user_description)){
@@ -75,7 +75,7 @@ function sp_author_hcard($size)
 	echo '<span class="author vcard">' .
 		$avatar .
 		'<a class="url fn" rel="me" title="' .
-		get_the_author() . ' ' . __('home page', 'simplish') . '" href="' . get_the_author_url() . '">'
+		get_the_author() . ' ' . __('home page', 'simplish') . '" href="' . get_the_author_meta('url') . '">'
 		. get_the_author() .
 		'</a>' .
 		$note .
