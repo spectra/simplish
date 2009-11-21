@@ -31,7 +31,7 @@
 					</ul>
 				</li>
 
-				<?php get_bookmarks(); ?>
+				<?php wp_list_bookmarks(); ?>
 
 				<li id="syndicate"><h2 class="sidebar-title"><?php _e('Syndicate', 'simplish') ?></h2>
 					<ul>
