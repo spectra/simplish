@@ -66,7 +66,8 @@ function sp_author_hcard($size)
 
 	$email = get_the_author_email();
 	$avatar = str_replace( "class='avatar", "class='photo avatar", get_avatar($email, $size) );
-	if($authordata->user_description !=''){
+	$note = '';
+	if(isset($authordata->user_description)){
 		$note = '<span class="note">' .
 		apply_filters('archive_meta', $authordata->user_description) .
 		'</span>';
