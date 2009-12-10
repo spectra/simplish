@@ -1,5 +1,5 @@
 				<ul class="meta">
-<?php if(!in_category('1')): /* Assumes Uncategorized is catID #1 */ ?>
+<?php if(!in_category('uncategorized')): /* Only show Cats if post has real one(s). */ ?>
 					<li class="categories"><?php _e('Category:', 'simplish') ?> <?php the_category(', ') ?></li>
 <?php endif; ?>
 <?php if(get_the_tags() != ''): ?>
