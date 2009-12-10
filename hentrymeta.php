@@ -1,5 +1,5 @@
 				<ul class="meta">
-<?php if(get_categories(array('exclude' => 1))): /* Only show cats if there are any after excluding catID=1 */ ?>
+<?php if(!in_category('1')): /* Assumes Uncategorized is catID #1 */ ?>
 					<li class="categories"><?php _e('Category:', 'simplish') ?> <?php the_category(', ') ?></li>
 <?php endif; ?>
 <?php if(get_the_tags() != ''): ?>
