@@ -1,0 +1,324 @@
+# SIMPLISH LOCALIZABLE STRINGS
+# Copyright (C) 2009 UTOPIAN.NET
+# This file is distributed under the same license as the SIMPLISH package.
+# JOSH WOOD <JOSH@UTOPIAN.NET>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SM\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-29 03:06-0700\n"
+"PO-Revision-Date: 2010-04-09 12:55+0300\n"
+"Last-Translator: FatCow <zhr@tut.by>\n"
+"Language-Team: Marcis G. <by.marcis@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: 404.php:4
+msgid "Error 404 &ndash; Not Found"
+msgstr "Памылка 404 &ndash; Не знойдзена"
+
+#: archive.php:7
+msgid "Day:"
+msgstr "Дзень:"
+
+#: archive.php:7
+msgid "l, F j\\, Y"
+msgstr "l, F j\\, Y"
+
+#: archive.php:9
+msgid "Month:"
+msgstr "Месяц:"
+
+#: archive.php:9
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:11
+msgid "Year:"
+msgstr "Год:"
+
+#: archive.php:11
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:13
+msgid "Author:"
+msgstr "Аўтар:"
+
+#: archive.php:17
+#: hentrymeta.php:3
+msgid "Category:"
+msgstr "Катэгорыя:"
+
+#: archive.php:19
+msgid "Tag:"
+msgstr "Тэг:"
+
+#: archive.php:21
+#: sidebar.php:28
+msgid "Archives"
+msgstr "Архівы"
+
+#: archive.php:21
+#, php-format
+msgid "%1$s Archives"
+msgstr "%1$s Архіў"
+
+#: archive.php:32
+#: index.php:12
+msgid "More&hellip;"
+msgstr "Больш&hellip;"
+
+#: archive.php:43
+#: index.php:23
+msgid "Not Found"
+msgstr "Не знойдзена"
+
+#: comments.php:3
+msgid "Not labeled for individual sale."
+msgstr "Без маркіроўкі для індывідуальнага продажу."
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "0 Comments"
+msgstr "0 каментароў"
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "1 Comment"
+msgstr "1 каментар"
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "% Comments"
+msgstr "% каментароў"
+
+#: comments.php:12
+msgid "on"
+msgstr "у "
+
+#: comments.php:15
+msgid "Log in"
+msgstr "Уваход"
+
+#: comments.php:15
+msgid "to respond"
+msgstr "для адказу"
+
+#: comments.php:17
+#: comments.php:23
+msgid "Trackback"
+msgstr "Трекбек"
+
+#: comments.php:21
+#: comments.php:49
+msgid "Respond"
+msgstr "Адказ"
+
+#: comments.php:29
+msgid "Closed"
+msgstr "Зачыніць"
+
+#: comments.php:37
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Старыя каментары"
+
+#: comments.php:38
+msgid "Newer Comments &raquo;"
+msgstr "Новыя каментары &raquo;"
+
+#: comments.php:49
+#, php-format
+msgid "Respond to %s"
+msgstr "Адказ на  %s"
+
+#: comments.php:58
+#: comments.php:92
+msgid "Comments"
+msgstr "Каментары"
+
+#: comments.php:62
+msgid "Logged in as"
+msgstr "Вы ўвайшлі як"
+
+#: comments.php:63
+msgid "Log out of this account"
+msgstr "Выйсце з гэтага акаўнта"
+
+#: comments.php:63
+msgid "Log out"
+msgstr "Выйсце"
+
+#: comments.php:69
+msgid "Name:"
+msgstr "Імя:"
+
+#: comments.php:69
+#: comments.php:75
+msgid "(required)"
+msgstr "(патрабуецца)"
+
+#: comments.php:75
+msgid "Email:"
+msgstr " %s"
+
+#: comments.php:77
+msgid "(will not be published)"
+msgstr "(не публікуецца)"
+
+#: comments.php:82
+msgid "URL:"
+msgstr "URL:"
+
+#: comments.php:89
+msgid "You can use these tags:"
+msgstr "Вы можаце выкарыстоўваць гэтыя тэгі:"
+
+#: comments.php:95
+msgid "Submit"
+msgstr "Адпраўка"
+
+#: footer.php:8
+msgid "WordPress Engine"
+msgstr "Рухавічок WordPress "
+
+#: footer.php:10
+msgid "Simplish Style"
+msgstr "Стыль Simplish "
+
+#: footer.php:11
+msgid "from"
+msgstr "ад "
+
+#: functions.php:50
+msgid "More posts by"
+msgstr "Больш пастоў ад"
+
+#: functions.php:77
+msgid "home page"
+msgstr "хатняя старонка"
+
+#: header.php:6
+msgid "Error 404 - Not Found"
+msgstr "Памылка 404 - Старонка не знойдзена"
+
+#: header.php:6
+msgid "Search"
+msgstr "Пошук"
+
+#: hentryhead.php:9
+#: image.php:11
+msgid "Posted by"
+msgstr "Апублікавана "
+
+#: hentrymeta.php:6
+msgid "Tags: "
+msgstr "Тэгі:"
+
+#: hentrymeta.php:8
+msgid "Feed"
+msgstr "Стужка"
+
+#: image.php:35
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Нажаль, ні прыхільнасцяў, якія задавольваюць вашым умовам."
+
+#: page.php:11
+#: single.php:12
+#: tplpgcomm.php:17
+msgid "Pages:"
+msgstr "Старонкі:"
+
+#: page.php:17
+#: single.php:14
+#: tplarchives.php:31
+#: tpllinks.php:17
+#: tplpgcomm.php:23
+msgid "Edit&hellip;"
+msgstr "Рэдагаваць&hellip;"
+
+#: prevnextnav.php:2
+msgid "&laquo; Previous"
+msgstr "&laquo; Папярэднія"
+
+#: prevnextnav.php:3
+msgid "Next &raquo;"
+msgstr "Наступныя &raquo;"
+
+#: search.php:7
+msgid "Results for"
+msgstr "Вынікі для "
+
+#: search.php:28
+msgid "No results for"
+msgstr "Няма вынікаў для "
+
+#: sidebar.php:8
+msgid "Pages"
+msgstr "Старонкі"
+
+#: sidebar.php:22
+msgid "Categories"
+msgstr "Катэгорыі"
+
+#: sidebar.php:36
+msgid "Syndicate"
+msgstr "Синдикация"
+
+#: sidebar.php:39
+msgid "Articles RSS"
+msgstr "RSS артыкулаў"
+
+#: sidebar.php:39
+msgid "Articles Feed"
+msgstr "Стужка артыкулаў"
+
+#: sidebar.php:41
+msgid "Comments RSS"
+msgstr "RSS каментароў"
+
+#: sidebar.php:41
+msgid "Comments Feed"
+msgstr "Стужка каментароў"
+
+#: sidebar.php:45
+msgid "Meta"
+msgstr "Мета"
+
+#: tplarchives.php:14
+#: tplsitemap.php:52
+msgid "Archives by Category"
+msgstr "Архівы па катэгорыях"
+
+#: tplarchives.php:20
+#: tplsitemap.php:46
+msgid "Archives by Month"
+msgstr "Архівы па месяцах"
+
+#: tplarchives.php:26
+#: tplsitemap.php:58
+msgid "Archives by Tag"
+msgstr "Архівы па тэгах"
+
+#: tplsitemap.php:19
+msgid "All Pages"
+msgstr "Усе старонкі"
+
+#: tplsitemap.php:35
+msgid "All Posts"
+msgstr "Усе пасты"
+
+#: tplsitemap.php:40
+#, php-format
+msgid "Permalink to %s"
+msgstr "Сталая спасылка на %s"
+
+#: tplsitemap.php:63
+msgid "Pages: "
+msgstr "Старонкі:"
+
