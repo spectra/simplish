@@ -165,7 +165,7 @@ msgstr "(патрабуецца)"
 
 #: comments.php:75
 msgid "Email:"
-msgstr " %s"
+msgstr "Электронная пошта"
 
 #: comments.php:77
 msgid "(will not be published)"
