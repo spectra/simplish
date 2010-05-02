@@ -236,6 +236,9 @@ br.downpad{
 .meta{
 	background: #eee;
 	border: 1px solid #ddd;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	clear: both;
 	font-size: .85em;
 	list-style-type: none;
@@ -262,6 +265,9 @@ ol.comments{
 }
 li.comment, li.trackback, li.pingback{
 	border-left: 1px dashed #bbb;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	list-style-type: none;
 	margin-bottom: 1.5em;
 	padding-bottom: 1em;
@@ -306,7 +312,9 @@ a.comment-permalink{
 }
 form.comments{
 	background: #f2f2f2;
-	border-top: 1px solid #ddd;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	padding: 1em 0.5em;
 }
 .comments fieldset{
