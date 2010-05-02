@@ -489,6 +489,9 @@ span.caps{
 .wp-caption{
 	background-color: #eeeeee;
 	border: 1px solid #ddd;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	margin: 10px;
 	padding-top: 4px;
 	text-align: center;
