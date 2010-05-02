@@ -49,7 +49,6 @@ body{
 	width: 662px;
 }
 #sidebar{
-	border-left: 1px dotted #ddd;
 	float: right;
 	font-size: .9em;
 	padding-left: 15px;
