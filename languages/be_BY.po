@@ -1,14 +1,9 @@
-# SIMPLISH LOCALIZABLE STRINGS
-# Copyright (C) 2009 UTOPIAN.NET
-# This file is distributed under the same license as the SIMPLISH package.
-# JOSH WOOD <JOSH@UTOPIAN.NET>, 2009.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: SM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-29 03:06-0700\n"
-"PO-Revision-Date: 2010-05-02 04:22-0800\n"
+"PO-Revision-Date: 2010-05-02 23:15-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Marcis G. <by.marcis@gmail.com>\n"
 "MIME-Version: 1.0\n"
