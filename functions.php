@@ -11,6 +11,10 @@ load_theme_textdomain('simplish', 'wp-content/themes/' . $dir . '/languages');
 /* Width set equal to width in style.css:/^#content */
 $GLOBALS['content_width'] = 662;
 
+/* Menu - wp_nav_menu() in sidebar.php - new in WP3. */
+if(function_exists('register_nav_menus'))
+	register_nav_menus( array('sidebar' => __( 'Sidebar Menu', 'simplish' ), ) );
+
 /* Widget Sidebar */
 if(function_exists('register_sidebars'))
 	register_sidebar();
