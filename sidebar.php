@@ -5,28 +5,15 @@
 				<?php get_search_form(); ?>
 				</li>
 				
-				<li><h2 class="sidebar-title"><?php _e('Pages', 'simplish') ?></h2>
-				<?php
-				$args = array(
-						'echo' => true,
-						'link_before' => '',
-						'link_after' => '',
-						'menu_class' => 'pagenav',
-						'show_home' => '0',
-						'sort_column' => 'menu_order',
-						);
-				wp_page_menu($args);
-				?>
-				</li>
-
-					<!-- What heading is general enough for custom menu? The widget title OTOH is dynamic. -->
+				<!-- What heading is general enough for possibly custom menu? The widget title OTOH is dynamic. -->
 				<li><h2 class="sidebar-title"><?php _e('Navigation', 'simplish') ?></h2>
-					<?php wp_nav_menu( array(
-											 'sort_column' => 'menu_order',
-											 'container_class' => 'menu-header',
-											 'theme_location' => 'sidebar'
-											 )
-									  );
+					<?php /* wp_nav_menu falls back to wp_page_menu if user has no menu setup/assigned. */
+					wp_nav_menu( array(
+										 'sort_column' => 'menu_order',
+										 'container_class' => 'pagenav',
+										 'theme_location' => 'sidebar'
+										 )
+								  );
 					?>
 				</li>
 
