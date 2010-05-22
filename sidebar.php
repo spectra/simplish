@@ -19,6 +19,17 @@
 				?>
 				</li>
 
+					<!-- What heading is general enough for custom menu? The widget title OTOH is dynamic. -->
+				<li><h2 class="sidebar-title"><?php _e('Navigation', 'simplish') ?></h2>
+					<?php wp_nav_menu( array(
+											 'sort_column' => 'menu_order',
+											 'container_class' => 'menu-header',
+											 'theme_location' => 'sidebar'
+											 )
+									  );
+					?>
+				</li>
+
 				<li id="categories"><h2 class="sidebar-title"><?php _e('Categories', 'simplish') ?></h2>
 					<ul>
 					<?php wp_list_categories('sort_column=name&optioncount=0&hierarchical=1&title_li='); ?>
