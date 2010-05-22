@@ -18,7 +18,7 @@
 <?php elseif(is_tag()): ?>
 				<h1 class="archive-title"><?php _e('Tag:', 'simplish') ?> <span class="archive-subtitle"><?php single_tag_title(); ?></span></h1>
 <?php elseif(isset($_GET['paged']) && !empty($_GET['paged'])): ?>
-				<h1 class="archive-title"><?php _e('Archives', 'simplish') ?> <?php printf(__('%1$s Archives', 'simplish'), wp_specialchars(get_the_title(), 'double') ) ?></h1>
+				<h1 class="archive-title"><?php _e('Archives', 'simplish') ?> <?php printf(__('%1$s Archives', 'simplish'), esc_html(get_the_title())) ?></h1>
 <?php endif; ?>
 <?php rewind_posts() ?>
 
