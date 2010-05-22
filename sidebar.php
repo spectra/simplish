@@ -5,7 +5,6 @@
 				<?php get_search_form(); ?>
 				</li>
 				
-				<!-- What heading is general enough for possibly custom menu? The widget title OTOH is dynamic. -->
 				<li><h2 class="sidebar-title"><?php _e('Navigation', 'simplish') ?></h2>
 					<?php /* wp_nav_menu falls back to wp_page_menu if user has no menu setup/assigned. */
 					wp_nav_menu( array(
