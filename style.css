@@ -553,7 +553,7 @@ span.caps{
 	background: #000 none repeat scroll 0 0;
 	color: #fff;
 }
-/* Sitemap template restyles.entry-title as list item. */
+/* Sitemap template restyles .entry-title as list item. */
 #sitemap-list .hentry{
 	margin: 0 0 0 1em;
 }
