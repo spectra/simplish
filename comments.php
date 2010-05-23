@@ -90,7 +90,7 @@
 
 	<p>
 		<?php _e('Comments', 'simplish'); ?><br />
-		<textarea name="comment" id="comment" cols="100%" rows="20" tabindex="4"></textarea></p>
+		<textarea name="comment" id="comment" rows="20" tabindex="4"></textarea></p>
 	<p>
 		<input name="submit" type="submit" id="submit" tabindex="5" value="<?php _e('Submit', 'simplish'); ?>" />
 		<?php comment_id_fields(); ?>
