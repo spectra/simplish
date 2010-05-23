@@ -1,6 +1,6 @@
 		<div id="sidebar">
 			<ul>
-			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
+			<?php if (!dynamic_sidebar(1)): //If no widget sidebar, output default sidebar. ?>
 				<li id="search" class="search">
 				<?php get_search_form(); ?>
 				</li>
