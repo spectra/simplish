@@ -13,18 +13,10 @@
 	<?php if('open' == $post->comment_status) : /* Comments open */ ?>
 		<?php if(get_option('comment_registration') && !$user_ID): ?>
 <p><a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>"><?php _e('Log in'); ?></a> <?php _e('to respond'); ?>
-			<?php if('open' == $post->ping_status): /* Trackbacks open */ ?>
-| <a href="<?php trackback_url(true); ?>" rel="trackback"><?php _e('Trackback', 'simplish'); ?></a>
-			<?php endif; ?>
-			</p>
+</p>
 		<?php else: ?>
-<p><a href="#respond"><?php _e('Respond', 'simplish'); ?></a>
-			<?php if('open' == $post->ping_status): /* Trackbacks open */ ?>
-				| <a href="<?php trackback_url(true); ?>" rel="trackback"><?php _e('Trackback', 'simplish'); ?></a>
-			<?php endif; ?>
-			</p>
+<p><a href="#respond"><?php _e('Respond', 'simplish'); ?></a></p>
 		<?php endif; ?>
-		
 	<?php else: /* Comments closed. */ ?>
 			<p class="nocomments"><?php _e('Closed', 'simplish'); ?></p>
 	<?php endif; ?>
