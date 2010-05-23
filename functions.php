@@ -20,6 +20,9 @@ if(!function_exists('sp_setup')){
 		 * $path relative from / of URL space.
 		 */
 		load_theme_textdomain( 'simplish', TEMPLATEPATH . '/languages' );
+		
+		/* Generate default RSS/Atom feed links in output head. */
+		add_theme_support('automatic-feed-links');
 
 		/* Menu - wp_nav_menu() in sidebar.php - new in WP3. */
 		register_nav_menus( array('sidebar' => __( 'Sidebar Menu', 'simplish' ), ) );
