@@ -7,4 +7,3 @@
 <?php endif; ?>
 					<li><a href="<?php comments_link(); ?>-heading"><?php comments_number(__('0 Comments', 'simplish'), __('1 Comment', 'simplish'), __('% Comments', 'simplish')); ?></a> &ndash; <?php post_comments_feed_link(__('Feed', 'simplish')); ?></li>
 				</ul>
-<!-- <?php trackback_rdf(); ?> -->
