@@ -505,6 +505,33 @@ span.caps{
 	padding: 1em 4px 0 5px;
 }
 
+/* WordPress image gallery */
+.gallery{
+	margin: auto;
+}
+.gallery .gallery-item{
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.gallery .gallery-caption{
+	font-size: 0.8em;
+	margin: 0 0 12px;
+}
+.gallery dl{
+	margin: 0;
+}
+.gallery img{
+	border: 8px solid #ddd;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.gallery br+br{
+	display: none;
+} 
+
 /* Shared between search and sitemap templates archive listings. */
 .archive-index .entry-title a:link,
 .archive-index .entry-title a:visited{

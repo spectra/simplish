@@ -4,9 +4,6 @@
 if(!isset($content_width))
 	$content_width = 662;
 
-/* Add setup to the after_setup_theme hook. It fires before the theme init hook. */
-add_action('after_setup_theme', 'sp_setup');
-
 /* Only define it if some child theme hasn't already */
 if(!function_exists('sp_setup')){
 	/* 
@@ -28,14 +25,26 @@ if(!function_exists('sp_setup')){
 		register_nav_menus( array('sidebar' => __( 'Sidebar Menu', 'simplish' ), ) );
 	}
 }
+/* The after_setup_theme hook fires before the theme init hook. */
+add_action('after_setup_theme', 'sp_setup');
 
 /* Widget Sidebar */
-add_action('widgets_init', 'sp_widgets_init');
-
 function sp_widgets_init()
 {
 	register_sidebar();
 }
+add_action('widgets_init', 'sp_widgets_init');
+
+/*
+ * Zero the default gallery shortcode style, so it isn't injected into output body.
+ * Simplish gallery styles are in style.css.
+ *
+ * @return string The emptied gallery style filter
+ */
+function sp_zero_gallery_css($css){
+	return preg_replace("#<style type='text/css'>(.*?)</style>#s", '', $css);
+}
+add_filter('gallery_style', 'sp_zero_gallery_css');	
 
 /*
  * hCard producers based on blog.txt,
