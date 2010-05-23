@@ -528,9 +528,6 @@ span.caps{
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 }
-.gallery br+br{
-	display: none;
-} 
 
 /* Shared between search and sitemap templates archive listings. */
 .archive-index .entry-title a:link,
