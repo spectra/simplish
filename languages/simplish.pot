@@ -1,13 +1,14 @@
 # SIMPLISH LOCALIZABLE STRINGS
 # Copyright (C) 2010 UTOPIAN.NET
 # This file is distributed under the same license as the SIMPLISH package.
+# JOSH WOOD <JOSH@UTOPIAN.NET>, 2010.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 03:06-0700\n"
+"POT-Creation-Date: 2010-06-17 16:04-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <TEAM@ADDRESS>\n"
@@ -55,7 +56,7 @@ msgstr ""
 msgid "Tag:"
 msgstr ""
 
-#: archive.php:21 sidebar.php:28
+#: archive.php:21 sidebar.php:25
 msgid "Archives"
 msgstr ""
 
@@ -100,72 +101,68 @@ msgstr ""
 msgid "to respond"
 msgstr ""
 
-#: comments.php:17 comments.php:23
-msgid "Trackback"
-msgstr ""
-
-#: comments.php:21 comments.php:49
+#: comments.php:18 comments.php:41
 msgid "Respond"
 msgstr ""
 
-#: comments.php:29
+#: comments.php:21
 msgid "Closed"
 msgstr ""
 
-#: comments.php:37
+#: comments.php:29
 msgid "&laquo; Older Comments"
 msgstr ""
 
-#: comments.php:38
+#: comments.php:30
 msgid "Newer Comments &raquo;"
 msgstr ""
 
-#: comments.php:49
+#: comments.php:41
 #, php-format
 msgid "Respond to %s"
 msgstr ""
 
-#: comments.php:58 comments.php:92
+#: comments.php:50 comments.php:84
 msgid "Comments"
 msgstr ""
 
-#: comments.php:62
+#: comments.php:54
 msgid "Logged in as"
 msgstr ""
 
-#: comments.php:63
+#: comments.php:55
 msgid "Log out of this account"
 msgstr ""
 
-#: comments.php:63
+#: comments.php:55
 msgid "Log out"
 msgstr ""
 
-#: comments.php:69
+#: comments.php:61
 msgid "Name:"
 msgstr ""
 
-#: comments.php:69 comments.php:75
+#: comments.php:61 comments.php:67
 msgid "(required)"
 msgstr ""
 
-#: comments.php:75
+#: comments.php:67
 msgid "Email:"
 msgstr ""
 
-#: comments.php:77
+#: comments.php:69
 msgid "(will not be published)"
 msgstr ""
 
-#: comments.php:82
+#: comments.php:74
 msgid "URL:"
 msgstr ""
 
-#: comments.php:89
+#: comments.php:81
 msgid "You can use these tags:"
 msgstr ""
 
-#: comments.php:95
+#: comments.php:87
 msgid "Submit"
 msgstr ""
 
@@ -181,19 +178,23 @@ msgstr ""
 msgid "from"
 msgstr ""
 
-#: functions.php:50
+#: functions.php:25
+msgid "Sidebar Menu"
+msgstr ""
+
+#: functions.php:83
 msgid "More posts by"
 msgstr ""
 
-#: functions.php:77
+#: functions.php:113
 msgid "home page"
 msgstr ""
 
-#: header.php:6
+#: header.php:5
 msgid "Error 404 - Not Found"
 msgstr ""
 
-#: header.php:6
+#: header.php:5
 msgid "Search"
 msgstr ""
 
@@ -239,34 +240,34 @@ msgid "No results for"
 msgstr ""
 
 #: sidebar.php:8
-msgid "Pages"
+msgid "Navigation"
 msgstr ""
 
-#: sidebar.php:22
+#: sidebar.php:19
 msgid "Categories"
 msgstr ""
 
-#: sidebar.php:36
+#: sidebar.php:33
 msgid "Syndicate"
 msgstr ""
 
-#: sidebar.php:39
+#: sidebar.php:36
 msgid "Articles RSS"
 msgstr ""
 
-#: sidebar.php:39
+#: sidebar.php:36
 msgid "Articles Feed"
 msgstr ""
 
-#: sidebar.php:41
+#: sidebar.php:38
 msgid "Comments RSS"
 msgstr ""
 
-#: sidebar.php:41
+#: sidebar.php:38
 msgid "Comments Feed"
 msgstr ""
 
-#: sidebar.php:45
+#: sidebar.php:42
 msgid "Meta"
 msgstr ""
 
