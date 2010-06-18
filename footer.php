@@ -1,7 +1,7 @@
 		<br class="clear" />
 	</div><!--// #page -->
 
-	<div id="footer">
+	<div id="footer" role="contentinfo">
 	<hr />
 	<p><a href="<?php bloginfo('url'); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
 	<ul>

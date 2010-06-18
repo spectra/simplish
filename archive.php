@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div id="content">
+	<div id="content" role="main">
 
 <?php the_post() ?>
 <?php if(is_day()): ?>

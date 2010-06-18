@@ -6,7 +6,7 @@ Template Name: Page with Comments
 
 <?php get_header(); ?>
 
-		<div id="content" class="hfeed">
+		<div id="content" class="hfeed" role="main">
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
