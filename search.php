@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-		<div id="content" class="hfeed search-results archive-index">
+		<div id="content" class="hfeed search-results archive-index" role="main">
 
 		<?php if (have_posts()) : ?>
 

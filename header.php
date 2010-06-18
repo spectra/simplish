@@ -23,7 +23,7 @@ endif;
 
 <body>
 <div id="container">
-	<div id="header">
+	<div id="header" role="banner">
 		<h1><span><a href="<?php bloginfo('url'); ?>" rel="home"><?php bloginfo('name'); ?></a></span></h1>
 		<h2><?php bloginfo('description'); ?></h2>
 	</div>

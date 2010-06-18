@@ -6,7 +6,7 @@ Template Name: Links
 
 <?php get_header(); ?>
 
-<div id="content">
+<div id="content" role="main">
 
 <h2 class="page-title"><?php the_title() ?></h2>
 

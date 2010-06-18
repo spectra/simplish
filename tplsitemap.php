@@ -5,7 +5,7 @@ Template Name: Sitemap
 ?>
 <?php get_header() ?>
 
-			<div id="content" class="archive-index">
+			<div id="content" class="archive-index" role="main">
 
 <?php the_post() ?>
 

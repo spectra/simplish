@@ -1,11 +1,11 @@
-		<div id="sidebar">
+		<div id="sidebar" role="complementary">
 			<ul>
 			<?php if (!dynamic_sidebar(1)): //If no widget sidebar, output default sidebar. ?>
 				<li id="search" class="search">
 				<?php get_search_form(); ?>
 				</li>
 				
-				<li><h2 class="sidebar-title"><?php _e('Navigation', 'simplish') ?></h2>
+				<li role="navigation"><h2 class="sidebar-title"><?php _e('Navigation', 'simplish') ?></h2>
 					<?php /* wp_nav_menu falls back to wp_page_menu if user has no menu setup/assigned. */
 					wp_nav_menu( array(
 										 'sort_column' => 'menu_order',
