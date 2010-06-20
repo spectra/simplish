@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 03:06-0700\n"
-"PO-Revision-Date: 2009-4-30 11:06-0000\n"
+"POT-Creation-Date: 2010-06-17 16:04-0700\n"
+"PO-Revision-Date: 2010-06-20 11:37+0200\n"
 "Last-Translator: Demetris Kikizas <op111.net@gmail.com>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgid "Tag:"
 msgstr "Ετικέτα:"
 
 #: archive.php:21
-#: sidebar.php:28
+#: sidebar.php:25
 msgid "Archives"
 msgstr "Αρχείο"
 
@@ -105,76 +105,71 @@ msgstr "Σύνδεση"
 msgid "to respond"
 msgstr "για να απαντήσετε"
 
-#: comments.php:17
-#: comments.php:23
-msgid "Trackback"
-msgstr "Παράθεση"
-
-#: comments.php:21
-#: comments.php:49
+#: comments.php:18
+#: comments.php:41
 msgid "Respond"
 msgstr "Απάντηση"
 
-#: comments.php:29
+#: comments.php:21
 msgid "Closed"
 msgstr "Κλειστό"
 
-#: comments.php:37
+#: comments.php:29
 msgid "&laquo; Older Comments"
-msgstr "« Προηγούμενα σχόλια"
+msgstr "&larr; Προηγούμενα σχόλια"
 
-#: comments.php:38
+#: comments.php:30
 msgid "Newer Comments &raquo;"
-msgstr "Επόμενα σχόλια »"
+msgstr "Επόμενα σχόλια &rarr;"
 
-#: comments.php:49
+#: comments.php:41
 #, php-format
 msgid "Respond to %s"
 msgstr "Απάντηση στο %s"
 
-#: comments.php:58
-#: comments.php:92
+#: comments.php:50
+#: comments.php:84
 msgid "Comments"
 msgstr "Σχόλια"
 
-#: comments.php:62
+#: comments.php:54
 msgid "Logged in as"
 msgstr "Έχετε συνδεθεί ως"
 
-#: comments.php:63
+#: comments.php:55
 msgid "Log out of this account"
 msgstr "Αποσυνδεθείτε από τον λογαριασμό"
 
-#: comments.php:63
+#: comments.php:55
 msgid "Log out"
 msgstr "Αποσύνδεση"
 
-#: comments.php:69
+#: comments.php:61
 msgid "Name:"
 msgstr "Όνομα:"
 
-#: comments.php:69
-#: comments.php:75
+#: comments.php:61
+#: comments.php:67
 msgid "(required)"
 msgstr "(υποχρεωτικό)"
 
-#: comments.php:75
+#: comments.php:67
 msgid "Email:"
 msgstr "E-mail:"
 
-#: comments.php:77
+#: comments.php:69
 msgid "(will not be published)"
 msgstr "(δεν δημοσιεύεται)"
 
-#: comments.php:82
+#: comments.php:74
 msgid "URL:"
 msgstr "URL:"
 
-#: comments.php:89
+#: comments.php:81
 msgid "You can use these tags:"
-msgstr "Επιτρέπονται οι εξής ετικέτες:"
+msgstr "Επιτρέπονται τα εξής στοιχεία:"
 
-#: comments.php:95
+#: comments.php:87
 msgid "Submit"
 msgstr "Υποβολή"
 
@@ -190,19 +185,23 @@ msgstr "Θέμα Simplish"
 msgid "from"
 msgstr "από"
 
-#: functions.php:50
+#: functions.php:25
+msgid "Sidebar Menu"
+msgstr "Πλευρικό μενού"
+
+#: functions.php:83
 msgid "More posts by"
 msgstr "Περισσότερα άρθρα της/του"
 
-#: functions.php:77
+#: functions.php:113
 msgid "home page"
-msgstr "Αρχική σελίδα"
+msgstr "Αρχική"
 
-#: header.php:6
+#: header.php:5
 msgid "Error 404 - Not Found"
 msgstr "Σφάλμα 404:  Η σελίδα δεν βρέθηκε."
 
-#: header.php:6
+#: header.php:5
 msgid "Search"
 msgstr "Αναζήτηση"
 
@@ -221,7 +220,7 @@ msgstr "Κανάλι σχολίων"
 
 #: image.php:35
 msgid "Sorry, no attachments matched your criteria."
-msgstr "Δεν βρέθηκαν συνημμένα με τους όρους αυτούς."
+msgstr "Κανένα συνημμένο με τους όρους αυτούς."
 
 #: page.php:11
 #: single.php:12
@@ -239,11 +238,11 @@ msgstr "Επεξεργασία&hellip;"
 
 #: prevnextnav.php:2
 msgid "&laquo; Previous"
-msgstr "« Προηγούμενα"
+msgstr "&larr; Προηγούμενα"
 
 #: prevnextnav.php:3
 msgid "Next &raquo;"
-msgstr "Επόμενα »"
+msgstr "Επόμενα &rarr;"
 
 #: search.php:7
 msgid "Results for"
@@ -251,37 +250,37 @@ msgstr "Αποτελέσματα για"
 
 #: search.php:28
 msgid "No results for"
-msgstr "Δεν βρέθηκαν συνημμένα με τους όρους που θέσατε."
+msgstr "Κανένα αποτέλεσμα για"
 
 #: sidebar.php:8
-msgid "Pages"
-msgstr "Σελίδες"
+msgid "Navigation"
+msgstr "Μενού"
 
-#: sidebar.php:22
+#: sidebar.php:19
 msgid "Categories"
 msgstr "Κατηγορίες"
 
-#: sidebar.php:36
+#: sidebar.php:33
 msgid "Syndicate"
 msgstr "RSS"
 
-#: sidebar.php:39
+#: sidebar.php:36
 msgid "Articles RSS"
 msgstr "– Όλα τα άρθρα μέσω RSS"
 
-#: sidebar.php:39
+#: sidebar.php:36
 msgid "Articles Feed"
 msgstr "Κανάλι άρθρων"
 
-#: sidebar.php:41
+#: sidebar.php:38
 msgid "Comments RSS"
 msgstr "– Όλα τα σχόλια μέσω RSS"
 
-#: sidebar.php:41
+#: sidebar.php:38
 msgid "Comments Feed"
 msgstr "Κανάλι σχολίων"
 
-#: sidebar.php:45
+#: sidebar.php:42
 msgid "Meta"
 msgstr "Μεταστοιχεία"
 
@@ -317,6 +316,11 @@ msgstr "Μόνιμος σύνδεσμος του %s"
 msgid "Pages: "
 msgstr "Σελίδες: "
 
+#~ msgid "Trackback"
+#~ msgstr "Παράθεση"
+
+#~ msgid "Pages"
+#~ msgstr "Σελίδες"
+
 #~ msgid "<small>(required)</small>"
 #~ msgstr "<small>(υποχρεωτικό)</small>"
-
