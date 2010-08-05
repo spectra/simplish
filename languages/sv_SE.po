@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 03:06-0700\n"
-"PO-Revision-Date: 2009-10-21 05:47-0000\n"
-"Last-Translator: Clement Durand <clement@durand.se>\n"
+"POT-Creation-Date: 2010-06-17 16:04-0700\n"
+"PO-Revision-Date: 2010-07-24 00:46-0800\n"
+"Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: http://clement.durand.se <clement@durand.se>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,112 +13,110 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: \n"
-"X-Poedit-Bookmarks: \n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Textdomain-Support: yes"
 
+# @ simplish
 #: 404.php:4
-#@ simplish
 msgid "Error 404 &ndash; Not Found"
 msgstr "Fel 404 &ndash; Hittades ej"
 
+# @ simplish
 #: archive.php:7
-#@ simplish
 msgid "Day:"
 msgstr "Dag:"
 
+# @ simplish
 #: archive.php:7
-#@ simplish
 msgid "l, F j\\, Y"
 msgstr "l, F j\\, Y"
 
+# @ simplish
 #: archive.php:9
-#@ simplish
 msgid "Month:"
 msgstr "Månad:"
 
+# @ simplish
 #: archive.php:9
-#@ simplish
 msgid "F Y"
 msgstr "F Y"
 
+# @ simplish
 #: archive.php:11
-#@ simplish
 msgid "Year:"
 msgstr "År:"
 
+# @ simplish
 #: archive.php:11
-#@ simplish
 msgid "Y"
 msgstr "Y"
 
+# @ simplish
 #: archive.php:13
-#@ simplish
 msgid "Author:"
 msgstr "Författare:"
 
+# @ simplish
 #: archive.php:17
 #: hentrymeta.php:3
-#@ simplish
 msgid "Category:"
 msgstr "Kategori:"
 
+# @ simplish
 #: archive.php:19
-#@ simplish
 msgid "Tag:"
 msgstr "Etikett:"
 
+# @ simplish
 #: archive.php:21
-#: sidebar.php:28
-#@ simplish
+#: sidebar.php:25
 msgid "Archives"
 msgstr "Arkiv"
 
+# @ simplish
 #: archive.php:21
 #, php-format
-#@ simplish
 msgid "%1$s Archives"
 msgstr "%1$s Arkiv"
 
+# @ simplish
 #: archive.php:32
 #: index.php:12
-#@ simplish
 msgid "More&hellip;"
 msgstr "Mer&hellip;"
 
+# @ simplish
 #: archive.php:43
 #: index.php:23
-#@ simplish
 msgid "Not Found"
 msgstr "Hittades ej"
 
+# @ simplish
 #: comments.php:3
-#@ simplish
 msgid "Not labeled for individual sale."
 msgstr "Ej märkt för enskild försäljning."
 
+# @ simplish
 #: comments.php:12
 #: hentrymeta.php:8
-#@ simplish
 msgid "0 Comments"
 msgstr "0 kommentarer"
 
+# @ simplish
 #: comments.php:12
 #: hentrymeta.php:8
-#@ simplish
 msgid "1 Comment"
 msgstr "1 kommentar"
 
+# @ simplish
 #: comments.php:12
 #: hentrymeta.php:8
-#@ simplish
 msgid "% Comments"
 msgstr "% kommentarer"
 
+# @ simplish
 #: comments.php:12
-#@ simplish
 msgid "on"
 msgstr "till"
 
@@ -130,264 +128,261 @@ msgstr "Logga in"
 msgid "to respond"
 msgstr "för att svara"
 
-#: comments.php:17
-#: comments.php:23
-#@ simplish
-msgid "Trackback"
-msgstr "Trackback"
-
-#: comments.php:21
-#: comments.php:49
-#@ simplish
+# @ simplish
+#: comments.php:18
+#: comments.php:41
 msgid "Respond"
 msgstr "Kommentera"
 
-#: comments.php:29
-#@ simplish
+# @ simplish
+#: comments.php:21
 msgid "Closed"
 msgstr "Stängd"
 
-#: comments.php:37
-#@ simplish
+# @ simplish
+#: comments.php:29
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Äldre kommentarer"
 
-#: comments.php:38
-#@ simplish
+# @ simplish
+#: comments.php:30
 msgid "Newer Comments &raquo;"
 msgstr "Nyare kommentarer &raquo;"
 
-#: comments.php:49
+# @ simplish
+#: comments.php:41
 #, php-format
-#@ simplish
 msgid "Respond to %s"
 msgstr "Svara %s"
 
-#: comments.php:58
-#: comments.php:92
-#@ simplish
+# @ simplish
+#: comments.php:50
+#: comments.php:84
 msgid "Comments"
 msgstr "Kommentarer"
 
-#: comments.php:62
-#@ simplish
+# @ simplish
+#: comments.php:54
 msgid "Logged in as"
 msgstr "Inloggad som"
 
-#: comments.php:63
-#@ simplish
+# @ simplish
+#: comments.php:55
 msgid "Log out of this account"
 msgstr "Logga ut från detta konto"
 
-#: comments.php:63
-#@ simplish
+# @ simplish
+#: comments.php:55
 msgid "Log out"
 msgstr "Logga ut"
 
-#: comments.php:69
-#@ simplish
+# @ simplish
+#: comments.php:61
 msgid "Name:"
 msgstr "Namn:"
 
-#: comments.php:69
-#: comments.php:75
-#@ simplish
+# @ simplish
+#: comments.php:61
+#: comments.php:67
 msgid "(required)"
 msgstr "(obligatorisk)"
 
-#: comments.php:75
-#@ simplish
+# @ simplish
+#: comments.php:67
 msgid "Email:"
 msgstr "Epost:"
 
-#: comments.php:77
-#@ simplish
+# @ simplish
+#: comments.php:69
 msgid "(will not be published)"
 msgstr "(kommer inte publiceras)"
 
-#: comments.php:82
-#@ simplish
+# @ simplish
+#: comments.php:74
 msgid "URL:"
 msgstr "Länk:"
 
-#: comments.php:89
-#@ simplish
+# @ simplish
+#: comments.php:81
 msgid "You can use these tags:"
 msgstr "Du kan använda dessa etiketter:"
 
-#: comments.php:95
-#@ simplish
+# @ simplish
+#: comments.php:87
 msgid "Submit"
 msgstr "Skicka"
 
+# @ simplish
 #: footer.php:8
-#@ simplish
 msgid "WordPress Engine"
 msgstr "WordPress-motor"
 
+# @ simplish
 #: footer.php:10
-#@ simplish
 msgid "Simplish Style"
 msgstr "Simplish-stil"
 
+# @ simplish
 #: footer.php:11
-#@ simplish
 msgid "from"
 msgstr "från"
 
-#: functions.php:50
-#@ simplish
+#: functions.php:25
+msgid "Sidebar Menu"
+msgstr ""
+
+# @ simplish
+#: functions.php:83
 msgid "More posts by"
 msgstr "Flera inlägg av"
 
-#: functions.php:77
-#@ simplish
+# @ simplish
+#: functions.php:113
 msgid "home page"
 msgstr "hemsida"
 
-#: header.php:6
-#@ simplish
+# @ simplish
+#: header.php:5
 msgid "Error 404 - Not Found"
 msgstr "Fel 404 - Hittades ej"
 
-#: header.php:6
-#@ simplish
+# @ simplish
+#: header.php:5
 msgid "Search"
 msgstr "Sök"
 
+# @ simplish
 #: hentryhead.php:9
 #: image.php:11
-#@ simplish
 msgid "Posted by"
 msgstr "Skriven av"
 
+# @ simplish
 #: hentrymeta.php:6
-#@ simplish
 msgid "Tags: "
 msgstr "Etiketter:"
 
+# @ simplish
 #: hentrymeta.php:8
-#@ simplish
 msgid "Feed"
 msgstr "Prenumerera"
 
+# @ simplish
 #: image.php:35
-#@ simplish
 msgid "Sorry, no attachments matched your criteria."
 msgstr "Tyvärr, inga bilagor stämde med dina kriterier..."
 
+# @ simplish
 #: page.php:11
 #: single.php:12
 #: tplpgcomm.php:17
-#@ simplish
 msgid "Pages:"
 msgstr "Sidor:"
 
+# @ simplish
 #: page.php:17
 #: single.php:14
 #: tplarchives.php:31
 #: tpllinks.php:17
 #: tplpgcomm.php:23
-#@ simplish
 msgid "Edit&hellip;"
 msgstr "Redigera&hellip;"
 
+# @ simplish
 #: prevnextnav.php:2
-#@ simplish
 msgid "&laquo; Previous"
 msgstr "&laquo; Tidigare"
 
+# @ simplish
 #: prevnextnav.php:3
-#@ simplish
 msgid "Next &raquo;"
 msgstr "Senare &raquo;"
 
+# @ simplish
 #: search.php:7
-#@ simplish
 msgid "Results for"
 msgstr "Resultat för"
 
+# @ simplish
 #: search.php:28
-#@ simplish
 msgid "No results for"
 msgstr "Inga resultat för"
 
 #: sidebar.php:8
-#@ simplish
-msgid "Pages"
-msgstr "Sidor"
+msgid "Navigation"
+msgstr ""
 
-#: sidebar.php:22
-#@ simplish
+# @ simplish
+#: sidebar.php:19
 msgid "Categories"
 msgstr "Kategorier"
 
-#: sidebar.php:36
-#@ simplish
+# @ simplish
+#: sidebar.php:33
 msgid "Syndicate"
 msgstr "Distribuera"
 
-#: sidebar.php:39
-#@ simplish
+# @ simplish
+#: sidebar.php:36
 msgid "Articles RSS"
 msgstr "Inlägg som RSS"
 
-#: sidebar.php:39
-#@ simplish
+# @ simplish
+#: sidebar.php:36
 msgid "Articles Feed"
 msgstr "Artikelprenumeration"
 
-#: sidebar.php:41
-#@ simplish
+# @ simplish
+#: sidebar.php:38
 msgid "Comments RSS"
 msgstr "Kommentarer som RSS"
 
-#: sidebar.php:41
-#@ simplish
+# @ simplish
+#: sidebar.php:38
 msgid "Comments Feed"
 msgstr "Kommentarsprenumeration"
 
-#: sidebar.php:45
-#@ simplish
+# @ simplish
+#: sidebar.php:42
 msgid "Meta"
 msgstr "Meta"
 
+# @ simplish
 #: tplarchives.php:14
 #: tplsitemap.php:52
-#@ simplish
 msgid "Archives by Category"
 msgstr "Arkiv efter kategori"
 
+# @ simplish
 #: tplarchives.php:20
 #: tplsitemap.php:46
-#@ simplish
 msgid "Archives by Month"
 msgstr "Arkiv efter månad"
 
+# @ simplish
 #: tplarchives.php:26
 #: tplsitemap.php:58
-#@ simplish
 msgid "Archives by Tag"
 msgstr "Arkiv efter etikett"
 
+# @ simplish
 #: tplsitemap.php:19
-#@ simplish
 msgid "All Pages"
 msgstr "Alla sidor"
 
+# @ simplish
 #: tplsitemap.php:35
-#@ simplish
 msgid "All Posts"
 msgstr "Alla inlägg"
 
+# @ simplish
 #: tplsitemap.php:40
 #, php-format
-#@ simplish
 msgid "Permalink to %s"
 msgstr "Länka permanent till %s"
 
+# @ simplish
 #: tplsitemap.php:63
-#@ simplish
 msgid "Pages: "
 msgstr "Sidor:"
 
