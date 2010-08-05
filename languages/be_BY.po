@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-29 03:06-0700\n"
-"PO-Revision-Date: 2010-05-02 23:26-0800\n"
+"POT-Creation-Date: 2010-06-17 16:04-0700\n"
+"PO-Revision-Date: 2010-07-24 00:45-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Marcis G. <by.marcis@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgid "Tag:"
 msgstr "Тэг:"
 
 #: archive.php:21
-#: sidebar.php:28
+#: sidebar.php:25
 msgid "Archives"
 msgstr "Архівы"
 
@@ -105,76 +105,71 @@ msgstr "Уваход"
 msgid "to respond"
 msgstr "для адказу"
 
-#: comments.php:17
-#: comments.php:23
-msgid "Trackback"
-msgstr "Трекбек"
-
-#: comments.php:21
-#: comments.php:49
+#: comments.php:18
+#: comments.php:41
 msgid "Respond"
 msgstr "Адказ"
 
-#: comments.php:29
+#: comments.php:21
 msgid "Closed"
 msgstr "Зачыніць"
 
-#: comments.php:37
+#: comments.php:29
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Старыя каментары"
 
-#: comments.php:38
+#: comments.php:30
 msgid "Newer Comments &raquo;"
 msgstr "Новыя каментары &raquo;"
 
-#: comments.php:49
+#: comments.php:41
 #, php-format
 msgid "Respond to %s"
 msgstr "Адказ на  %s"
 
-#: comments.php:58
-#: comments.php:92
+#: comments.php:50
+#: comments.php:84
 msgid "Comments"
 msgstr "Каментары"
 
-#: comments.php:62
+#: comments.php:54
 msgid "Logged in as"
 msgstr "Вы ўвайшлі як"
 
-#: comments.php:63
+#: comments.php:55
 msgid "Log out of this account"
 msgstr "Выйсце з гэтага акаўнта"
 
-#: comments.php:63
+#: comments.php:55
 msgid "Log out"
 msgstr "Выйсце"
 
-#: comments.php:69
+#: comments.php:61
 msgid "Name:"
 msgstr "Імя:"
 
-#: comments.php:69
-#: comments.php:75
+#: comments.php:61
+#: comments.php:67
 msgid "(required)"
 msgstr "(патрабуецца)"
 
-#: comments.php:75
+#: comments.php:67
 msgid "Email:"
 msgstr "Электронная пошта"
 
-#: comments.php:77
+#: comments.php:69
 msgid "(will not be published)"
 msgstr "(не публікуецца)"
 
-#: comments.php:82
+#: comments.php:74
 msgid "URL:"
 msgstr "URL:"
 
-#: comments.php:89
+#: comments.php:81
 msgid "You can use these tags:"
 msgstr "Вы можаце выкарыстоўваць гэтыя тэгі:"
 
-#: comments.php:95
+#: comments.php:87
 msgid "Submit"
 msgstr "Адпраўка"
 
@@ -190,19 +185,23 @@ msgstr "Стыль Simplish "
 msgid "from"
 msgstr "ад "
 
-#: functions.php:50
+#: functions.php:25
+msgid "Sidebar Menu"
+msgstr ""
+
+#: functions.php:83
 msgid "More posts by"
 msgstr "Больш пастоў ад"
 
-#: functions.php:77
+#: functions.php:113
 msgid "home page"
 msgstr "хатняя старонка"
 
-#: header.php:6
+#: header.php:5
 msgid "Error 404 - Not Found"
 msgstr "Памылка 404 - Старонка не знойдзена"
 
-#: header.php:6
+#: header.php:5
 msgid "Search"
 msgstr "Пошук"
 
@@ -254,34 +253,34 @@ msgid "No results for"
 msgstr "Няма вынікаў для "
 
 #: sidebar.php:8
-msgid "Pages"
-msgstr "Старонкі"
+msgid "Navigation"
+msgstr ""
 
-#: sidebar.php:22
+#: sidebar.php:19
 msgid "Categories"
 msgstr "Катэгорыі"
 
-#: sidebar.php:36
+#: sidebar.php:33
 msgid "Syndicate"
 msgstr "Синдикация"
 
-#: sidebar.php:39
+#: sidebar.php:36
 msgid "Articles RSS"
 msgstr "RSS артыкулаў"
 
-#: sidebar.php:39
+#: sidebar.php:36
 msgid "Articles Feed"
 msgstr "Стужка артыкулаў"
 
-#: sidebar.php:41
+#: sidebar.php:38
 msgid "Comments RSS"
 msgstr "RSS каментароў"
 
-#: sidebar.php:41
+#: sidebar.php:38
 msgid "Comments Feed"
 msgstr "Стужка каментароў"
 
-#: sidebar.php:45
+#: sidebar.php:42
 msgid "Meta"
 msgstr "Мета"
 
@@ -317,3 +316,8 @@ msgstr "Сталая спасылка на %s"
 msgid "Pages: "
 msgstr "Старонкі:"
 
+#~ msgid "Trackback"
+#~ msgstr "Трекбек"
+
+#~ msgid "Pages"
+#~ msgstr "Старонкі"
