@@ -1,0 +1,320 @@
+# SIMPLISH LOCALIZABLE STRINGS
+# Copyright (C) 2010 UTOPIAN.NET
+# This file is distributed under the same license as the SIMPLISH package.
+# JOSH WOOD <JOSH@UTOPIAN.NET>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Simplish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-17 16:04-0700\n"
+"PO-Revision-Date: 2010-07-27 14:25+0300\n"
+"Last-Translator: Sgibnev Michael <msgibnev@gmail.com>\n"
+"Language-Team: Sgibnev Michael <msgibnev@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:4
+msgid "Error 404 &ndash; Not Found"
+msgstr "Error 404 &ndash; Страница не найдена"
+
+#: archive.php:7
+msgid "Day:"
+msgstr "День:"
+
+#: archive.php:7
+msgid "l, F j\\, Y"
+msgstr "l, F j\\, Y"
+
+#: archive.php:9
+msgid "Month:"
+msgstr "Месяц:"
+
+#: archive.php:9
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:11
+msgid "Year:"
+msgstr "Год:"
+
+#: archive.php:11
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:13
+msgid "Author:"
+msgstr "Автор:"
+
+#: archive.php:17
+#: hentrymeta.php:3
+msgid "Category:"
+msgstr "Категория:"
+
+#: archive.php:19
+msgid "Tag:"
+msgstr "Тэг:"
+
+#: archive.php:21
+#: sidebar.php:25
+msgid "Archives"
+msgstr "Архивы"
+
+#: archive.php:21
+#, php-format
+msgid "%1$s Archives"
+msgstr "%1$s Архивов"
+
+#: archive.php:32
+#: index.php:12
+msgid "More&hellip;"
+msgstr "Далее&hellip;"
+
+#: archive.php:43
+#: index.php:23
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: comments.php:3
+msgid "Not labeled for individual sale."
+msgstr "Не помечен для индивидуальной продажи."
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "0 Comments"
+msgstr "Нет комментариев"
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+#: comments.php:12
+#: hentrymeta.php:8
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: comments.php:12
+msgid "on"
+msgstr "в"
+
+#: comments.php:15
+msgid "Log in"
+msgstr "Войти"
+
+#: comments.php:15
+msgid "to respond"
+msgstr "в ответ"
+
+#: comments.php:18
+#: comments.php:41
+msgid "Respond"
+msgstr "Ответ"
+
+#: comments.php:21
+msgid "Closed"
+msgstr "Закрыто"
+
+#: comments.php:29
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Старые комментарии"
+
+#: comments.php:30
+msgid "Newer Comments &raquo;"
+msgstr "Новые комментарии &raquo;"
+
+#: comments.php:41
+#, php-format
+msgid "Respond to %s"
+msgstr "Ответов на %s"
+
+#: comments.php:50
+#: comments.php:84
+msgid "Comments"
+msgstr "Комментарии"
+
+#: comments.php:54
+msgid "Logged in as"
+msgstr "Вы известны как"
+
+#: comments.php:55
+msgid "Log out of this account"
+msgstr "Выйти из этого аккаунта"
+
+#: comments.php:55
+msgid "Log out"
+msgstr "Выйти"
+
+#: comments.php:61
+msgid "Name:"
+msgstr "Имя:"
+
+#: comments.php:61
+#: comments.php:67
+msgid "(required)"
+msgstr "(обязательно)"
+
+#: comments.php:67
+msgid "Email:"
+msgstr "Email:"
+
+#: comments.php:69
+msgid "(will not be published)"
+msgstr "(не отображается)"
+
+#: comments.php:74
+msgid "URL:"
+msgstr "URL:"
+
+#: comments.php:81
+msgid "You can use these tags:"
+msgstr "Вы можете использовать следующие тэги:"
+
+#: comments.php:87
+msgid "Submit"
+msgstr "Отправить"
+
+#: footer.php:8
+msgid "WordPress Engine"
+msgstr "WordPress Engine"
+
+#: footer.php:10
+msgid "Simplish Style"
+msgstr "Simplish Style"
+
+#: footer.php:11
+msgid "from"
+msgstr "от"
+
+#: functions.php:25
+msgid "Sidebar Menu"
+msgstr "Боковое меню"
+
+#: functions.php:83
+msgid "More posts by"
+msgstr "Больше постов от"
+
+#: functions.php:113
+msgid "home page"
+msgstr "домашняя страница"
+
+#: header.php:5
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Не найдено"
+
+#: header.php:5
+msgid "Search"
+msgstr "Поиск"
+
+#: hentryhead.php:9
+#: image.php:11
+msgid "Posted by"
+msgstr "Опубликовано"
+
+#: hentrymeta.php:6
+msgid "Tags: "
+msgstr "Тэги:"
+
+#: hentrymeta.php:8
+msgid "Feed"
+msgstr "Отслеживать"
+
+#: image.php:35
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Простите, нет файлов, соответствующих заданному критерию."
+
+#: page.php:11
+#: single.php:12
+#: tplpgcomm.php:17
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: page.php:17
+#: single.php:14
+#: tplarchives.php:31
+#: tpllinks.php:17
+#: tplpgcomm.php:23
+msgid "Edit&hellip;"
+msgstr "Редактировать&hellip;"
+
+#: prevnextnav.php:2
+msgid "&laquo; Previous"
+msgstr "&laquo; Предыдущая"
+
+#: prevnextnav.php:3
+msgid "Next &raquo;"
+msgstr "Следующая &raquo;"
+
+#: search.php:7
+msgid "Results for"
+msgstr "Результатов для"
+
+#: search.php:28
+msgid "No results for"
+msgstr "Нет результатов для"
+
+#: sidebar.php:8
+msgid "Navigation"
+msgstr "Навигация"
+
+#: sidebar.php:19
+msgid "Categories"
+msgstr "Категорий"
+
+#: sidebar.php:33
+msgid "Syndicate"
+msgstr "Объединений"
+
+#: sidebar.php:36
+msgid "Articles RSS"
+msgstr "Статей в RSS"
+
+#: sidebar.php:36
+msgid "Articles Feed"
+msgstr "Отслеживать статью"
+
+#: sidebar.php:38
+msgid "Comments RSS"
+msgstr "Комментариев в RSS"
+
+#: sidebar.php:38
+msgid "Comments Feed"
+msgstr "Отслеживать комментарии"
+
+#: sidebar.php:42
+msgid "Meta"
+msgstr "Мета"
+
+#: tplarchives.php:14
+#: tplsitemap.php:52
+msgid "Archives by Category"
+msgstr "Архивы по категориям"
+
+#: tplarchives.php:20
+#: tplsitemap.php:46
+msgid "Archives by Month"
+msgstr "Архивы по месяцам"
+
+#: tplarchives.php:26
+#: tplsitemap.php:58
+msgid "Archives by Tag"
+msgstr "Архивы по тэгам"
+
+#: tplsitemap.php:19
+msgid "All Pages"
+msgstr "Всего страниц"
+
+#: tplsitemap.php:35
+msgid "All Posts"
+msgstr "Всего постов"
+
+#: tplsitemap.php:40
+#, php-format
+msgid "Permalink to %s"
+msgstr "Ссылок  %s"
+
+#: tplsitemap.php:63
+msgid "Pages: "
+msgstr "Страниц:"
+
