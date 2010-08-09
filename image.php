@@ -25,7 +25,7 @@
 				</div>
 				<br class="clear" />
 			</div>
-<?php get_template_part( 'hentrymeta' ) ?>
+<?php get_template_part('hentrymeta') ?>
 		</div>
 
 	<?php comments_template(); ?>
