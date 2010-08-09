@@ -274,10 +274,13 @@ br.downpad{
 .meta a:hover, .meta a:active{
 	color: #fff;
 }
-#comments-heading{
+.nocomments{
+	display: none;
+}
+#comments{
 	clear: both;
 }
-ol.comments{
+ol.commentlist{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
