@@ -16,6 +16,8 @@
 
 			<?php edit_post_link(__('Edit&hellip;', 'simplish'),'<p class="admin-edit">&#91; ',' &#93;</p>') ?>
 
+			<?php comments_template(); ?>
+
 		</div>
 
 <?php get_sidebar(); ?>
