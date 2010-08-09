@@ -5,5 +5,5 @@
 <?php if(get_the_tags() != ''): ?>
 					<li class="tags"><?php the_tags(__('Tags: ', 'simplish')); ?></li>
 <?php endif; ?>
-					<li><a href="<?php comments_link(); ?>-heading"><?php comments_number(__('0 Comments', 'simplish'), __('1 Comment', 'simplish'), __('% Comments', 'simplish')); ?></a> &ndash; <?php post_comments_feed_link(__('Feed', 'simplish')); ?></li>
+					<li><a href="<?php comments_link(); ?>"><?php comments_number(__('0 Comments', 'simplish'), __('1 Comment', 'simplish'), __('% Comments', 'simplish')); ?></a> &ndash; <?php post_comments_feed_link(__('Feed', 'simplish')); ?></li>
 				</ul>
