@@ -50,28 +50,6 @@ add_filter('gallery_style', 'sp_zero_gallery_css');
  * hCard producers based on blog.txt,
  * http://www.plaintxt.org/themes/blogtxt/
  */
-if(!function_exists('sp_admin_hcard')){
-	/* 
-	 * Echo hCard for blog admin, with URL.
-	 * Currently unused: Gets site admin on
-	 * MU, where only blog owner is wanted.
-	 * See http://mu.wordpress.org/forums/topic.php?id=7476
-	 */
-	function sp_admin_hcard()
-	{
-		global $wpdb, $admin_info;
-
-		$admin_info = get_userdata(1);
-		echo '<span class="vcard"><a class="url fn n" href="' .
-			$admin_info->user_url .
-			'"><span class="given-name">' .
-			$admin_info->first_name .
-			'</span> <span class="family-name">' .
-			$admin_info->last_name .
-			'</span></a></span>';
-	}
-}
-
 if(!function_exists('sp_byline_hcard')){
 	/* Echo hCard for post author, with URL of author's archive. */
 	function sp_byline_hcard()
