@@ -274,6 +274,9 @@ br.downpad{
 .meta a:hover, .meta a:active{
 	color: #fff;
 }
+#comments-heading{
+	clear: both;
+}
 ol.comments{
 	list-style-type: none;
 	margin: 0;
