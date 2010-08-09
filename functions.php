@@ -31,7 +31,10 @@ add_action('after_setup_theme', 'sp_setup');
 /* Widget Sidebar */
 function sp_widgets_init()
 {
-	register_sidebar();
+	register_sidebar( array(
+		'name' => __('Right Sidebar', 'simplish' ),
+		'description' => __('The right-hand sidebar.', 'simplish'),
+	) );
 }
 add_action('widgets_init', 'sp_widgets_init');
 
