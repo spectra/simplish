@@ -1,43 +1,69 @@
-<?php // Do not delete these lines
-	if(!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
-		die(__('Not labeled for individual sale.', 'simplish'));
-
-	if(post_password_required()){ ?>
-		<p class="nocomments">Enter post password to view comments.</p>
-	<?php
-		return;
-	}
+<?php
+/**
+ * The template for displaying Comments.
+ *
+ * The area of the page that contains both current comments
+ * and the comment form.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Ten
+ * @since Twenty Ten 1.0
+ */
 ?>
 
-<h5 id="comments-heading"><?php comments_number(__('0 Comments', 'simplish'), __('1 Comment', 'simplish'), __('% Comments', 'simplish'));?> <?php _e('on', 'simplish'); ?> <em><?php the_title(); ?></em></h5>
-	<?php if('open' == $post->comment_status) : /* Comments open */ ?>
-		<?php if(get_option('comment_registration') && !$user_ID): ?>
-<p><a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>"><?php _e('Log in'); ?></a> <?php _e('to respond'); ?>
-</p>
-		<?php else: ?>
-<p><a href="#respond"><?php _e('Respond', 'simplish'); ?></a></p>
-		<?php endif; ?>
-	<?php else: /* Comments closed. */ ?>
-			<p class="nocomments"><?php _e('Closed', 'simplish'); ?></p>
-	<?php endif; ?>
+			<div id="comments">
+<?php if ( post_password_required() ) : ?>
+				<p class="nopassword"><?php _e( 'This post is password protected. Enter the password to view any comments.', 'twentyten' ); ?></p>
+			</div><!-- #comments -->
+<?php
+		/* Stop the rest of comments.php from being processed,
+		 * but don't kill the script entirely -- we still have
+		 * to fully load the template.
+		 */
+		return;
+	endif;
+?>
 
-	<?php if(have_comments()): ?>
-			<ol id="commentslist" class="comments">
+<?php
+	// You can start editing here -- including this comment!
+?>
+
+<?php if ( have_comments() ) : ?>
+			<h3 id="comments-title"><?php
+			printf( _n( 'One Response to %2$s', '%1$s Responses to %2$s', get_comments_number(), 'twentyten' ),
+			number_format_i18n( get_comments_number() ), '<em>' . get_the_title() . '</em>' );
+			?></h3>
+
+<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
+			<div class="navigation">
+				<div class="nav-previous"><?php previous_comments_link( __( '<span class="meta-nav">&larr;</span> Older Comments', 'twentyten' ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>
+			</div> <!-- .navigation -->
+<?php endif; // check for comment navigation ?>
+
+			<ol class="commentlist">
 				<?php wp_list_comments(); ?>
 			</ol>
-			<div id="commentsnav" class="navigation">
-				<div class="prevlink"><?php previous_comments_link(__('&laquo; Older Comments', 'simplish')) ?></div>
-				<div class="nextlink"><?php next_comments_link(__('Newer Comments &raquo;', 'simplish')) ?></div>
-			</div>
-	<?php endif; ?>
 
+<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
+			<div class="navigation">
+				<div class="nav-previous"><?php previous_comments_link( __( '<span class="meta-nav">&larr;</span> Older Comments', 'twentyten' ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?></div>
+			</div><!-- .navigation -->
+<?php endif; // check for comment navigation ?>
 
-<?php if('open' == $post->comment_status): ?>
+<?php else : // or, if we don't have comments:
 
-<?php if(!(get_option('comment_registration') && !$user_ID)): ?>
+	/* If there are no comments and comments are closed,
+	 * let's leave a little note, shall we?
+	 */
+	if ( ! comments_open() ) :
+?>
+	<p class="nocomments"><?php _e( 'Comments are closed.', 'twentyten' ); ?></p>
+<?php endif; // end ! comments_open() ?>
+
+<?php endif; // end have_comments() ?>
 
 <?php comment_form(); ?>
 
-<?php endif; // If registration required and not logged in ?>
-
-<?php endif; // DO NOT REMOVE ?>
+</div><!-- #comments -->
