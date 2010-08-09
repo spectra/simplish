@@ -5,7 +5,7 @@
 <?php if(have_posts()): while(have_posts()): the_post(); ?>
 
 			<div id="article-<?php the_ID(); ?>" <?php post_class(); ?>>
-<?php include(TEMPLATEPATH . '/hentryhead.php'); ?>
+<?php get_template_part( 'hentryhead' ) ?>
 				<br class="clear" />	
 				<div class="entry-content">
 					<?php the_content(); ?>
@@ -13,7 +13,7 @@
 				</div><!--#entry-content-->
 <?php edit_post_link(__('Edit&hellip;', 'simplish'),'<p class="admin-edit">&#91; ',' &#93;</p>') ?>
 
-<?php include(TEMPLATEPATH . '/hentrymeta.php'); ?>
+<?php get_template_part( 'hentrymeta' ) ?>
 			</div><!--#hentry-->
 
 		<?php comments_template(); ?>

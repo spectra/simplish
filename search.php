@@ -21,7 +21,7 @@
 
 			<?php endwhile; ?>
 
-			<?php include(TEMPLATEPATH . '/prevnextnav.php'); ?>
+			<?php get_template_part( 'prevnextnav' ) ?>
 	
 		<?php else : ?>
 
