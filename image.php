@@ -25,7 +25,7 @@
 				</div>
 				<br class="clear" />
 			</div>
-<?php include(TEMPLATEPATH . '/hentrymeta.php'); ?>
+<?php get_template_part( 'hentrymeta' ) ?>
 		</div>
 
 	<?php comments_template(); ?>
