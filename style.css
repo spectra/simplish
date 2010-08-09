@@ -246,6 +246,9 @@ h2.page-title{
 br.downpad{
 	margin: 0 0 33px;
 }
+.admin-edit{
+    clear: both;
+}
 .meta{
 	background: #eee;
 	border: 1px solid #ddd;
