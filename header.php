@@ -21,7 +21,7 @@ endif;
 
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 <div id="container">
 	<div id="header" role="banner">
 		<h1><span><a href="<?php bloginfo('url'); ?>" rel="home"><?php bloginfo('name'); ?></a></span></h1>
