@@ -26,17 +26,17 @@
 	<?php while(have_posts()): the_post(); ?>
 
 		<div id="article-<?php the_ID(); ?>" <?php post_class(); ?>>
-<?php get_template_part( 'hentryhead' ) ?>
+<?php get_template_part('hentryhead') ?>
 			<br class="clear" />	
 			<div class="entry-content">
 					<?php the_content('<span class="readmore">'.__('More&hellip;', 'simplish').'</span>'); ?>
 			</div>
-<?php get_template_part( 'hentrymeta' ) ?>
+<?php get_template_part('hentrymeta') ?>
 		</div><!--#hentry-->
 
 	<?php endwhile; ?>
 
-<?php get_template_part( 'prevnextnav' ) ?>
+<?php get_template_part('prevnextnav') ?>
 	
 <?php else: ?>
 
