@@ -99,7 +99,7 @@ function sp_custom_excerpt_more($output)
 }
 add_filter( 'get_the_excerpt', 'sp_custom_excerpt_more' );
 
-/*
+/**
  * Zero the default gallery shortcode style, so it isn't injected into output body.
  * Simplish gallery styles are in style.css.
  *
