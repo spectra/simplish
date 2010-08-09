@@ -332,23 +332,23 @@ a.comment-permalink{
 .comment p{
 	margin-right: 2em;
 }
-form.comments{
+#commentform{
 	background: #f2f2f2;
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	padding: 1em 0.5em;
 }
-.comments fieldset{
+#commentform fieldset{
 	border: none;
 }
-.comments legend{
+#commentform legend{
 	display: none;
 }
-.comments label{
+#commentform label{
 	font-weight: bold;
 }
-.comments textarea{
+#commentform textarea{
 	height: 150px;
 	padding: 3px;
 	width: 90%;
