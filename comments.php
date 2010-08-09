@@ -36,62 +36,7 @@
 
 <?php if(!(get_option('comment_registration') && !$user_ID)): ?>
 
-<div id="respond">
-
-	<h4><?php comment_form_title(__('Respond', 'simplish'), __('Respond to %s', 'simplish')); ?></h4>
-
-	<div class="cancel-comment-reply">
-	<small><?php cancel_comment_reply_link(); ?></small>
-	</div>
-
-	<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" class="comments" id="commentform" method="post">
-
-	<fieldset>
-	<legend><?php _e('Comments', 'simplish'); ?></legend>
-	<?php if($user_ID): ?>
-
-		<p>
-		[ <?php _e('Logged in as', 'simplish'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>
-		| <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Log out of this account', 'simplish'); ?>"><?php _e('Log out', 'simplish'); ?></a> ]
-		</p>
-
-	<?php else : ?>
-
-		<p>
-		<label><?php _e('Name:', 'simplish'); ?> <?php if($req) echo '<small>' . __('(required)', 'simplish') . '</small>'; ?><br />
-			<input name="author" id="author" value="<?php echo $comment_author; ?>" size="30" type="text" tabindex="1" />
-		</label>
-		</p>
-
-		<p>
-		<label><?php _e('Email:', 'simplish'); ?> <?php if($req) echo '<small>' . __('(required)', 'simplish') . '</small>'; ?><br />
-			<input name="email" id="email" value="<?php echo $comment_author_email; ?>" size="30" type="text" tabindex="2" />
-			<small><?php _e('(will not be published)', 'simplish'); ?></small>
-		</label>
-		</p>
-
-		<p>
-		<label><?php _e('URL:', 'simplish'); ?><br />
-			<input name="url" id="url" value="<?php echo $comment_author_url; ?>" size="30" type="text" tabindex="3" />
-		</label>
-		</p>
-
-	<?php endif; ?>
-
-<!--<p><small><strong>XHTML:</strong> <?php _e('You can use these tags:', 'simplish'); ?> <?php echo allowed_tags(); ?></small></p>-->
-
-	<p>
-		<?php _e('Comments', 'simplish'); ?><br />
-		<textarea name="comment" id="comment" rows="20" tabindex="4"></textarea></p>
-	<p>
-		<input name="submit" type="submit" id="submit" tabindex="5" value="<?php _e('Submit', 'simplish'); ?>" />
-		<?php comment_id_fields(); ?>
-	</p>
-	<?php do_action('comment_form', $post->ID); ?>
-	</fieldset>
-	</form>
-
-</div>
+<?php comment_form(); ?>
 
 <?php endif; // If registration required and not logged in ?>
 
