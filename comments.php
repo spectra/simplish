@@ -5,9 +5,7 @@
  * The area of the page that contains both current comments
  * and the comment form.
  *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+ * @since Simplish 2.4.2 (Twenty Ten 1.0)
  */
 ?>
 
