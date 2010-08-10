@@ -587,7 +587,7 @@ span.caps{
 /* Post thumbnails on search results. */
 .attachment-post-thumbnail{
 	float: left;
-	margin: 10px;
+	margin: 4px 10px 10px 2px;
 }
 
 @media print{
