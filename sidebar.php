@@ -1,6 +1,6 @@
 		<div id="sidebar" role="complementary">
 			<ul>
-			<?php if (!dynamic_sidebar(1)): //If no widget sidebar, output default sidebar. ?>
+			<?php if (!dynamic_sidebar('right-sidebar')): //If no widget sidebar, output default sidebar. ?>
 				<li id="search" class="search">
 				<?php get_search_form(); ?>
 				</li>
