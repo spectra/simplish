@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-17 16:04-0700\n"
-"PO-Revision-Date: 2010-07-27 14:25+0300\n"
-"Last-Translator: Sgibnev Michael <msgibnev@gmail.com>\n"
+"POT-Creation-Date: 2010-08-09 20:54-0700\n"
+"PO-Revision-Date: 2010-08-09 23:21-0800\n"
+"Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Sgibnev Michael <msgibnev@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -71,104 +71,42 @@ msgstr "Далее&hellip;"
 msgid "Not Found"
 msgstr "Не найдено"
 
-#: comments.php:3
-msgid "Not labeled for individual sale."
-msgstr "Не помечен для индивидуальной продажи."
+#: comments.php:14
+msgid "Enter the password to view comments."
+msgstr ""
 
-#: comments.php:12
+#: comments.php:30
 #: hentrymeta.php:8
 msgid "0 Comments"
 msgstr "Нет комментариев"
 
-#: comments.php:12
+#: comments.php:30
 #: hentrymeta.php:8
 msgid "1 Comment"
 msgstr "Один комментарий"
 
-#: comments.php:12
+#: comments.php:30
 #: hentrymeta.php:8
 msgid "% Comments"
 msgstr "% Комментариев"
 
-#: comments.php:12
+#: comments.php:30
 msgid "on"
 msgstr "в"
 
-#: comments.php:15
-msgid "Log in"
-msgstr "Войти"
+#: comments.php:34
+#: comments.php:45
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
 
-#: comments.php:15
-msgid "to respond"
-msgstr "в ответ"
+#: comments.php:35
+#: comments.php:46
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
 
-#: comments.php:18
-#: comments.php:41
-msgid "Respond"
-msgstr "Ответ"
-
-#: comments.php:21
+#: comments.php:57
 msgid "Closed"
 msgstr "Закрыто"
-
-#: comments.php:29
-msgid "&laquo; Older Comments"
-msgstr "&laquo; Старые комментарии"
-
-#: comments.php:30
-msgid "Newer Comments &raquo;"
-msgstr "Новые комментарии &raquo;"
-
-#: comments.php:41
-#, php-format
-msgid "Respond to %s"
-msgstr "Ответов на %s"
-
-#: comments.php:50
-#: comments.php:84
-msgid "Comments"
-msgstr "Комментарии"
-
-#: comments.php:54
-msgid "Logged in as"
-msgstr "Вы известны как"
-
-#: comments.php:55
-msgid "Log out of this account"
-msgstr "Выйти из этого аккаунта"
-
-#: comments.php:55
-msgid "Log out"
-msgstr "Выйти"
-
-#: comments.php:61
-msgid "Name:"
-msgstr "Имя:"
-
-#: comments.php:61
-#: comments.php:67
-msgid "(required)"
-msgstr "(обязательно)"
-
-#: comments.php:67
-msgid "Email:"
-msgstr "Email:"
-
-#: comments.php:69
-msgid "(will not be published)"
-msgstr "(не отображается)"
-
-#: comments.php:74
-msgid "URL:"
-msgstr "URL:"
-
-#: comments.php:81
-msgid "You can use these tags:"
-msgstr "Вы можете использовать следующие тэги:"
-
-#: comments.php:87
-msgid "Submit"
-msgstr "Отправить"
 
 #: footer.php:8
 msgid "WordPress Engine"
@@ -182,15 +120,28 @@ msgstr "Simplish Style"
 msgid "from"
 msgstr "от"
 
-#: functions.php:25
-msgid "Sidebar Menu"
+#: functions.php:28
+#, fuzzy
+msgid "(Non-widget) Sidebar Menu"
 msgstr "Боковое меню"
 
-#: functions.php:83
+#: functions.php:43
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:45
+msgid "The right-hand sidebar widget container."
+msgstr ""
+
+#: functions.php:75
+msgid "More <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:134
 msgid "More posts by"
 msgstr "Больше постов от"
 
-#: functions.php:113
+#: functions.php:164
 msgid "home page"
 msgstr "домашняя страница"
 
@@ -221,7 +172,6 @@ msgstr "Простите, нет файлов, соответствующих з
 
 #: page.php:11
 #: single.php:12
-#: tplpgcomm.php:17
 msgid "Pages:"
 msgstr "Страниц:"
 
@@ -229,7 +179,6 @@ msgstr "Страниц:"
 #: single.php:14
 #: tplarchives.php:31
 #: tpllinks.php:17
-#: tplpgcomm.php:23
 msgid "Edit&hellip;"
 msgstr "Редактировать&hellip;"
 
@@ -245,7 +194,7 @@ msgstr "Следующая &raquo;"
 msgid "Results for"
 msgstr "Результатов для"
 
-#: search.php:28
+#: search.php:29
 msgid "No results for"
 msgstr "Нет результатов для"
 
@@ -313,3 +262,56 @@ msgstr "Ссылок  %s"
 msgid "Pages: "
 msgstr "Страниц:"
 
+#~ msgid "Not labeled for individual sale."
+#~ msgstr "Не помечен для индивидуальной продажи."
+
+#~ msgid "Log in"
+#~ msgstr "Войти"
+
+#~ msgid "to respond"
+#~ msgstr "в ответ"
+
+#~ msgid "Respond"
+#~ msgstr "Ответ"
+
+#~ msgid "&laquo; Older Comments"
+#~ msgstr "&laquo; Старые комментарии"
+
+#~ msgid "Newer Comments &raquo;"
+#~ msgstr "Новые комментарии &raquo;"
+
+#~ msgid "Respond to %s"
+#~ msgstr "Ответов на %s"
+
+#~ msgid "Comments"
+#~ msgstr "Комментарии"
+
+#~ msgid "Logged in as"
+#~ msgstr "Вы известны как"
+
+#~ msgid "Log out of this account"
+#~ msgstr "Выйти из этого аккаунта"
+
+#~ msgid "Log out"
+#~ msgstr "Выйти"
+
+#~ msgid "Name:"
+#~ msgstr "Имя:"
+
+#~ msgid "(required)"
+#~ msgstr "(обязательно)"
+
+#~ msgid "Email:"
+#~ msgstr "Email:"
+
+#~ msgid "(will not be published)"
+#~ msgstr "(не отображается)"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "You can use these tags:"
+#~ msgstr "Вы можете использовать следующие тэги:"
+
+#~ msgid "Submit"
+#~ msgstr "Отправить"
