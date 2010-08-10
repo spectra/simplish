@@ -41,6 +41,7 @@ function sp_widgets_init()
 {
 	register_sidebar( array(
 		'name' => __('Right Sidebar', 'simplish' ),
+		'id' => 'right-sidebar',
 		'description' => __('The right-hand sidebar.', 'simplish'),
 	) );
 }
