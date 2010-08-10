@@ -180,6 +180,9 @@ blockquote{
 	margin: 1.3em 1em;
 	padding: 0 1em;
 }
+small{
+	font-size: 70%;
+}
 code{
 	font: normal 1em "bitstream vera sans mono", monaco, "lucida console", "courier new", courier, serif;
 }
