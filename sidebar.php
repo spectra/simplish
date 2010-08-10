@@ -1,6 +1,6 @@
 		<div id="sidebar" role="complementary">
 			<ul>
-			<?php if (!dynamic_sidebar('right-sidebar')): //If no widget sidebar, output default sidebar. ?>
+			<?php if (!dynamic_sidebar('widget-right-sidebar')): //If no widget sidebar, output default sidebar. ?>
 				<li id="search" class="search">
 				<?php get_search_form(); ?>
 				</li>
@@ -10,7 +10,7 @@
 					wp_nav_menu( array(
 										 'sort_column' => 'menu_order',
 										 'container_class' => 'pagenav',
-										 'theme_location' => 'sidebar'
+										 'theme_location' => 'nowidget-right-sidebar'
 										 )
 								  );
 					?>

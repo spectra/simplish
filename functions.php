@@ -25,7 +25,7 @@ if(!function_exists('sp_setup')){
 		add_custom_background();
 		
 		/* Menu - wp_nav_menu() in sidebar.php - new in WP3. */
-		register_nav_menus( array('sidebar' => __( 'Sidebar Menu', 'simplish' ), ) );
+		register_nav_menus( array('nowidget-right-sidebar' => __( '(Non-widget) Sidebar Menu', 'simplish' ), ) );
 				
 		/* Current use in search results view. */
 		add_theme_support('post-thumbnails');
@@ -41,8 +41,8 @@ function sp_widgets_init()
 {
 	register_sidebar( array(
 		'name' => __('Right Sidebar', 'simplish' ),
-		'id' => 'right-sidebar',
-		'description' => __('The right-hand sidebar.', 'simplish'),
+		'id' => 'widget-right-sidebar',
+		'description' => __('The right-hand sidebar widget container.', 'simplish'),
 	) );
 }
 add_action('widgets_init', 'sp_widgets_init');
