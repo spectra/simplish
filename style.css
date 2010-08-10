@@ -37,7 +37,7 @@ table { border-collapse: collapse; border-spacing: 0; }
  */
 
 body{
-	background: #fff url(img/background.png) repeat-x left top;
+	background: #fff;
 	font: normal .75em "lucida grande", "liberation sans", verdana, arial, helvetica, sans-serif;
 	margin: 0;
 	padding: 0.6em 1em 1em;
@@ -56,6 +56,7 @@ body{
 	padding: 0;
 }
 #page{
+	background: #fff;
 }
 #content{
 	float: left;

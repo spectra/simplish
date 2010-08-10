@@ -24,6 +24,9 @@ if(!function_exists('sp_setup')){
 		/* Menu - wp_nav_menu() in sidebar.php - new in WP3. */
 		register_nav_menus( array('sidebar' => __( 'Sidebar Menu', 'simplish' ), ) );
 		
+		/* Offer Custom Background admin options. */
+		add_custom_background();
+		
 		/* Current use in search results view. */
 		add_theme_support('post-thumbnails');
 		set_post_thumbnail_size(50, 50, true);
