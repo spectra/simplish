@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-09 20:54-0700\n"
-"PO-Revision-Date: 2010-08-09 23:28-0800\n"
+"POT-Creation-Date: 2010-08-10 19:37-0700\n"
+"PO-Revision-Date: 2010-08-10 19:46-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,6 @@ msgid "Tag:"
 msgstr "Ετικέτα:"
 
 #: archive.php:21
-#: sidebar.php:25
 msgid "Archives"
 msgstr "Αρχείο"
 
@@ -201,37 +200,9 @@ msgstr "Αποτελέσματα για"
 msgid "No results for"
 msgstr "Κανένα αποτέλεσμα για"
 
-#: sidebar.php:8
+#: sidebar.php:9
 msgid "Navigation"
 msgstr "Μενού"
-
-#: sidebar.php:19
-msgid "Categories"
-msgstr "Κατηγορίες"
-
-#: sidebar.php:33
-msgid "Syndicate"
-msgstr "RSS"
-
-#: sidebar.php:36
-msgid "Articles RSS"
-msgstr "– Όλα τα άρθρα μέσω RSS"
-
-#: sidebar.php:36
-msgid "Articles Feed"
-msgstr "Κανάλι άρθρων"
-
-#: sidebar.php:38
-msgid "Comments RSS"
-msgstr "– Όλα τα σχόλια μέσω RSS"
-
-#: sidebar.php:38
-msgid "Comments Feed"
-msgstr "Κανάλι σχολίων"
-
-#: sidebar.php:42
-msgid "Meta"
-msgstr "Μεταστοιχεία"
 
 #: tplarchives.php:14
 #: tplsitemap.php:52
@@ -264,6 +235,27 @@ msgstr "Μόνιμος σύνδεσμος του %s"
 #: tplsitemap.php:63
 msgid "Pages: "
 msgstr "Σελίδες: "
+
+#~ msgid "Categories"
+#~ msgstr "Κατηγορίες"
+
+#~ msgid "Syndicate"
+#~ msgstr "RSS"
+
+#~ msgid "Articles RSS"
+#~ msgstr "– Όλα τα άρθρα μέσω RSS"
+
+#~ msgid "Articles Feed"
+#~ msgstr "Κανάλι άρθρων"
+
+#~ msgid "Comments RSS"
+#~ msgstr "– Όλα τα σχόλια μέσω RSS"
+
+#~ msgid "Comments Feed"
+#~ msgstr "Κανάλι σχολίων"
+
+#~ msgid "Meta"
+#~ msgstr "Μεταστοιχεία"
 
 #~ msgid "Not labeled for individual sale."
 #~ msgstr "Δεν πωλείται!"
