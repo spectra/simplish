@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-09 20:54-0700\n"
-"PO-Revision-Date: 2010-08-09 23:19-0800\n"
+"POT-Creation-Date: 2010-08-10 19:37-0700\n"
+"PO-Revision-Date: 2010-08-10 19:46-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Marcis G. <by.marcis@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,6 @@ msgid "Tag:"
 msgstr "Тэг:"
 
 #: archive.php:21
-#: sidebar.php:25
 msgid "Archives"
 msgstr "Архівы"
 
@@ -200,37 +199,9 @@ msgstr "Вынікі для "
 msgid "No results for"
 msgstr "Няма вынікаў для "
 
-#: sidebar.php:8
+#: sidebar.php:9
 msgid "Navigation"
 msgstr ""
-
-#: sidebar.php:19
-msgid "Categories"
-msgstr "Катэгорыі"
-
-#: sidebar.php:33
-msgid "Syndicate"
-msgstr "Синдикация"
-
-#: sidebar.php:36
-msgid "Articles RSS"
-msgstr "RSS артыкулаў"
-
-#: sidebar.php:36
-msgid "Articles Feed"
-msgstr "Стужка артыкулаў"
-
-#: sidebar.php:38
-msgid "Comments RSS"
-msgstr "RSS каментароў"
-
-#: sidebar.php:38
-msgid "Comments Feed"
-msgstr "Стужка каментароў"
-
-#: sidebar.php:42
-msgid "Meta"
-msgstr "Мета"
 
 #: tplarchives.php:14
 #: tplsitemap.php:52
@@ -263,6 +234,27 @@ msgstr "Сталая спасылка на %s"
 #: tplsitemap.php:63
 msgid "Pages: "
 msgstr "Старонкі:"
+
+#~ msgid "Categories"
+#~ msgstr "Катэгорыі"
+
+#~ msgid "Syndicate"
+#~ msgstr "Синдикация"
+
+#~ msgid "Articles RSS"
+#~ msgstr "RSS артыкулаў"
+
+#~ msgid "Articles Feed"
+#~ msgstr "Стужка артыкулаў"
+
+#~ msgid "Comments RSS"
+#~ msgstr "RSS каментароў"
+
+#~ msgid "Comments Feed"
+#~ msgstr "Стужка каментароў"
+
+#~ msgid "Meta"
+#~ msgstr "Мета"
 
 #~ msgid "Not labeled for individual sale."
 #~ msgstr "Без маркіроўкі для індывідуальнага продажу."
