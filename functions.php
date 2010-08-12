@@ -64,15 +64,29 @@ function sp_excerpt_length($length)
 }
 add_filter('excerpt_length', 'sp_excerpt_length');
 
+if(!function_exists('sp_readmore_text')){
+	/**
+	 * "More" text (no link) for More tags in the_content().
+	 *
+	 * @since Simplish 2.5
+	 * @return string "More ->"
+	 */
+	function sp_readmore_text()
+	{
+		return '<span class="readmore">' . __( 'More', 'simplish' ) . '<span class="meta-nav">&rarr;</span></span>';
+	}
+}
+
 /**
  * "More" link for excerpts
  *
  * @since Simplish 2.4.2 (Twenty Ten 1.0)
- * @return string "More ->" link
- */	
+ * @uses sp_readmore_text
+ * @return string "More ->" wrapped in a link
+ */
 function sp_readmore_link()
 {
-	return ' <a href="'. get_permalink() . '">' . __( 'More <span class="meta-nav">&rarr;</span>', 'simplish' ) . '</a>';
+	return ' <a href="'. get_permalink() . '">' . sp_readmore_text() . '</a>';
 }
 
 /**
