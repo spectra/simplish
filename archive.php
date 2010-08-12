@@ -29,7 +29,7 @@
 <?php get_template_part('hentryhead') ?>
 			<br class="clear" />	
 			<div class="entry-content">
-					<?php the_content('<span class="readmore">'.__('More&hellip;', 'simplish').'</span>'); ?>
+				<?php the_content(sp_readmore_text()); ?>
 			</div>
 <?php get_template_part('hentrymeta') ?>
 		</div><!--#hentry-->
