@@ -279,7 +279,7 @@ br.downpad{
 .meta a:hover, .meta a:active{
 	color: #fff;
 }
-.nocomments{
+.nocomments, .nopassword{
 	display: none;
 }
 #comments{
