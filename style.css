@@ -25,7 +25,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /*
  * #container
  * 	#header
- * 	#page
+ * 	#content-wrapper
  * 		#content
  * 			#article-n (.hentry)
  * 				.entry-title
@@ -55,7 +55,7 @@ body{
 	margin: 0 -0.5px 12px 0;
 	padding: 0;
 }
-#page{
+#content-wrapper{
 	background: #fff;
 }
 #content{
