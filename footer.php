@@ -1,5 +1,5 @@
 		<br class="clear" />
-	</div><!--// #page -->
+	</div><!--// #content-wrapper -->
 
 	<div id="footer" role="contentinfo">
 	<hr />

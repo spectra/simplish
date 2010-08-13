@@ -27,5 +27,5 @@ endif;
 		<h1><span><a href="<?php bloginfo('url'); ?>" rel="home"><?php bloginfo('name'); ?></a></span></h1>
 		<h2><?php bloginfo('description'); ?></h2>
 	</div>
-	<div id="page">
+	<div id="content-wrapper">
 <!-- goto ^(archive image index page search single ...).php:/^div#content -->
