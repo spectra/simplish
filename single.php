@@ -9,7 +9,7 @@
 				<br class="clear" />	
 				<div class="entry-content">
 					<?php the_content(); ?>
-					<?php wp_link_pages( array( 'before' => '<div class="pgnum-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
+					<?php wp_link_pages( array( 'before' => '<div class="pgnum-link">' . __( 'Pages:', 'simplish' ), 'after' => '</div>' ) ); ?>
 				</div><!--#entry-content-->
 <?php edit_post_link(__('Edit&hellip;', 'simplish'),'<p class="admin-edit">&#91; ',' &#93;</p>') ?>
 
