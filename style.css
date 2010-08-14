@@ -254,6 +254,14 @@ br.downpad{
 .admin-edit{
     clear: both;
 }
+.pgnum-link{
+	font-weight: bold;
+	margin: 1.2em 0;
+}
+.pgnum-link a:link, .pgnum-link a:visited{
+	background: #ccc;
+	font-weight: normal;
+}
 .meta{
 	background: #eee;
 	border: 1px solid #ddd;

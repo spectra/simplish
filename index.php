@@ -10,6 +10,7 @@
 				<br class="clear" />
 				<div class="entry-content">
 					<?php the_content(sp_readmore_text()); ?>
+					<?php wp_link_pages( array( 'before' => '<div class="pgnum-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 				</div>
 <?php get_template_part('hentrymeta') ?>
 			</div><!--#article-num .hentry-->
