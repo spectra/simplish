@@ -211,6 +211,16 @@ th{
 .hentry{
 	margin: 0 0 3em 0;
 }
+.sticky{
+	background: #F2F7FC;
+	border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	-webkit-border-radius: 0 0 4px 4px;
+	border-top: 3px solid #000;
+}
+.sticky .meta{
+	background: #ddd;
+}
 .entry-title{
 	clear: both;
 	font-size: 2.5em;
