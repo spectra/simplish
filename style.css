@@ -259,8 +259,11 @@ br.downpad{
 	margin: 1.2em 0;
 }
 .pgnum-link a:link, .pgnum-link a:visited{
-	background: #ccc;
+	background: #ddd;
 	font-weight: normal;
+}
+.pgnum-link a:hover, .pgnum-link a:active{
+	background: #000;
 }
 .meta{
 	background: #eee;
