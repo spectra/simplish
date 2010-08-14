@@ -8,7 +8,7 @@
 				<h2 class="page-title entry-title"><?php the_title(); ?></h2>
 				<div class="entry-content">
 					<?php the_content(); ?>
-					<?php wp_link_pages('before=<p><strong>'.__('Pages:', 'simplish').'</strong>&after=</p>&next_or_number=number&pagelink=%'); ?>
+					<?php wp_link_pages( array( 'before' => '<div class="pgnum-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 				</div>
 			</div>
 
