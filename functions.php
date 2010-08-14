@@ -73,7 +73,7 @@ if(!function_exists('sp_readmore_text')){
 	 */
 	function sp_readmore_text()
 	{
-		return '<span class="readmore">' . __( 'More', 'simplish' ) . '<span class="meta-nav">&rarr;</span></span>';
+		return __( 'More', 'simplish' ) . '<span class="meta-nav">&rarr;</span>';
 	}
 }
 
@@ -86,7 +86,7 @@ if(!function_exists('sp_readmore_text')){
  */
 function sp_readmore_link()
 {
-	return ' <a href="'. get_permalink() . '">' . sp_readmore_text() . '</a>';
+	return ' <a class="more-link" href="'. get_permalink() . '">' . sp_readmore_text() . '</a>';
 }
 
 /**
