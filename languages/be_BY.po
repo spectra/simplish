@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
-"PO-Revision-Date: 2010-08-10 19:46-0800\n"
+"PO-Revision-Date: 2011-01-18 02:40-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Marcis G. <by.marcis@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -63,13 +63,8 @@ msgstr "Архівы"
 msgid "%1$s Archives"
 msgstr "%1$s Архіў"
 
-#: archive.php:32
-#: index.php:12
-msgid "More&hellip;"
-msgstr "Больш&hellip;"
-
 #: archive.php:43
-#: index.php:23
+#: index.php:24
 msgid "Not Found"
 msgstr "Не знойдзена"
 
@@ -78,7 +73,6 @@ msgid "Enter the password to view comments."
 msgstr ""
 
 #: comments.php:30
-#: hentrymeta.php:8
 msgid "0 Comments"
 msgstr "0 каментароў"
 
@@ -134,15 +128,15 @@ msgstr ""
 msgid "The right-hand sidebar widget container."
 msgstr ""
 
-#: functions.php:75
-msgid "More <span class=\"meta-nav\">&rarr;</span>"
+#: functions.php:76
+msgid "More"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:148
 msgid "More posts by"
 msgstr "Больш пастоў ад"
 
-#: functions.php:164
+#: functions.php:178
 msgid "home page"
 msgstr "хатняя старонка"
 
@@ -164,13 +158,19 @@ msgid "Tags: "
 msgstr "Тэгі:"
 
 #: hentrymeta.php:8
-msgid "Feed"
-msgstr "Стужка"
+msgid "Leave a reply"
+msgstr ""
 
-#: image.php:35
+#: hentrymeta.php:8
+#, fuzzy
+msgid "Comments Closed"
+msgstr "Стужка каментароў"
+
+#: image.php:34
 msgid "Sorry, no attachments matched your criteria."
 msgstr "Нажаль, ні прыхільнасцяў, якія задавольваюць вашым умовам."
 
+#: index.php:13
 #: page.php:11
 #: single.php:12
 msgid "Pages:"
@@ -235,6 +235,12 @@ msgstr "Сталая спасылка на %s"
 msgid "Pages: "
 msgstr "Старонкі:"
 
+#~ msgid "More&hellip;"
+#~ msgstr "Больш&hellip;"
+
+#~ msgid "Feed"
+#~ msgstr "Стужка"
+
 #~ msgid "Categories"
 #~ msgstr "Катэгорыі"
 
@@ -249,9 +255,6 @@ msgstr "Старонкі:"
 
 #~ msgid "Comments RSS"
 #~ msgstr "RSS каментароў"
-
-#~ msgid "Comments Feed"
-#~ msgstr "Стужка каментароў"
 
 #~ msgid "Meta"
 #~ msgstr "Мета"

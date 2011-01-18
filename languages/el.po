@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
-"PO-Revision-Date: 2010-08-10 19:46-0800\n"
+"PO-Revision-Date: 2011-01-18 02:40-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -63,13 +63,8 @@ msgstr "Αρχείο"
 msgid "%1$s Archives"
 msgstr "Αρχείο %1$s"
 
-#: archive.php:32
-#: index.php:12
-msgid "More&hellip;"
-msgstr "Συνέχεια&hellip;"
-
 #: archive.php:43
-#: index.php:23
+#: index.php:24
 msgid "Not Found"
 msgstr "Δεν βρέθηκε!"
 
@@ -78,7 +73,6 @@ msgid "Enter the password to view comments."
 msgstr ""
 
 #: comments.php:30
-#: hentrymeta.php:8
 msgid "0 Comments"
 msgstr "0 σχόλια"
 
@@ -135,15 +129,15 @@ msgstr ""
 msgid "The right-hand sidebar widget container."
 msgstr ""
 
-#: functions.php:75
-msgid "More <span class=\"meta-nav\">&rarr;</span>"
+#: functions.php:76
+msgid "More"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:148
 msgid "More posts by"
 msgstr "Περισσότερα άρθρα της/του"
 
-#: functions.php:164
+#: functions.php:178
 msgid "home page"
 msgstr "Αρχική"
 
@@ -165,13 +159,19 @@ msgid "Tags: "
 msgstr "Ετικέτες: "
 
 #: hentrymeta.php:8
-msgid "Feed"
+msgid "Leave a reply"
+msgstr ""
+
+#: hentrymeta.php:8
+#, fuzzy
+msgid "Comments Closed"
 msgstr "Κανάλι σχολίων"
 
-#: image.php:35
+#: image.php:34
 msgid "Sorry, no attachments matched your criteria."
 msgstr "Κανένα συνημμένο με τους όρους αυτούς."
 
+#: index.php:13
 #: page.php:11
 #: single.php:12
 msgid "Pages:"
@@ -236,6 +236,12 @@ msgstr "Μόνιμος σύνδεσμος του %s"
 msgid "Pages: "
 msgstr "Σελίδες: "
 
+#~ msgid "More&hellip;"
+#~ msgstr "Συνέχεια&hellip;"
+
+#~ msgid "Feed"
+#~ msgstr "Κανάλι σχολίων"
+
 #~ msgid "Categories"
 #~ msgstr "Κατηγορίες"
 
@@ -250,9 +256,6 @@ msgstr "Σελίδες: "
 
 #~ msgid "Comments RSS"
 #~ msgstr "– Όλα τα σχόλια μέσω RSS"
-
-#~ msgid "Comments Feed"
-#~ msgstr "Κανάλι σχολίων"
 
 #~ msgid "Meta"
 #~ msgstr "Μεταστοιχεία"

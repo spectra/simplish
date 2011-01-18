@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
-"PO-Revision-Date: 2010-08-10 19:47-0800\n"
+"PO-Revision-Date: 2011-01-18 02:41-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: http://clement.durand.se <clement@durand.se>\n"
 "MIME-Version: 1.0\n"
@@ -80,14 +80,8 @@ msgid "%1$s Archives"
 msgstr "%1$s Arkiv"
 
 # @ simplish
-#: archive.php:32
-#: index.php:12
-msgid "More&hellip;"
-msgstr "Mer&hellip;"
-
-# @ simplish
 #: archive.php:43
-#: index.php:23
+#: index.php:24
 msgid "Not Found"
 msgstr "Hittades ej"
 
@@ -97,7 +91,6 @@ msgstr ""
 
 # @ simplish
 #: comments.php:30
-#: hentrymeta.php:8
 msgid "0 Comments"
 msgstr "0 kommentarer"
 
@@ -160,17 +153,17 @@ msgstr ""
 msgid "The right-hand sidebar widget container."
 msgstr ""
 
-#: functions.php:75
-msgid "More <span class=\"meta-nav\">&rarr;</span>"
+#: functions.php:76
+msgid "More"
 msgstr ""
 
 # @ simplish
-#: functions.php:134
+#: functions.php:148
 msgid "More posts by"
 msgstr "Flera inlägg av"
 
 # @ simplish
-#: functions.php:164
+#: functions.php:178
 msgid "home page"
 msgstr "hemsida"
 
@@ -195,17 +188,23 @@ msgstr "Skriven av"
 msgid "Tags: "
 msgstr "Etiketter:"
 
-# @ simplish
 #: hentrymeta.php:8
-msgid "Feed"
-msgstr "Prenumerera"
+msgid "Leave a reply"
+msgstr ""
 
 # @ simplish
-#: image.php:35
+#: hentrymeta.php:8
+#, fuzzy
+msgid "Comments Closed"
+msgstr "0 kommentarer"
+
+# @ simplish
+#: image.php:34
 msgid "Sorry, no attachments matched your criteria."
 msgstr "Tyvärr, inga bilagor stämde med dina kriterier..."
 
 # @ simplish
+#: index.php:13
 #: page.php:11
 #: single.php:12
 msgid "Pages:"

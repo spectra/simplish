@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
-"PO-Revision-Date: 2010-08-10 19:46-0800\n"
+"PO-Revision-Date: 2011-01-18 02:41-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Sgibnev Michael <msgibnev@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -60,13 +60,8 @@ msgstr "Архивы"
 msgid "%1$s Archives"
 msgstr "%1$s Архивов"
 
-#: archive.php:32
-#: index.php:12
-msgid "More&hellip;"
-msgstr "Далее&hellip;"
-
 #: archive.php:43
-#: index.php:23
+#: index.php:24
 msgid "Not Found"
 msgstr "Не найдено"
 
@@ -75,7 +70,6 @@ msgid "Enter the password to view comments."
 msgstr ""
 
 #: comments.php:30
-#: hentrymeta.php:8
 msgid "0 Comments"
 msgstr "Нет комментариев"
 
@@ -132,15 +126,15 @@ msgstr ""
 msgid "The right-hand sidebar widget container."
 msgstr ""
 
-#: functions.php:75
-msgid "More <span class=\"meta-nav\">&rarr;</span>"
+#: functions.php:76
+msgid "More"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:148
 msgid "More posts by"
 msgstr "Больше постов от"
 
-#: functions.php:164
+#: functions.php:178
 msgid "home page"
 msgstr "домашняя страница"
 
@@ -162,13 +156,19 @@ msgid "Tags: "
 msgstr "Тэги:"
 
 #: hentrymeta.php:8
-msgid "Feed"
-msgstr "Отслеживать"
+msgid "Leave a reply"
+msgstr ""
 
-#: image.php:35
+#: hentrymeta.php:8
+#, fuzzy
+msgid "Comments Closed"
+msgstr "Отслеживать комментарии"
+
+#: image.php:34
 msgid "Sorry, no attachments matched your criteria."
 msgstr "Простите, нет файлов, соответствующих заданному критерию."
 
+#: index.php:13
 #: page.php:11
 #: single.php:12
 msgid "Pages:"
@@ -233,6 +233,12 @@ msgstr "Ссылок  %s"
 msgid "Pages: "
 msgstr "Страниц:"
 
+#~ msgid "More&hellip;"
+#~ msgstr "Далее&hellip;"
+
+#~ msgid "Feed"
+#~ msgstr "Отслеживать"
+
 #~ msgid "Categories"
 #~ msgstr "Категорий"
 
@@ -247,9 +253,6 @@ msgstr "Страниц:"
 
 #~ msgid "Comments RSS"
 #~ msgstr "Комментариев в RSS"
-
-#~ msgid "Comments Feed"
-#~ msgstr "Отслеживать комментарии"
 
 #~ msgid "Meta"
 #~ msgstr "Мета"
