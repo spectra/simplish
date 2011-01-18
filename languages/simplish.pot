@@ -1,7 +1,7 @@
 # SIMPLISH LOCALIZABLE STRINGS
-# Copyright (C) 2009 UTOPIAN.NET
+# Copyright (C) 2011 UTOPIAN.NET
 # This file is distributed under the same license as the SIMPLISH package.
-# JOSH WOOD <JOSH@UTOPIAN.NET>, 2009.
+# JOSH WOOD <JOSH@UTOPIAN.NET>, 2011.
 #
 #, fuzzy
 msgid ""
