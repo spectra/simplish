@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
-"PO-Revision-Date: 2010-08-10 19:46-0800\n"
+"PO-Revision-Date: 2011-01-18 02:39-0800\n"
 "Last-Translator: Josh Wood <josh@utopian.net>\n"
 "Language-Team: Utopian.net Laboratories <josh@labs.utopian.net>\n"
 "MIME-Version: 1.0\n"
@@ -63,13 +63,8 @@ msgstr "Archives"
 msgid "%1$s Archives"
 msgstr "%1$s Archives"
 
-#: archive.php:32
-#: index.php:12
-msgid "More&hellip;"
-msgstr "Plus&hellip;"
-
 #: archive.php:43
-#: index.php:23
+#: index.php:24
 msgid "Not Found"
 msgstr "Non Trouvé"
 
@@ -78,7 +73,6 @@ msgid "Enter the password to view comments."
 msgstr ""
 
 #: comments.php:30
-#: hentrymeta.php:8
 msgid "0 Comments"
 msgstr "0 Commentaires"
 
@@ -134,15 +128,15 @@ msgstr ""
 msgid "The right-hand sidebar widget container."
 msgstr ""
 
-#: functions.php:75
-msgid "More <span class=\"meta-nav\">&rarr;</span>"
+#: functions.php:76
+msgid "More"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:148
 msgid "More posts by"
 msgstr "Plus d'articles par"
 
-#: functions.php:164
+#: functions.php:178
 msgid "home page"
 msgstr "page d'accueil"
 
@@ -164,13 +158,19 @@ msgid "Tags: "
 msgstr "Mots-clefs : "
 
 #: hentrymeta.php:8
-msgid "Feed"
-msgstr "Flux"
+msgid "Leave a reply"
+msgstr ""
 
-#: image.php:35
+#: hentrymeta.php:8
+#, fuzzy
+msgid "Comments Closed"
+msgstr "Flux Commentaires"
+
+#: image.php:34
 msgid "Sorry, no attachments matched your criteria."
 msgstr "Désolé, mais vous cherchez quelque chose qui n'est pas ici."
 
+#: index.php:13
 #: page.php:11
 #: single.php:12
 msgid "Pages:"
@@ -235,6 +235,12 @@ msgstr "Lien permanent á %s"
 msgid "Pages: "
 msgstr "Pages :"
 
+#~ msgid "More&hellip;"
+#~ msgstr "Plus&hellip;"
+
+#~ msgid "Feed"
+#~ msgstr "Flux"
+
 #~ msgid "Categories"
 #~ msgstr "Catégories"
 
@@ -248,9 +254,6 @@ msgstr "Pages :"
 #~ msgstr "Flux Articles"
 
 #~ msgid "Comments RSS"
-#~ msgstr "Flux Commentaires"
-
-#~ msgid "Comments Feed"
 #~ msgstr "Flux Commentaires"
 
 #~ msgid "Meta"
