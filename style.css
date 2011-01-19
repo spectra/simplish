@@ -157,9 +157,12 @@ h1.archive-title span.archive-subtitle{
 p{
 	margin: 1.2em 0;
 }
-ul, ol{
+ol, ul{
 	margin-left: 1em;
 	padding:0;
+}
+ol{
+	list-style-type: decimal;
 }
 ul{
 	list-style-type: square;
