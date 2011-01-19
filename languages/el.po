@@ -1,10 +1,15 @@
+# Greek translation of the Simplish theme for WordPress
+# Copyright (C) 2010–2011 Greek translators of Simplish
+# This file is distributed under the same license as the Simplish theme for Wordpress
+#
+# Demetris Kikizas, <op111.net@gmail.com>, 2010–2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
-"PO-Revision-Date: 2011-01-18 02:40-0800\n"
-"Last-Translator: Josh Wood <josh@utopian.net>\n"
+"PO-Revision-Date: 2011-01-19 12:31+0200\n"
+"Last-Translator: Demetris Kikizas <op111.net@gmail.com>\n"
 "Language-Team: op111.net <op111.net@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,11 +71,11 @@ msgstr "Αρχείο %1$s"
 #: archive.php:43
 #: index.php:24
 msgid "Not Found"
-msgstr "Δεν βρέθηκε!"
+msgstr "Δεν βρέθηκε."
 
 #: comments.php:14
 msgid "Enter the password to view comments."
-msgstr ""
+msgstr "Πληκτρολογήστε το συνθηματικό για να δείτε τα σχόλια."
 
 #: comments.php:30
 msgid "0 Comments"
@@ -93,12 +98,12 @@ msgstr "στο"
 #: comments.php:34
 #: comments.php:45
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> Προηγούμενα σχόλια"
 
 #: comments.php:35
 #: comments.php:46
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Επόμενα σχόλια <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:57
 msgid "Closed"
@@ -117,21 +122,20 @@ msgid "from"
 msgstr "από"
 
 #: functions.php:28
-#, fuzzy
 msgid "(Non-widget) Sidebar Menu"
 msgstr "Πλευρικό μενού"
 
 #: functions.php:43
 msgid "Right Sidebar"
-msgstr ""
+msgstr "Δεξιό πάνελ"
 
 #: functions.php:45
 msgid "The right-hand sidebar widget container."
-msgstr ""
+msgstr "Το πάνελ μονάδων της δεξιάς στήλης"
 
 #: functions.php:76
 msgid "More"
-msgstr ""
+msgstr "Περισσότερα"
 
 #: functions.php:148
 msgid "More posts by"
@@ -143,7 +147,7 @@ msgstr "Αρχική"
 
 #: header.php:5
 msgid "Error 404 - Not Found"
-msgstr "Σφάλμα 404:  Η σελίδα δεν βρέθηκε."
+msgstr "Σφάλμα 404: Η σελίδα δεν βρέθηκε."
 
 #: header.php:5
 msgid "Search"
@@ -160,16 +164,15 @@ msgstr "Ετικέτες: "
 
 #: hentrymeta.php:8
 msgid "Leave a reply"
-msgstr ""
+msgstr "Γράψτε σχόλιο"
 
 #: hentrymeta.php:8
-#, fuzzy
 msgid "Comments Closed"
-msgstr "Κανάλι σχολίων"
+msgstr "Τα σχόλια είναι κλειστά."
 
 #: image.php:34
 msgid "Sorry, no attachments matched your criteria."
-msgstr "Κανένα συνημμένο με τους όρους αυτούς."
+msgstr "Δεν βρέθηκαν συνημμένα βάσει των όρων αυτών."
 
 #: index.php:13
 #: page.php:11
