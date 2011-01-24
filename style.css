@@ -158,8 +158,13 @@ p{
 	margin: 1.2em 0;
 }
 ol, ul{
+	margin-bottom: 1.5em;
 	margin-left: 1em;
 	padding:0;
+}
+/* Inner lists should not have bottom margin. */
+ol ol, ol ul, ul ol, ul ul{
+	margin-bottom: 0;
 }
 ol{
 	list-style-type: decimal;
