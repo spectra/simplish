@@ -331,7 +331,7 @@ li.comment, li.trackback, li.pingback{
 	padding-left: 1em;
 	padding-top: 0.5em;
 }
-li.comment .bypostauthor{
+li.bypostauthor{
 }
 li.depth-1{
 	border: 1px solid #ddd;
