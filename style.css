@@ -162,7 +162,6 @@ ol, ul{
 	margin-left: 1em;
 	padding:0;
 }
-/* Inner lists should not have bottom margin. */
 ol ol, ol ul, ul ol, ul ul{
 	margin-bottom: 0;
 }
