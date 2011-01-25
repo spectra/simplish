@@ -15,9 +15,6 @@
 	</div><!--// #footer -->
 </div><!--// #container -->
 
-<!--// Original theme design by Jeffrey Allen Hardy - http://quotedprintable.com/pages/scribbish -->
-<!--// Initial Typo to WordPress theme port by Kenny Pitt - http://pittcrew.net/geekblog/scribbishwp -->
-
 <?php wp_footer(); //DO NOT REMOVE, used by plugins ?>
 
 </body>
