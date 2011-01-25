@@ -434,10 +434,6 @@ a.comment-permalink{
 	list-style-type: square;
 	margin-left: 1.5em;
 }
-#sidebar ul li li li li{
-	list-style-type: disc;
-	margin-left : 1.5em;
-}
 #sidebar em{
 	font-style: normal;
 }
