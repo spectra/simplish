@@ -4,8 +4,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Josh Wood <josh@utopian.net>\n"
-"Language-Team:  <jselivingston@gmail.com>\n"
+"Last-Translator: JSEL <jselivingston@gmail.com>\n"
+"Language-Team: www.tml.web.tr <jselivingston@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,7 +52,7 @@ msgstr "Kategori:"
 
 #: archive.php:19
 msgid "Tag:"
-msgstr "Etiket"
+msgstr "Etiket:"
 
 #: archive.php:21
 msgid "Archives"
@@ -69,7 +69,7 @@ msgstr "Bulunamadı"
 
 #: comments.php:14
 msgid "Enter the password to view comments."
-msgstr ""
+msgstr "İçeriği görmek için parola girin."
 
 #: comments.php:30
 msgid "0 Comments"
@@ -92,12 +92,12 @@ msgstr "&raquo;"
 #: comments.php:34
 #: comments.php:45
 msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> Eski Yorumlar"
 
 #: comments.php:35
 #: comments.php:46
 msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Yeni Yorumlar <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:57
 msgid "Closed"
@@ -116,21 +116,20 @@ msgid "from"
 msgstr "dan"
 
 #: functions.php:28
-#, fuzzy
 msgid "(Non-widget) Sidebar Menu"
 msgstr "Yan Menü"
 
 #: functions.php:43
 msgid "Right Sidebar"
-msgstr ""
+msgstr "Sağ Yan Menü"
 
 #: functions.php:45
 msgid "The right-hand sidebar widget container."
-msgstr ""
+msgstr "Yan menü bileşenlerini içerir."
 
 #: functions.php:76
 msgid "More"
-msgstr ""
+msgstr "Devam"
 
 #: functions.php:148
 msgid "More posts by"
@@ -159,16 +158,15 @@ msgstr "Etiketler:"
 
 #: hentrymeta.php:8
 msgid "Leave a reply"
-msgstr ""
+msgstr "Cevap Yaz"
 
 #: hentrymeta.php:8
-#, fuzzy
 msgid "Comments Closed"
-msgstr "Besleme &raquo; Yorumlar"
+msgstr "Yorumlara Kapalı"
 
 #: image.php:34
 msgid "Sorry, no attachments matched your criteria."
-msgstr "Üzgünüm, kritere uygun ek mevcut değil."
+msgstr "Üzgünüz, kritere uygun ek mevcut değil."
 
 #: index.php:13
 #: page.php:11
@@ -193,7 +191,7 @@ msgstr "Sonraki Sayfa &raquo;"
 
 #: search.php:7
 msgid "Results for"
-msgstr "Aranma Sonuçları"
+msgstr "Arama Sonuçları"
 
 #: search.php:29
 msgid "No results for"
