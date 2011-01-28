@@ -36,6 +36,53 @@ if(!function_exists('sp_setup')){
 /* The after_setup_theme hook fires before the theme init hook. */
 add_action('after_setup_theme', 'sp_setup');
 
+/* 
+ * Custom Header Image.
+ * TODO: Figure out hiding and coloring the header h^(1 2) text.
+ * BUG: Admin hdr img preview gets vertically tiled? (It is only 62px h.)
+ */
+if(!defined('HEADER_TEXTCOLOR'))
+	define('HEADER_TEXTCOLOR', '');
+	
+/* Commented out because simplish ships no default image. */
+//if(!defined('HEADER_IMAGE'))
+//	define('HEADER_IMAGE', get_bloginfo('stylesheet_directory') . '/images/banner.jpg'); //To allow child themes' imgs
+
+define('HEADER_IMAGE_WIDTH', 900); 
+define('HEADER_IMAGE_HEIGHT', 62);
+
+/* Controls whether text color/styling opts are offered in admin.
+ * It is NOT a confusingly-named option with end-around semantics!
+ * We don't offer the color opt because it doesn't work yet.
+ */
+if(!defined('NO_HEADER_TEXT'))
+	define('NO_HEADER_TEXT', true);
+	
+if(!function_exists('header_style')):
+	function header_style()
+	{
+				?><style type="text/css">
+		#header{
+		background: url(<?php header_image(); ?>);
+		}
+		</style><?php
+	}
+endif;
+
+if(!function_exists('admin_header_style')):
+	/* Styles the Appearance->Header image preview. */
+	function admin_header_style()
+	{
+				?><style type="text/css">
+		#headimg {
+		width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
+		height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
+		}
+		</style><?php
+	}
+endif;
+add_custom_image_header('header_style', 'admin_header_style');
+
 /* Widget Sidebar */
 function sp_widgets_init()
 {
