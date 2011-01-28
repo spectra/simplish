@@ -31,6 +31,8 @@ if(!function_exists('sp_setup')){
 		add_theme_support('post-thumbnails');
 		set_post_thumbnail_size(50, 50, true);
 
+		/* Post formats. No custom formats. Choose from list in the docs. */
+		add_theme_support('post-formats', array('aside', 'status'));
 	}
 }
 /* The after_setup_theme hook fires before the theme init hook. */

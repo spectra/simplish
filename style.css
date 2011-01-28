@@ -267,6 +267,15 @@ h2.page-title{
 .posted a:hover{
 	text-decoration: underline;
 }
+/* Post formats styles.
+ * Show .posted name/date on STATUS but not on ASIDE.
+ */
+.format-aside .entry-title, .format-status .entry-title,
+.format-aside .posted, .format-aside li.categories,
+.format-aside li.tags, .format-status li.categories,
+.format-status li.tags{
+	display: none;
+}
 br.downpad{
 	margin: 0 0 33px;
 }
