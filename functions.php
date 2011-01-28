@@ -70,8 +70,14 @@ if(!function_exists('header_style')):
 			}
 		<?php else: //Use hdr text color set in theme hdr admin. ?>
 			#header a:link, #header a:visited, #header h1, #header h2{ /* Must spec <a> or else style.css is more specific & wins. */
-			color: #<?php header_textcolor(); ?>; /* We lose our hover/active style b/c we can't match the custom color. */
+			color: #<?php header_textcolor(); ?>; /* Lose simplish hover/active style b/c we can't match the custom color. */
 			}
+			<?php if('000' == get_header_textcolor()): //If default text color, use traditional burgundy a:active/hover. ?>
+				/* Duplicates style.css:/^#header a:hover */
+				#header a:active, #header a:hover{
+				color: #760909;
+				}
+			<?php endif; ?>
 		<?php endif; ?>
 		</style><?php
 	}
