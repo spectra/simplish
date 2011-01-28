@@ -57,8 +57,8 @@ define('HEADER_IMAGE_HEIGHT', 62);
 if(!defined('NO_HEADER_TEXT'))
 	define('NO_HEADER_TEXT', false);
 	
-if(!function_exists('header_style')):
-	function header_style()
+if(!function_exists('sp_header_style')):
+	function sp_header_style()
 	{
 	?>
 		<style type="text/css">
@@ -91,9 +91,9 @@ if(!function_exists('header_style')):
 	}
 endif;
 
-if(!function_exists('admin_header_style')):
+if(!function_exists('sp_admin_header_style')):
 	/* Styles the Appearance->Header image preview. */
-	function admin_header_style()
+	function sp_admin_header_style()
 	{
 	?>
 		<style type="text/css">
@@ -105,7 +105,7 @@ if(!function_exists('admin_header_style')):
 	<?php
 	}
 endif;
-add_custom_image_header('header_style', 'admin_header_style');
+add_custom_image_header('sp_header_style', 'sp_admin_header_style');
 
 /* Widget Sidebar */
 function sp_widgets_init()
