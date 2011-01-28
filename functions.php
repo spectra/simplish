@@ -41,7 +41,7 @@ add_action('after_setup_theme', 'sp_setup');
  * BUG: Admin hdr img preview gets vertically tiled? (It is only 62px h.)
  */
 if(!defined('HEADER_TEXTCOLOR'))
-	define('HEADER_TEXTCOLOR', '');
+	define('HEADER_TEXTCOLOR', '000');
 	
 /* Commented out because simplish ships no default image. */
 //if(!defined('HEADER_IMAGE'))
@@ -60,26 +60,28 @@ if(!defined('NO_HEADER_TEXT'))
 if(!function_exists('header_style')):
 	function header_style()
 	{
-				?><style type="text/css">
+	?>
+		<style type="text/css">
 		#header{
-		background: url(<?php header_image(); ?>);
+			background: url(<?php header_image(); ?>);
 		}
 		<?php if('blank' == get_header_textcolor()): //_Display text: No_ in theme hdr admin. Implies no hdr link to front page. ?>
 			#header h1, #header h2{
-			display: none;
+				display: none;
 			}
 		<?php else: //Use hdr text color set in theme hdr admin. ?>
 			#header a:link, #header a:visited, #header h1, #header h2{ /* Must spec <a> or else style.css is more specific & wins. */
-			color: #<?php header_textcolor(); ?>; /* Lose simplish hover/active style b/c we can't match the custom color. */
+				color: #<?php header_textcolor(); /* Lose simplish hover/active style b/c we can't match the custom color. */ ?>;
 			}
 			<?php if('000' == get_header_textcolor()): //If default text color, use traditional burgundy a:active/hover. ?>
 				/* Duplicates style.css:/^#header a:hover */
 				#header a:active, #header a:hover{
-				color: #760909;
+					color: #760909;
 				}
 			<?php endif; ?>
 		<?php endif; ?>
-		</style><?php
+		</style>
+	<?php
 	}
 endif;
 
@@ -87,12 +89,14 @@ if(!function_exists('admin_header_style')):
 	/* Styles the Appearance->Header image preview. */
 	function admin_header_style()
 	{
-				?><style type="text/css">
+	?>
+		<style type="text/css">
 		#headimg {
-		width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
-		height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
+			width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
+			height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
 		}
-		</style><?php
+		</style>
+	<?php
 	}
 endif;
 add_custom_image_header('header_style', 'admin_header_style');
