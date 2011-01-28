@@ -38,7 +38,6 @@ add_action('after_setup_theme', 'sp_setup');
 
 /* 
  * Custom Header Image.
- * TODO: Figure out hiding and coloring the header h^(1 2) text.
  * BUG: Admin hdr img preview gets vertically tiled? (It is only 62px h.)
  */
 if(!defined('HEADER_TEXTCOLOR'))
@@ -52,11 +51,11 @@ define('HEADER_IMAGE_WIDTH', 900);
 define('HEADER_IMAGE_HEIGHT', 62);
 
 /* Controls whether text color/styling opts are offered in admin.
- * It is NOT a confusingly-named option with end-around semantics!
- * We don't offer the color opt because it doesn't work yet.
+ * A confusing name and value. Quite a pair.
+ * Simplish offers text styling opts.
  */
 if(!defined('NO_HEADER_TEXT'))
-	define('NO_HEADER_TEXT', true);
+	define('NO_HEADER_TEXT', false);
 	
 if(!function_exists('header_style')):
 	function header_style()
@@ -65,6 +64,15 @@ if(!function_exists('header_style')):
 		#header{
 		background: url(<?php header_image(); ?>);
 		}
+		<?php if('blank' == get_header_textcolor()): //_Display text: No_ in theme hdr admin. Implies no hdr link to front page. ?>
+			#header h1, #header h2{
+			display: none;
+			}
+		<?php else: //Use hdr text color set in theme hdr admin. ?>
+			#header a:link, #header a:visited, #header h1, #header h2{ /* Must spec <a> or else style.css is more specific & wins. */
+			color: #<?php header_textcolor(); ?>; /* We lose our hover/active style b/c we can't match the custom color. */
+			}
+		<?php endif; ?>
 		</style><?php
 	}
 endif;
