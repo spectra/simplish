@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Simplish\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-10 19:37-0700\n"
-"POT-Revision-Date: 2011-01-18 02:32-0800\n"
+"POT-Revision-Date: 2011-02-09 17:38-0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <TEAM@ADDRESS>\n"
 "Language: \n"
@@ -118,23 +118,23 @@ msgstr ""
 msgid "(Non-widget) Sidebar Menu"
 msgstr ""
 
-#: functions.php:43
+#: functions.php:114
 msgid "Right Sidebar"
 msgstr ""
 
-#: functions.php:45
+#: functions.php:116
 msgid "The right-hand sidebar widget container."
 msgstr ""
 
-#: functions.php:76
+#: functions.php:147
 msgid "More"
 msgstr ""
 
-#: functions.php:148
+#: functions.php:219
 msgid "More posts by"
 msgstr ""
 
-#: functions.php:178
+#: functions.php:249
 msgid "home page"
 msgstr ""
 
